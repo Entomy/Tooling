@@ -1,3 +1,2601 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: System
+  name: System
+  href: api/System.html
+  commentId: N:System
+  fullName: System
+  nameWithType: System
+- uid: System.Collections.Generic
+  name: System.Collections.Generic
+  href: api/System.Collections.Generic.html
+  commentId: N:System.Collections.Generic
+  fullName: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+- uid: System.Collections.Generic.NumbersomeExtensions
+  name: NumbersomeExtensions
+  href: api/System.Collections.Generic.NumbersomeExtensions.html
+  commentId: T:System.Collections.Generic.NumbersomeExtensions
+  fullName: System.Collections.Generic.NumbersomeExtensions
+  nameWithType: NumbersomeExtensions
+- uid: System.Collections.Generic.NumbersomeExtensions.Add*
+  name: Add
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Add_
+  commentId: Overload:System.Collections.Generic.NumbersomeExtensions.Add
+  isSpec: "True"
+  fullName: System.Collections.Generic.NumbersomeExtensions.Add
+  nameWithType: NumbersomeExtensions.Add
+- uid: System.Collections.Generic.NumbersomeExtensions.Add``1(System.Collections.Generic.Stack{``0})
+  name: Add<T>(Stack<T>)
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Add__1_System_Collections_Generic_Stack___0__
+  commentId: M:System.Collections.Generic.NumbersomeExtensions.Add``1(System.Collections.Generic.Stack{``0})
+  name.vb: Add(Of T)(Stack(Of T))
+  fullName: System.Collections.Generic.NumbersomeExtensions.Add<T>(System.Collections.Generic.Stack<T>)
+  fullName.vb: System.Collections.Generic.NumbersomeExtensions.Add(Of T)(System.Collections.Generic.Stack(Of T))
+  nameWithType: NumbersomeExtensions.Add<T>(Stack<T>)
+  nameWithType.vb: NumbersomeExtensions.Add(Of T)(Stack(Of T))
+- uid: System.Collections.Generic.NumbersomeExtensions.Div*
+  name: Div
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Div_
+  commentId: Overload:System.Collections.Generic.NumbersomeExtensions.Div
+  isSpec: "True"
+  fullName: System.Collections.Generic.NumbersomeExtensions.Div
+  nameWithType: NumbersomeExtensions.Div
+- uid: System.Collections.Generic.NumbersomeExtensions.Div``1(System.Collections.Generic.Stack{``0})
+  name: Div<T>(Stack<T>)
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Div__1_System_Collections_Generic_Stack___0__
+  commentId: M:System.Collections.Generic.NumbersomeExtensions.Div``1(System.Collections.Generic.Stack{``0})
+  name.vb: Div(Of T)(Stack(Of T))
+  fullName: System.Collections.Generic.NumbersomeExtensions.Div<T>(System.Collections.Generic.Stack<T>)
+  fullName.vb: System.Collections.Generic.NumbersomeExtensions.Div(Of T)(System.Collections.Generic.Stack(Of T))
+  nameWithType: NumbersomeExtensions.Div<T>(Stack<T>)
+  nameWithType.vb: NumbersomeExtensions.Div(Of T)(Stack(Of T))
+- uid: System.Collections.Generic.NumbersomeExtensions.Mod*
+  name: Mod
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Mod_
+  commentId: Overload:System.Collections.Generic.NumbersomeExtensions.Mod
+  isSpec: "True"
+  fullName: System.Collections.Generic.NumbersomeExtensions.Mod
+  nameWithType: NumbersomeExtensions.Mod
+- uid: System.Collections.Generic.NumbersomeExtensions.Mod``1(System.Collections.Generic.Stack{``0})
+  name: Mod<T>(Stack<T>)
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Mod__1_System_Collections_Generic_Stack___0__
+  commentId: M:System.Collections.Generic.NumbersomeExtensions.Mod``1(System.Collections.Generic.Stack{``0})
+  name.vb: Mod(Of T)(Stack(Of T))
+  fullName: System.Collections.Generic.NumbersomeExtensions.Mod<T>(System.Collections.Generic.Stack<T>)
+  fullName.vb: System.Collections.Generic.NumbersomeExtensions.Mod(Of T)(System.Collections.Generic.Stack(Of T))
+  nameWithType: NumbersomeExtensions.Mod<T>(Stack<T>)
+  nameWithType.vb: NumbersomeExtensions.Mod(Of T)(Stack(Of T))
+- uid: System.Collections.Generic.NumbersomeExtensions.Mul*
+  name: Mul
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Mul_
+  commentId: Overload:System.Collections.Generic.NumbersomeExtensions.Mul
+  isSpec: "True"
+  fullName: System.Collections.Generic.NumbersomeExtensions.Mul
+  nameWithType: NumbersomeExtensions.Mul
+- uid: System.Collections.Generic.NumbersomeExtensions.Mul``1(System.Collections.Generic.Stack{``0})
+  name: Mul<T>(Stack<T>)
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Mul__1_System_Collections_Generic_Stack___0__
+  commentId: M:System.Collections.Generic.NumbersomeExtensions.Mul``1(System.Collections.Generic.Stack{``0})
+  name.vb: Mul(Of T)(Stack(Of T))
+  fullName: System.Collections.Generic.NumbersomeExtensions.Mul<T>(System.Collections.Generic.Stack<T>)
+  fullName.vb: System.Collections.Generic.NumbersomeExtensions.Mul(Of T)(System.Collections.Generic.Stack(Of T))
+  nameWithType: NumbersomeExtensions.Mul<T>(Stack<T>)
+  nameWithType.vb: NumbersomeExtensions.Mul(Of T)(Stack(Of T))
+- uid: System.Collections.Generic.NumbersomeExtensions.Sub*
+  name: Sub
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Sub_
+  commentId: Overload:System.Collections.Generic.NumbersomeExtensions.Sub
+  isSpec: "True"
+  fullName: System.Collections.Generic.NumbersomeExtensions.Sub
+  nameWithType: NumbersomeExtensions.Sub
+- uid: System.Collections.Generic.NumbersomeExtensions.Sub``1(System.Collections.Generic.Stack{``0})
+  name: Sub<T>(Stack<T>)
+  href: api/System.Collections.Generic.NumbersomeExtensions.html#System_Collections_Generic_NumbersomeExtensions_Sub__1_System_Collections_Generic_Stack___0__
+  commentId: M:System.Collections.Generic.NumbersomeExtensions.Sub``1(System.Collections.Generic.Stack{``0})
+  name.vb: Sub(Of T)(Stack(Of T))
+  fullName: System.Collections.Generic.NumbersomeExtensions.Sub<T>(System.Collections.Generic.Stack<T>)
+  fullName.vb: System.Collections.Generic.NumbersomeExtensions.Sub(Of T)(System.Collections.Generic.Stack(Of T))
+  nameWithType: NumbersomeExtensions.Sub<T>(Stack<T>)
+  nameWithType.vb: NumbersomeExtensions.Sub(Of T)(Stack(Of T))
+- uid: System.NumbersomeExtensions
+  name: NumbersomeExtensions
+  href: api/System.NumbersomeExtensions.html
+  commentId: T:System.NumbersomeExtensions
+  fullName: System.NumbersomeExtensions
+  nameWithType: NumbersomeExtensions
+- uid: System.NumbersomeExtensions.Abs*
+  name: Abs
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Abs_
+  commentId: Overload:System.NumbersomeExtensions.Abs
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Abs
+  nameWithType: NumbersomeExtensions.Abs
+- uid: System.NumbersomeExtensions.Abs``1(``0)
+  name: Abs<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Abs__1___0_
+  commentId: M:System.NumbersomeExtensions.Abs``1(``0)
+  name.vb: Abs(Of T)(T)
+  fullName: System.NumbersomeExtensions.Abs<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Abs(Of T)(T)
+  nameWithType: NumbersomeExtensions.Abs<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Abs(Of T)(T)
+- uid: System.NumbersomeExtensions.Acos*
+  name: Acos
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Acos_
+  commentId: Overload:System.NumbersomeExtensions.Acos
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Acos
+  nameWithType: NumbersomeExtensions.Acos
+- uid: System.NumbersomeExtensions.Acos``1(``0)
+  name: Acos<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Acos__1___0_
+  commentId: M:System.NumbersomeExtensions.Acos``1(``0)
+  name.vb: Acos(Of T)(T)
+  fullName: System.NumbersomeExtensions.Acos<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Acos(Of T)(T)
+  nameWithType: NumbersomeExtensions.Acos<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Acos(Of T)(T)
+- uid: System.NumbersomeExtensions.Acosh*
+  name: Acosh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Acosh_
+  commentId: Overload:System.NumbersomeExtensions.Acosh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Acosh
+  nameWithType: NumbersomeExtensions.Acosh
+- uid: System.NumbersomeExtensions.Acosh``1(``0)
+  name: Acosh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Acosh__1___0_
+  commentId: M:System.NumbersomeExtensions.Acosh``1(``0)
+  name.vb: Acosh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Acosh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Acosh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Acosh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Acosh(Of T)(T)
+- uid: System.NumbersomeExtensions.ArithmeticMean*
+  name: ArithmeticMean
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean_
+  commentId: Overload:System.NumbersomeExtensions.ArithmeticMean
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.ArithmeticMean
+  nameWithType: NumbersomeExtensions.ArithmeticMean
+- uid: System.NumbersomeExtensions.ArithmeticMean``1(``0[])
+  name: ArithmeticMean<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean__1___0___
+  commentId: M:System.NumbersomeExtensions.ArithmeticMean``1(``0[])
+  name.vb: ArithmeticMean(Of T)(T())
+  fullName: System.NumbersomeExtensions.ArithmeticMean<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.ArithmeticMean(Of T)(T())
+  nameWithType: NumbersomeExtensions.ArithmeticMean<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.ArithmeticMean(Of T)(T())
+- uid: System.NumbersomeExtensions.ArithmeticMean``1(IEnumerable{``0})
+  name: ArithmeticMean<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.ArithmeticMean``1(IEnumerable{``0})
+  name.vb: ArithmeticMean(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.ArithmeticMean<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.ArithmeticMean(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.ArithmeticMean<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.ArithmeticMean(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.ArithmeticMean``1(System.ArraySegment{``0})
+  name: ArithmeticMean<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.ArithmeticMean``1(System.ArraySegment{``0})
+  name.vb: ArithmeticMean(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.ArithmeticMean<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.ArithmeticMean(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.ArithmeticMean<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.ArithmeticMean(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.ArithmeticMean``1(System.Memory{``0})
+  name: ArithmeticMean<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.ArithmeticMean``1(System.Memory{``0})
+  name.vb: ArithmeticMean(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.ArithmeticMean<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.ArithmeticMean(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.ArithmeticMean<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.ArithmeticMean(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.ArithmeticMean``1(System.ReadOnlyMemory{``0})
+  name: ArithmeticMean<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.ArithmeticMean``1(System.ReadOnlyMemory{``0})
+  name.vb: ArithmeticMean(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.ArithmeticMean<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.ArithmeticMean(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.ArithmeticMean<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.ArithmeticMean(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.ArithmeticMean``1(System.ReadOnlySpan{``0})
+  name: ArithmeticMean<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.ArithmeticMean``1(System.ReadOnlySpan{``0})
+  name.vb: ArithmeticMean(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.ArithmeticMean<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.ArithmeticMean(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.ArithmeticMean<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.ArithmeticMean(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.ArithmeticMean``1(System.Span{``0})
+  name: ArithmeticMean<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.ArithmeticMean``1(System.Span{``0})
+  name.vb: ArithmeticMean(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.ArithmeticMean<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.ArithmeticMean(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.ArithmeticMean<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.ArithmeticMean(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.Asin*
+  name: Asin
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Asin_
+  commentId: Overload:System.NumbersomeExtensions.Asin
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Asin
+  nameWithType: NumbersomeExtensions.Asin
+- uid: System.NumbersomeExtensions.Asin``1(``0)
+  name: Asin<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Asin__1___0_
+  commentId: M:System.NumbersomeExtensions.Asin``1(``0)
+  name.vb: Asin(Of T)(T)
+  fullName: System.NumbersomeExtensions.Asin<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Asin(Of T)(T)
+  nameWithType: NumbersomeExtensions.Asin<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Asin(Of T)(T)
+- uid: System.NumbersomeExtensions.Asinh*
+  name: Asinh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Asinh_
+  commentId: Overload:System.NumbersomeExtensions.Asinh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Asinh
+  nameWithType: NumbersomeExtensions.Asinh
+- uid: System.NumbersomeExtensions.Asinh``1(``0)
+  name: Asinh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Asinh__1___0_
+  commentId: M:System.NumbersomeExtensions.Asinh``1(``0)
+  name.vb: Asinh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Asinh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Asinh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Asinh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Asinh(Of T)(T)
+- uid: System.NumbersomeExtensions.Atan*
+  name: Atan
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Atan_
+  commentId: Overload:System.NumbersomeExtensions.Atan
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Atan
+  nameWithType: NumbersomeExtensions.Atan
+- uid: System.NumbersomeExtensions.Atan``1(``0)
+  name: Atan<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Atan__1___0_
+  commentId: M:System.NumbersomeExtensions.Atan``1(``0)
+  name.vb: Atan(Of T)(T)
+  fullName: System.NumbersomeExtensions.Atan<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Atan(Of T)(T)
+  nameWithType: NumbersomeExtensions.Atan<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Atan(Of T)(T)
+- uid: System.NumbersomeExtensions.Atan``1(System.ValueTuple{``0,``0})
+  name: Atan<T>((T X, T Y))
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Atan__1_System_ValueTuple___0___0__
+  commentId: M:System.NumbersomeExtensions.Atan``1(System.ValueTuple{``0,``0})
+  name.vb: Atan(Of T)((X As T, Y As T)(Of T, T))
+  fullName: System.NumbersomeExtensions.Atan<T>(System.ValueTuple<T, T>)
+  fullName.vb: System.NumbersomeExtensions.Atan(Of T)(System.ValueTuple(Of T, T))
+  nameWithType: NumbersomeExtensions.Atan<T>((T X, T Y))
+  nameWithType.vb: NumbersomeExtensions.Atan(Of T)((X As T, Y As T)(Of T, T))
+- uid: System.NumbersomeExtensions.Atanh*
+  name: Atanh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Atanh_
+  commentId: Overload:System.NumbersomeExtensions.Atanh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Atanh
+  nameWithType: NumbersomeExtensions.Atanh
+- uid: System.NumbersomeExtensions.Atanh``1(``0)
+  name: Atanh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Atanh__1___0_
+  commentId: M:System.NumbersomeExtensions.Atanh``1(``0)
+  name.vb: Atanh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Atanh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Atanh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Atanh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Atanh(Of T)(T)
+- uid: System.NumbersomeExtensions.BitDecrement*
+  name: BitDecrement
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_BitDecrement_
+  commentId: Overload:System.NumbersomeExtensions.BitDecrement
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.BitDecrement
+  nameWithType: NumbersomeExtensions.BitDecrement
+- uid: System.NumbersomeExtensions.BitDecrement``1(``0)
+  name: BitDecrement<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_BitDecrement__1___0_
+  commentId: M:System.NumbersomeExtensions.BitDecrement``1(``0)
+  name.vb: BitDecrement(Of T)(T)
+  fullName: System.NumbersomeExtensions.BitDecrement<T>(T)
+  fullName.vb: System.NumbersomeExtensions.BitDecrement(Of T)(T)
+  nameWithType: NumbersomeExtensions.BitDecrement<T>(T)
+  nameWithType.vb: NumbersomeExtensions.BitDecrement(Of T)(T)
+- uid: System.NumbersomeExtensions.BitIncrement*
+  name: BitIncrement
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_BitIncrement_
+  commentId: Overload:System.NumbersomeExtensions.BitIncrement
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.BitIncrement
+  nameWithType: NumbersomeExtensions.BitIncrement
+- uid: System.NumbersomeExtensions.BitIncrement``1(``0)
+  name: BitIncrement<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_BitIncrement__1___0_
+  commentId: M:System.NumbersomeExtensions.BitIncrement``1(``0)
+  name.vb: BitIncrement(Of T)(T)
+  fullName: System.NumbersomeExtensions.BitIncrement<T>(T)
+  fullName.vb: System.NumbersomeExtensions.BitIncrement(Of T)(T)
+  nameWithType: NumbersomeExtensions.BitIncrement<T>(T)
+  nameWithType.vb: NumbersomeExtensions.BitIncrement(Of T)(T)
+- uid: System.NumbersomeExtensions.Cbrt*
+  name: Cbrt
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cbrt_
+  commentId: Overload:System.NumbersomeExtensions.Cbrt
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Cbrt
+  nameWithType: NumbersomeExtensions.Cbrt
+- uid: System.NumbersomeExtensions.Cbrt``1(``0)
+  name: Cbrt<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cbrt__1___0_
+  commentId: M:System.NumbersomeExtensions.Cbrt``1(``0)
+  name.vb: Cbrt(Of T)(T)
+  fullName: System.NumbersomeExtensions.Cbrt<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Cbrt(Of T)(T)
+  nameWithType: NumbersomeExtensions.Cbrt<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Cbrt(Of T)(T)
+- uid: System.NumbersomeExtensions.Ceiling*
+  name: Ceiling
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Ceiling_
+  commentId: Overload:System.NumbersomeExtensions.Ceiling
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Ceiling
+  nameWithType: NumbersomeExtensions.Ceiling
+- uid: System.NumbersomeExtensions.Ceiling``1(``0)
+  name: Ceiling<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Ceiling__1___0_
+  commentId: M:System.NumbersomeExtensions.Ceiling``1(``0)
+  name.vb: Ceiling(Of T)(T)
+  fullName: System.NumbersomeExtensions.Ceiling<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Ceiling(Of T)(T)
+  nameWithType: NumbersomeExtensions.Ceiling<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Ceiling(Of T)(T)
+- uid: System.NumbersomeExtensions.Clamp(System.Int32,System.Range)
+  name: Clamp(Int32, Range)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Clamp_System_Int32_System_Range_
+  commentId: M:System.NumbersomeExtensions.Clamp(System.Int32,System.Range)
+  fullName: System.NumbersomeExtensions.Clamp(System.Int32, System.Range)
+  nameWithType: NumbersomeExtensions.Clamp(Int32, Range)
+- uid: System.NumbersomeExtensions.Clamp*
+  name: Clamp
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Clamp_
+  commentId: Overload:System.NumbersomeExtensions.Clamp
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Clamp
+  nameWithType: NumbersomeExtensions.Clamp
+- uid: System.NumbersomeExtensions.Clamp``1(``0,``0,``0)
+  name: Clamp<T>(T, T, T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Clamp__1___0___0___0_
+  commentId: M:System.NumbersomeExtensions.Clamp``1(``0,``0,``0)
+  name.vb: Clamp(Of T)(T, T, T)
+  fullName: System.NumbersomeExtensions.Clamp<T>(T, T, T)
+  fullName.vb: System.NumbersomeExtensions.Clamp(Of T)(T, T, T)
+  nameWithType: NumbersomeExtensions.Clamp<T>(T, T, T)
+  nameWithType.vb: NumbersomeExtensions.Clamp(Of T)(T, T, T)
+- uid: System.NumbersomeExtensions.Co*
+  name: Co
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Co_
+  commentId: Overload:System.NumbersomeExtensions.Co
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Co
+  nameWithType: NumbersomeExtensions.Co
+- uid: System.NumbersomeExtensions.Co``1(``0)
+  name: Co<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Co__1___0_
+  commentId: M:System.NumbersomeExtensions.Co``1(``0)
+  name.vb: Co(Of T)(T)
+  fullName: System.NumbersomeExtensions.Co<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Co(Of T)(T)
+  nameWithType: NumbersomeExtensions.Co<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Co(Of T)(T)
+- uid: System.NumbersomeExtensions.Coh*
+  name: Coh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Coh_
+  commentId: Overload:System.NumbersomeExtensions.Coh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Coh
+  nameWithType: NumbersomeExtensions.Coh
+- uid: System.NumbersomeExtensions.Coh``1(``0)
+  name: Coh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Coh__1___0_
+  commentId: M:System.NumbersomeExtensions.Coh``1(``0)
+  name.vb: Coh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Coh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Coh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Coh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Coh(Of T)(T)
+- uid: System.NumbersomeExtensions.Contains(System.Range,System.Int32)
+  name: Contains(Range, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Contains_System_Range_System_Int32_
+  commentId: M:System.NumbersomeExtensions.Contains(System.Range,System.Int32)
+  fullName: System.NumbersomeExtensions.Contains(System.Range, System.Int32)
+  nameWithType: NumbersomeExtensions.Contains(Range, Int32)
+- uid: System.NumbersomeExtensions.Contains*
+  name: Contains
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Contains_
+  commentId: Overload:System.NumbersomeExtensions.Contains
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Contains
+  nameWithType: NumbersomeExtensions.Contains
+- uid: System.NumbersomeExtensions.CopySign*
+  name: CopySign
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_CopySign_
+  commentId: Overload:System.NumbersomeExtensions.CopySign
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.CopySign
+  nameWithType: NumbersomeExtensions.CopySign
+- uid: System.NumbersomeExtensions.CopySign``1(``0,``0)
+  name: CopySign<T>(T, T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_CopySign__1___0___0_
+  commentId: M:System.NumbersomeExtensions.CopySign``1(``0,``0)
+  name.vb: CopySign(Of T)(T, T)
+  fullName: System.NumbersomeExtensions.CopySign<T>(T, T)
+  fullName.vb: System.NumbersomeExtensions.CopySign(Of T)(T, T)
+  nameWithType: NumbersomeExtensions.CopySign<T>(T, T)
+  nameWithType.vb: NumbersomeExtensions.CopySign(Of T)(T, T)
+- uid: System.NumbersomeExtensions.CopyTo(System.Range,System.Int32[])
+  name: CopyTo(Range, Int32[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_CopyTo_System_Range_System_Int32___
+  commentId: M:System.NumbersomeExtensions.CopyTo(System.Range,System.Int32[])
+  name.vb: CopyTo(Range, Int32())
+  fullName: System.NumbersomeExtensions.CopyTo(System.Range, System.Int32[])
+  fullName.vb: System.NumbersomeExtensions.CopyTo(System.Range, System.Int32())
+  nameWithType: NumbersomeExtensions.CopyTo(Range, Int32[])
+  nameWithType.vb: NumbersomeExtensions.CopyTo(Range, Int32())
+- uid: System.NumbersomeExtensions.CopyTo(System.Range,System.Memory{System.Int32})
+  name: CopyTo(Range, Memory<Int32>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_CopyTo_System_Range_System_Memory_System_Int32__
+  commentId: M:System.NumbersomeExtensions.CopyTo(System.Range,System.Memory{System.Int32})
+  name.vb: CopyTo(Range, Memory(Of Int32))
+  fullName: System.NumbersomeExtensions.CopyTo(System.Range, System.Memory<System.Int32>)
+  fullName.vb: System.NumbersomeExtensions.CopyTo(System.Range, System.Memory(Of System.Int32))
+  nameWithType: NumbersomeExtensions.CopyTo(Range, Memory<Int32>)
+  nameWithType.vb: NumbersomeExtensions.CopyTo(Range, Memory(Of Int32))
+- uid: System.NumbersomeExtensions.CopyTo(System.Range,System.Span{System.Int32})
+  name: CopyTo(Range, Span<Int32>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_CopyTo_System_Range_System_Span_System_Int32__
+  commentId: M:System.NumbersomeExtensions.CopyTo(System.Range,System.Span{System.Int32})
+  name.vb: CopyTo(Range, Span(Of Int32))
+  fullName: System.NumbersomeExtensions.CopyTo(System.Range, System.Span<System.Int32>)
+  fullName.vb: System.NumbersomeExtensions.CopyTo(System.Range, System.Span(Of System.Int32))
+  nameWithType: NumbersomeExtensions.CopyTo(Range, Span<Int32>)
+  nameWithType.vb: NumbersomeExtensions.CopyTo(Range, Span(Of Int32))
+- uid: System.NumbersomeExtensions.CopyTo*
+  name: CopyTo
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_CopyTo_
+  commentId: Overload:System.NumbersomeExtensions.CopyTo
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.CopyTo
+  nameWithType: NumbersomeExtensions.CopyTo
+- uid: System.NumbersomeExtensions.Cos*
+  name: Cos
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cos_
+  commentId: Overload:System.NumbersomeExtensions.Cos
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Cos
+  nameWithType: NumbersomeExtensions.Cos
+- uid: System.NumbersomeExtensions.Cos``1(``0)
+  name: Cos<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cos__1___0_
+  commentId: M:System.NumbersomeExtensions.Cos``1(``0)
+  name.vb: Cos(Of T)(T)
+  fullName: System.NumbersomeExtensions.Cos<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Cos(Of T)(T)
+  nameWithType: NumbersomeExtensions.Cos<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Cos(Of T)(T)
+- uid: System.NumbersomeExtensions.Cosh*
+  name: Cosh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cosh_
+  commentId: Overload:System.NumbersomeExtensions.Cosh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Cosh
+  nameWithType: NumbersomeExtensions.Cosh
+- uid: System.NumbersomeExtensions.Cosh``1(``0)
+  name: Cosh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cosh__1___0_
+  commentId: M:System.NumbersomeExtensions.Cosh``1(``0)
+  name.vb: Cosh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Cosh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Cosh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Cosh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Cosh(Of T)(T)
+- uid: System.NumbersomeExtensions.Cot*
+  name: Cot
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cot_
+  commentId: Overload:System.NumbersomeExtensions.Cot
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Cot
+  nameWithType: NumbersomeExtensions.Cot
+- uid: System.NumbersomeExtensions.Cot``1(``0)
+  name: Cot<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cot__1___0_
+  commentId: M:System.NumbersomeExtensions.Cot``1(``0)
+  name.vb: Cot(Of T)(T)
+  fullName: System.NumbersomeExtensions.Cot<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Cot(Of T)(T)
+  nameWithType: NumbersomeExtensions.Cot<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Cot(Of T)(T)
+- uid: System.NumbersomeExtensions.Coth*
+  name: Coth
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Coth_
+  commentId: Overload:System.NumbersomeExtensions.Coth
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Coth
+  nameWithType: NumbersomeExtensions.Coth
+- uid: System.NumbersomeExtensions.Coth``1(``0)
+  name: Coth<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Coth__1___0_
+  commentId: M:System.NumbersomeExtensions.Coth``1(``0)
+  name.vb: Coth(Of T)(T)
+  fullName: System.NumbersomeExtensions.Coth<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Coth(Of T)(T)
+  nameWithType: NumbersomeExtensions.Coth<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Coth(Of T)(T)
+- uid: System.NumbersomeExtensions.Count(System.Range)
+  name: Count(Range)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Count_System_Range_
+  commentId: M:System.NumbersomeExtensions.Count(System.Range)
+  fullName: System.NumbersomeExtensions.Count(System.Range)
+  nameWithType: NumbersomeExtensions.Count(Range)
+- uid: System.NumbersomeExtensions.Count*
+  name: Count
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Count_
+  commentId: Overload:System.NumbersomeExtensions.Count
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Count
+  nameWithType: NumbersomeExtensions.Count
+- uid: System.NumbersomeExtensions.Crd*
+  name: Crd
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Crd_
+  commentId: Overload:System.NumbersomeExtensions.Crd
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Crd
+  nameWithType: NumbersomeExtensions.Crd
+- uid: System.NumbersomeExtensions.Crd``1(``0)
+  name: Crd<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Crd__1___0_
+  commentId: M:System.NumbersomeExtensions.Crd``1(``0)
+  name.vb: Crd(Of T)(T)
+  fullName: System.NumbersomeExtensions.Crd<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Crd(Of T)(T)
+  nameWithType: NumbersomeExtensions.Crd<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Crd(Of T)(T)
+- uid: System.NumbersomeExtensions.Crdh*
+  name: Crdh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Crdh_
+  commentId: Overload:System.NumbersomeExtensions.Crdh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Crdh
+  nameWithType: NumbersomeExtensions.Crdh
+- uid: System.NumbersomeExtensions.Crdh``1(``0)
+  name: Crdh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Crdh__1___0_
+  commentId: M:System.NumbersomeExtensions.Crdh``1(``0)
+  name.vb: Crdh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Crdh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Crdh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Crdh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Crdh(Of T)(T)
+- uid: System.NumbersomeExtensions.Csc*
+  name: Csc
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Csc_
+  commentId: Overload:System.NumbersomeExtensions.Csc
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Csc
+  nameWithType: NumbersomeExtensions.Csc
+- uid: System.NumbersomeExtensions.Csc``1(``0)
+  name: Csc<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Csc__1___0_
+  commentId: M:System.NumbersomeExtensions.Csc``1(``0)
+  name.vb: Csc(Of T)(T)
+  fullName: System.NumbersomeExtensions.Csc<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Csc(Of T)(T)
+  nameWithType: NumbersomeExtensions.Csc<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Csc(Of T)(T)
+- uid: System.NumbersomeExtensions.Csch*
+  name: Csch
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Csch_
+  commentId: Overload:System.NumbersomeExtensions.Csch
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Csch
+  nameWithType: NumbersomeExtensions.Csch
+- uid: System.NumbersomeExtensions.Csch``1(``0)
+  name: Csch<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Csch__1___0_
+  commentId: M:System.NumbersomeExtensions.Csch``1(``0)
+  name.vb: Csch(Of T)(T)
+  fullName: System.NumbersomeExtensions.Csch<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Csch(Of T)(T)
+  nameWithType: NumbersomeExtensions.Csch<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Csch(Of T)(T)
+- uid: System.NumbersomeExtensions.Cvc*
+  name: Cvc
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cvc_
+  commentId: Overload:System.NumbersomeExtensions.Cvc
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Cvc
+  nameWithType: NumbersomeExtensions.Cvc
+- uid: System.NumbersomeExtensions.Cvc``1(``0)
+  name: Cvc<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cvc__1___0_
+  commentId: M:System.NumbersomeExtensions.Cvc``1(``0)
+  name.vb: Cvc(Of T)(T)
+  fullName: System.NumbersomeExtensions.Cvc<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Cvc(Of T)(T)
+  nameWithType: NumbersomeExtensions.Cvc<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Cvc(Of T)(T)
+- uid: System.NumbersomeExtensions.Cvch*
+  name: Cvch
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cvch_
+  commentId: Overload:System.NumbersomeExtensions.Cvch
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Cvch
+  nameWithType: NumbersomeExtensions.Cvch
+- uid: System.NumbersomeExtensions.Cvch``1(``0)
+  name: Cvch<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cvch__1___0_
+  commentId: M:System.NumbersomeExtensions.Cvch``1(``0)
+  name.vb: Cvch(Of T)(T)
+  fullName: System.NumbersomeExtensions.Cvch<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Cvch(Of T)(T)
+  nameWithType: NumbersomeExtensions.Cvch<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Cvch(Of T)(T)
+- uid: System.NumbersomeExtensions.Cvs*
+  name: Cvs
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cvs_
+  commentId: Overload:System.NumbersomeExtensions.Cvs
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Cvs
+  nameWithType: NumbersomeExtensions.Cvs
+- uid: System.NumbersomeExtensions.Cvs``1(``0)
+  name: Cvs<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cvs__1___0_
+  commentId: M:System.NumbersomeExtensions.Cvs``1(``0)
+  name.vb: Cvs(Of T)(T)
+  fullName: System.NumbersomeExtensions.Cvs<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Cvs(Of T)(T)
+  nameWithType: NumbersomeExtensions.Cvs<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Cvs(Of T)(T)
+- uid: System.NumbersomeExtensions.Cvsh*
+  name: Cvsh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cvsh_
+  commentId: Overload:System.NumbersomeExtensions.Cvsh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Cvsh
+  nameWithType: NumbersomeExtensions.Cvsh
+- uid: System.NumbersomeExtensions.Cvsh``1(``0)
+  name: Cvsh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Cvsh__1___0_
+  commentId: M:System.NumbersomeExtensions.Cvsh``1(``0)
+  name.vb: Cvsh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Cvsh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Cvsh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Cvsh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Cvsh(Of T)(T)
+- uid: System.NumbersomeExtensions.DivRem*
+  name: DivRem
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_DivRem_
+  commentId: Overload:System.NumbersomeExtensions.DivRem
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.DivRem
+  nameWithType: NumbersomeExtensions.DivRem
+- uid: System.NumbersomeExtensions.DivRem``1(``0,``0)
+  name: DivRem<T>(T, T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_DivRem__1___0___0_
+  commentId: M:System.NumbersomeExtensions.DivRem``1(``0,``0)
+  name.vb: DivRem(Of T)(T, T)
+  fullName: System.NumbersomeExtensions.DivRem<T>(T, T)
+  fullName.vb: System.NumbersomeExtensions.DivRem(Of T)(T, T)
+  nameWithType: NumbersomeExtensions.DivRem<T>(T, T)
+  nameWithType.vb: NumbersomeExtensions.DivRem(Of T)(T, T)
+- uid: System.NumbersomeExtensions.Exc*
+  name: Exc
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exc_
+  commentId: Overload:System.NumbersomeExtensions.Exc
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Exc
+  nameWithType: NumbersomeExtensions.Exc
+- uid: System.NumbersomeExtensions.Exc``1(``0)
+  name: Exc<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exc__1___0_
+  commentId: M:System.NumbersomeExtensions.Exc``1(``0)
+  name.vb: Exc(Of T)(T)
+  fullName: System.NumbersomeExtensions.Exc<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Exc(Of T)(T)
+  nameWithType: NumbersomeExtensions.Exc<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Exc(Of T)(T)
+- uid: System.NumbersomeExtensions.Exch*
+  name: Exch
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exch_
+  commentId: Overload:System.NumbersomeExtensions.Exch
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Exch
+  nameWithType: NumbersomeExtensions.Exch
+- uid: System.NumbersomeExtensions.Exch``1(``0)
+  name: Exch<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exch__1___0_
+  commentId: M:System.NumbersomeExtensions.Exch``1(``0)
+  name.vb: Exch(Of T)(T)
+  fullName: System.NumbersomeExtensions.Exch<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Exch(Of T)(T)
+  nameWithType: NumbersomeExtensions.Exch<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Exch(Of T)(T)
+- uid: System.NumbersomeExtensions.Exp*
+  name: Exp
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exp_
+  commentId: Overload:System.NumbersomeExtensions.Exp
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Exp
+  nameWithType: NumbersomeExtensions.Exp
+- uid: System.NumbersomeExtensions.Exp``1(``0)
+  name: Exp<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exp__1___0_
+  commentId: M:System.NumbersomeExtensions.Exp``1(``0)
+  name.vb: Exp(Of T)(T)
+  fullName: System.NumbersomeExtensions.Exp<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Exp(Of T)(T)
+  nameWithType: NumbersomeExtensions.Exp<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Exp(Of T)(T)
+- uid: System.NumbersomeExtensions.Exp10*
+  name: Exp10
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exp10_
+  commentId: Overload:System.NumbersomeExtensions.Exp10
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Exp10
+  nameWithType: NumbersomeExtensions.Exp10
+- uid: System.NumbersomeExtensions.Exp10``1(``0)
+  name: Exp10<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exp10__1___0_
+  commentId: M:System.NumbersomeExtensions.Exp10``1(``0)
+  name.vb: Exp10(Of T)(T)
+  fullName: System.NumbersomeExtensions.Exp10<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Exp10(Of T)(T)
+  nameWithType: NumbersomeExtensions.Exp10<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Exp10(Of T)(T)
+- uid: System.NumbersomeExtensions.Exp2*
+  name: Exp2
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exp2_
+  commentId: Overload:System.NumbersomeExtensions.Exp2
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Exp2
+  nameWithType: NumbersomeExtensions.Exp2
+- uid: System.NumbersomeExtensions.Exp2``1(``0)
+  name: Exp2<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exp2__1___0_
+  commentId: M:System.NumbersomeExtensions.Exp2``1(``0)
+  name.vb: Exp2(Of T)(T)
+  fullName: System.NumbersomeExtensions.Exp2<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Exp2(Of T)(T)
+  nameWithType: NumbersomeExtensions.Exp2<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Exp2(Of T)(T)
+- uid: System.NumbersomeExtensions.Exs*
+  name: Exs
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exs_
+  commentId: Overload:System.NumbersomeExtensions.Exs
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Exs
+  nameWithType: NumbersomeExtensions.Exs
+- uid: System.NumbersomeExtensions.Exs``1(``0)
+  name: Exs<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exs__1___0_
+  commentId: M:System.NumbersomeExtensions.Exs``1(``0)
+  name.vb: Exs(Of T)(T)
+  fullName: System.NumbersomeExtensions.Exs<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Exs(Of T)(T)
+  nameWithType: NumbersomeExtensions.Exs<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Exs(Of T)(T)
+- uid: System.NumbersomeExtensions.Exsh*
+  name: Exsh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exsh_
+  commentId: Overload:System.NumbersomeExtensions.Exsh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Exsh
+  nameWithType: NumbersomeExtensions.Exsh
+- uid: System.NumbersomeExtensions.Exsh``1(``0)
+  name: Exsh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Exsh__1___0_
+  commentId: M:System.NumbersomeExtensions.Exsh``1(``0)
+  name.vb: Exsh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Exsh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Exsh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Exsh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Exsh(Of T)(T)
+- uid: System.NumbersomeExtensions.Floor*
+  name: Floor
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Floor_
+  commentId: Overload:System.NumbersomeExtensions.Floor
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Floor
+  nameWithType: NumbersomeExtensions.Floor
+- uid: System.NumbersomeExtensions.Floor``1(``0)
+  name: Floor<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Floor__1___0_
+  commentId: M:System.NumbersomeExtensions.Floor``1(``0)
+  name.vb: Floor(Of T)(T)
+  fullName: System.NumbersomeExtensions.Floor<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Floor(Of T)(T)
+  nameWithType: NumbersomeExtensions.Floor<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Floor(Of T)(T)
+- uid: System.NumbersomeExtensions.FusedMultiplyAdd*
+  name: FusedMultiplyAdd
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_FusedMultiplyAdd_
+  commentId: Overload:System.NumbersomeExtensions.FusedMultiplyAdd
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.FusedMultiplyAdd
+  nameWithType: NumbersomeExtensions.FusedMultiplyAdd
+- uid: System.NumbersomeExtensions.FusedMultiplyAdd``1(System.ValueTuple{``0,``0},``0)
+  name: FusedMultiplyAdd<T>((T Left, T Right), T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_FusedMultiplyAdd__1_System_ValueTuple___0___0____0_
+  commentId: M:System.NumbersomeExtensions.FusedMultiplyAdd``1(System.ValueTuple{``0,``0},``0)
+  name.vb: FusedMultiplyAdd(Of T)((Left As T, Right As T)(Of T, T), T)
+  fullName: System.NumbersomeExtensions.FusedMultiplyAdd<T>(System.ValueTuple<T, T>, T)
+  fullName.vb: System.NumbersomeExtensions.FusedMultiplyAdd(Of T)(System.ValueTuple(Of T, T), T)
+  nameWithType: NumbersomeExtensions.FusedMultiplyAdd<T>((T Left, T Right), T)
+  nameWithType.vb: NumbersomeExtensions.FusedMultiplyAdd(Of T)((Left As T, Right As T)(Of T, T), T)
+- uid: System.NumbersomeExtensions.GeometricMean*
+  name: GeometricMean
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean_
+  commentId: Overload:System.NumbersomeExtensions.GeometricMean
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.GeometricMean
+  nameWithType: NumbersomeExtensions.GeometricMean
+- uid: System.NumbersomeExtensions.GeometricMean``1(``0[])
+  name: GeometricMean<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean__1___0___
+  commentId: M:System.NumbersomeExtensions.GeometricMean``1(``0[])
+  name.vb: GeometricMean(Of T)(T())
+  fullName: System.NumbersomeExtensions.GeometricMean<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.GeometricMean(Of T)(T())
+  nameWithType: NumbersomeExtensions.GeometricMean<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.GeometricMean(Of T)(T())
+- uid: System.NumbersomeExtensions.GeometricMean``1(IEnumerable{``0})
+  name: GeometricMean<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.GeometricMean``1(IEnumerable{``0})
+  name.vb: GeometricMean(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.GeometricMean<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.GeometricMean(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.GeometricMean<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.GeometricMean(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.GeometricMean``1(System.ArraySegment{``0})
+  name: GeometricMean<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.GeometricMean``1(System.ArraySegment{``0})
+  name.vb: GeometricMean(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.GeometricMean<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.GeometricMean(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.GeometricMean<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.GeometricMean(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.GeometricMean``1(System.Memory{``0})
+  name: GeometricMean<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.GeometricMean``1(System.Memory{``0})
+  name.vb: GeometricMean(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.GeometricMean<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.GeometricMean(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.GeometricMean<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.GeometricMean(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.GeometricMean``1(System.ReadOnlyMemory{``0})
+  name: GeometricMean<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.GeometricMean``1(System.ReadOnlyMemory{``0})
+  name.vb: GeometricMean(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.GeometricMean<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.GeometricMean(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.GeometricMean<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.GeometricMean(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.GeometricMean``1(System.ReadOnlySpan{``0})
+  name: GeometricMean<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.GeometricMean``1(System.ReadOnlySpan{``0})
+  name.vb: GeometricMean(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.GeometricMean<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.GeometricMean(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.GeometricMean<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.GeometricMean(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.GeometricMean``1(System.Span{``0})
+  name: GeometricMean<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.GeometricMean``1(System.Span{``0})
+  name.vb: GeometricMean(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.GeometricMean<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.GeometricMean(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.GeometricMean<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.GeometricMean(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.GetEnumerator(System.Range)
+  name: GetEnumerator(Range)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GetEnumerator_System_Range_
+  commentId: M:System.NumbersomeExtensions.GetEnumerator(System.Range)
+  fullName: System.NumbersomeExtensions.GetEnumerator(System.Range)
+  nameWithType: NumbersomeExtensions.GetEnumerator(Range)
+- uid: System.NumbersomeExtensions.GetEnumerator*
+  name: GetEnumerator
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GetEnumerator_
+  commentId: Overload:System.NumbersomeExtensions.GetEnumerator
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.GetEnumerator
+  nameWithType: NumbersomeExtensions.GetEnumerator
+- uid: System.NumbersomeExtensions.HarmonicMean*
+  name: HarmonicMean
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_HarmonicMean_
+  commentId: Overload:System.NumbersomeExtensions.HarmonicMean
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.HarmonicMean
+  nameWithType: NumbersomeExtensions.HarmonicMean
+- uid: System.NumbersomeExtensions.HarmonicMean``1(``0[])
+  name: HarmonicMean<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_HarmonicMean__1___0___
+  commentId: M:System.NumbersomeExtensions.HarmonicMean``1(``0[])
+  name.vb: HarmonicMean(Of T)(T())
+  fullName: System.NumbersomeExtensions.HarmonicMean<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.HarmonicMean(Of T)(T())
+  nameWithType: NumbersomeExtensions.HarmonicMean<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.HarmonicMean(Of T)(T())
+- uid: System.NumbersomeExtensions.HarmonicMean``1(IEnumerable{``0})
+  name: HarmonicMean<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_HarmonicMean__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.HarmonicMean``1(IEnumerable{``0})
+  name.vb: HarmonicMean(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.HarmonicMean<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.HarmonicMean(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.HarmonicMean<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.HarmonicMean(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.HarmonicMean``1(System.ArraySegment{``0})
+  name: HarmonicMean<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_HarmonicMean__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.HarmonicMean``1(System.ArraySegment{``0})
+  name.vb: HarmonicMean(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.HarmonicMean<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.HarmonicMean(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.HarmonicMean<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.HarmonicMean(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.HarmonicMean``1(System.Memory{``0})
+  name: HarmonicMean<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_HarmonicMean__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.HarmonicMean``1(System.Memory{``0})
+  name.vb: HarmonicMean(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.HarmonicMean<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.HarmonicMean(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.HarmonicMean<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.HarmonicMean(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.HarmonicMean``1(System.ReadOnlyMemory{``0})
+  name: HarmonicMean<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_HarmonicMean__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.HarmonicMean``1(System.ReadOnlyMemory{``0})
+  name.vb: HarmonicMean(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.HarmonicMean<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.HarmonicMean(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.HarmonicMean<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.HarmonicMean(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.HarmonicMean``1(System.ReadOnlySpan{``0})
+  name: HarmonicMean<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_HarmonicMean__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.HarmonicMean``1(System.ReadOnlySpan{``0})
+  name.vb: HarmonicMean(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.HarmonicMean<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.HarmonicMean(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.HarmonicMean<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.HarmonicMean(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.HarmonicMean``1(System.Span{``0})
+  name: HarmonicMean<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_HarmonicMean__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.HarmonicMean``1(System.Span{``0})
+  name.vb: HarmonicMean(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.HarmonicMean<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.HarmonicMean(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.HarmonicMean<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.HarmonicMean(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.Hav*
+  name: Hav
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Hav_
+  commentId: Overload:System.NumbersomeExtensions.Hav
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Hav
+  nameWithType: NumbersomeExtensions.Hav
+- uid: System.NumbersomeExtensions.Hav``1(``0)
+  name: Hav<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Hav__1___0_
+  commentId: M:System.NumbersomeExtensions.Hav``1(``0)
+  name.vb: Hav(Of T)(T)
+  fullName: System.NumbersomeExtensions.Hav<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Hav(Of T)(T)
+  nameWithType: NumbersomeExtensions.Hav<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Hav(Of T)(T)
+- uid: System.NumbersomeExtensions.Havh*
+  name: Havh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Havh_
+  commentId: Overload:System.NumbersomeExtensions.Havh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Havh
+  nameWithType: NumbersomeExtensions.Havh
+- uid: System.NumbersomeExtensions.Havh``1(``0)
+  name: Havh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Havh__1___0_
+  commentId: M:System.NumbersomeExtensions.Havh``1(``0)
+  name.vb: Havh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Havh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Havh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Havh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Havh(Of T)(T)
+- uid: System.NumbersomeExtensions.Ieee754Remainder*
+  name: Ieee754Remainder
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Ieee754Remainder_
+  commentId: Overload:System.NumbersomeExtensions.Ieee754Remainder
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Ieee754Remainder
+  nameWithType: NumbersomeExtensions.Ieee754Remainder
+- uid: System.NumbersomeExtensions.Ieee754Remainder``1(``0,``0)
+  name: Ieee754Remainder<T>(T, T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Ieee754Remainder__1___0___0_
+  commentId: M:System.NumbersomeExtensions.Ieee754Remainder``1(``0,``0)
+  name.vb: Ieee754Remainder(Of T)(T, T)
+  fullName: System.NumbersomeExtensions.Ieee754Remainder<T>(T, T)
+  fullName.vb: System.NumbersomeExtensions.Ieee754Remainder(Of T)(T, T)
+  nameWithType: NumbersomeExtensions.Ieee754Remainder<T>(T, T)
+  nameWithType.vb: NumbersomeExtensions.Ieee754Remainder(Of T)(T, T)
+- uid: System.NumbersomeExtensions.ILogB*
+  name: ILogB
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ILogB_
+  commentId: Overload:System.NumbersomeExtensions.ILogB
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.ILogB
+  nameWithType: NumbersomeExtensions.ILogB
+- uid: System.NumbersomeExtensions.ILogB``1(``0)
+  name: ILogB<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ILogB__1___0_
+  commentId: M:System.NumbersomeExtensions.ILogB``1(``0)
+  name.vb: ILogB(Of T)(T)
+  fullName: System.NumbersomeExtensions.ILogB<T>(T)
+  fullName.vb: System.NumbersomeExtensions.ILogB(Of T)(T)
+  nameWithType: NumbersomeExtensions.ILogB<T>(T)
+  nameWithType.vb: NumbersomeExtensions.ILogB(Of T)(T)
+- uid: System.NumbersomeExtensions.IsCanonical*
+  name: IsCanonical
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsCanonical_
+  commentId: Overload:System.NumbersomeExtensions.IsCanonical
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsCanonical
+  nameWithType: NumbersomeExtensions.IsCanonical
+- uid: System.NumbersomeExtensions.IsCanonical``1(``0)
+  name: IsCanonical<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsCanonical__1___0_
+  commentId: M:System.NumbersomeExtensions.IsCanonical``1(``0)
+  name.vb: IsCanonical(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsCanonical<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsCanonical(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsCanonical<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsCanonical(Of T)(T)
+- uid: System.NumbersomeExtensions.IsComplexNumber*
+  name: IsComplexNumber
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsComplexNumber_
+  commentId: Overload:System.NumbersomeExtensions.IsComplexNumber
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsComplexNumber
+  nameWithType: NumbersomeExtensions.IsComplexNumber
+- uid: System.NumbersomeExtensions.IsComplexNumber``1(``0)
+  name: IsComplexNumber<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsComplexNumber__1___0_
+  commentId: M:System.NumbersomeExtensions.IsComplexNumber``1(``0)
+  name.vb: IsComplexNumber(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsComplexNumber<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsComplexNumber(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsComplexNumber<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsComplexNumber(Of T)(T)
+- uid: System.NumbersomeExtensions.IsEvenInteger*
+  name: IsEvenInteger
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsEvenInteger_
+  commentId: Overload:System.NumbersomeExtensions.IsEvenInteger
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsEvenInteger
+  nameWithType: NumbersomeExtensions.IsEvenInteger
+- uid: System.NumbersomeExtensions.IsEvenInteger``1(``0)
+  name: IsEvenInteger<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsEvenInteger__1___0_
+  commentId: M:System.NumbersomeExtensions.IsEvenInteger``1(``0)
+  name.vb: IsEvenInteger(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsEvenInteger<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsEvenInteger(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsEvenInteger<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsEvenInteger(Of T)(T)
+- uid: System.NumbersomeExtensions.IsFinite*
+  name: IsFinite
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsFinite_
+  commentId: Overload:System.NumbersomeExtensions.IsFinite
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsFinite
+  nameWithType: NumbersomeExtensions.IsFinite
+- uid: System.NumbersomeExtensions.IsFinite``1(``0)
+  name: IsFinite<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsFinite__1___0_
+  commentId: M:System.NumbersomeExtensions.IsFinite``1(``0)
+  name.vb: IsFinite(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsFinite<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsFinite(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsFinite<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsFinite(Of T)(T)
+- uid: System.NumbersomeExtensions.IsImaginaryNumber*
+  name: IsImaginaryNumber
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsImaginaryNumber_
+  commentId: Overload:System.NumbersomeExtensions.IsImaginaryNumber
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsImaginaryNumber
+  nameWithType: NumbersomeExtensions.IsImaginaryNumber
+- uid: System.NumbersomeExtensions.IsImaginaryNumber``1(``0)
+  name: IsImaginaryNumber<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsImaginaryNumber__1___0_
+  commentId: M:System.NumbersomeExtensions.IsImaginaryNumber``1(``0)
+  name.vb: IsImaginaryNumber(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsImaginaryNumber<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsImaginaryNumber(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsImaginaryNumber<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsImaginaryNumber(Of T)(T)
+- uid: System.NumbersomeExtensions.IsInfinity*
+  name: IsInfinity
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsInfinity_
+  commentId: Overload:System.NumbersomeExtensions.IsInfinity
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsInfinity
+  nameWithType: NumbersomeExtensions.IsInfinity
+- uid: System.NumbersomeExtensions.IsInfinity``1(``0)
+  name: IsInfinity<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsInfinity__1___0_
+  commentId: M:System.NumbersomeExtensions.IsInfinity``1(``0)
+  name.vb: IsInfinity(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsInfinity<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsInfinity(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsInfinity<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsInfinity(Of T)(T)
+- uid: System.NumbersomeExtensions.IsInteger*
+  name: IsInteger
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsInteger_
+  commentId: Overload:System.NumbersomeExtensions.IsInteger
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsInteger
+  nameWithType: NumbersomeExtensions.IsInteger
+- uid: System.NumbersomeExtensions.IsInteger``1(``0)
+  name: IsInteger<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsInteger__1___0_
+  commentId: M:System.NumbersomeExtensions.IsInteger``1(``0)
+  name.vb: IsInteger(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsInteger<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsInteger(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsInteger<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsInteger(Of T)(T)
+- uid: System.NumbersomeExtensions.IsNaN*
+  name: IsNaN
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsNaN_
+  commentId: Overload:System.NumbersomeExtensions.IsNaN
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsNaN
+  nameWithType: NumbersomeExtensions.IsNaN
+- uid: System.NumbersomeExtensions.IsNaN``1(``0)
+  name: IsNaN<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsNaN__1___0_
+  commentId: M:System.NumbersomeExtensions.IsNaN``1(``0)
+  name.vb: IsNaN(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsNaN<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsNaN(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsNaN<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsNaN(Of T)(T)
+- uid: System.NumbersomeExtensions.IsNegative*
+  name: IsNegative
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsNegative_
+  commentId: Overload:System.NumbersomeExtensions.IsNegative
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsNegative
+  nameWithType: NumbersomeExtensions.IsNegative
+- uid: System.NumbersomeExtensions.IsNegative``1(``0)
+  name: IsNegative<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsNegative__1___0_
+  commentId: M:System.NumbersomeExtensions.IsNegative``1(``0)
+  name.vb: IsNegative(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsNegative<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsNegative(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsNegative<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsNegative(Of T)(T)
+- uid: System.NumbersomeExtensions.IsNormal*
+  name: IsNormal
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsNormal_
+  commentId: Overload:System.NumbersomeExtensions.IsNormal
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsNormal
+  nameWithType: NumbersomeExtensions.IsNormal
+- uid: System.NumbersomeExtensions.IsNormal``1(``0)
+  name: IsNormal<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsNormal__1___0_
+  commentId: M:System.NumbersomeExtensions.IsNormal``1(``0)
+  name.vb: IsNormal(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsNormal<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsNormal(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsNormal<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsNormal(Of T)(T)
+- uid: System.NumbersomeExtensions.IsOddInteger*
+  name: IsOddInteger
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsOddInteger_
+  commentId: Overload:System.NumbersomeExtensions.IsOddInteger
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsOddInteger
+  nameWithType: NumbersomeExtensions.IsOddInteger
+- uid: System.NumbersomeExtensions.IsOddInteger``1(``0)
+  name: IsOddInteger<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsOddInteger__1___0_
+  commentId: M:System.NumbersomeExtensions.IsOddInteger``1(``0)
+  name.vb: IsOddInteger(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsOddInteger<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsOddInteger(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsOddInteger<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsOddInteger(Of T)(T)
+- uid: System.NumbersomeExtensions.IsPositive*
+  name: IsPositive
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsPositive_
+  commentId: Overload:System.NumbersomeExtensions.IsPositive
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsPositive
+  nameWithType: NumbersomeExtensions.IsPositive
+- uid: System.NumbersomeExtensions.IsPositive``1(``0)
+  name: IsPositive<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsPositive__1___0_
+  commentId: M:System.NumbersomeExtensions.IsPositive``1(``0)
+  name.vb: IsPositive(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsPositive<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsPositive(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsPositive<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsPositive(Of T)(T)
+- uid: System.NumbersomeExtensions.IsPositiveInfinity*
+  name: IsPositiveInfinity
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsPositiveInfinity_
+  commentId: Overload:System.NumbersomeExtensions.IsPositiveInfinity
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsPositiveInfinity
+  nameWithType: NumbersomeExtensions.IsPositiveInfinity
+- uid: System.NumbersomeExtensions.IsPositiveInfinity``1(``0)
+  name: IsPositiveInfinity<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsPositiveInfinity__1___0_
+  commentId: M:System.NumbersomeExtensions.IsPositiveInfinity``1(``0)
+  name.vb: IsPositiveInfinity(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsPositiveInfinity<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsPositiveInfinity(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsPositiveInfinity<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsPositiveInfinity(Of T)(T)
+- uid: System.NumbersomeExtensions.IsPow2*
+  name: IsPow2
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsPow2_
+  commentId: Overload:System.NumbersomeExtensions.IsPow2
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsPow2
+  nameWithType: NumbersomeExtensions.IsPow2
+- uid: System.NumbersomeExtensions.IsPow2``1(``0)
+  name: IsPow2<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsPow2__1___0_
+  commentId: M:System.NumbersomeExtensions.IsPow2``1(``0)
+  name.vb: IsPow2(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsPow2<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsPow2(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsPow2<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsPow2(Of T)(T)
+- uid: System.NumbersomeExtensions.IsRealNumber*
+  name: IsRealNumber
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsRealNumber_
+  commentId: Overload:System.NumbersomeExtensions.IsRealNumber
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsRealNumber
+  nameWithType: NumbersomeExtensions.IsRealNumber
+- uid: System.NumbersomeExtensions.IsRealNumber``1(``0)
+  name: IsRealNumber<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsRealNumber__1___0_
+  commentId: M:System.NumbersomeExtensions.IsRealNumber``1(``0)
+  name.vb: IsRealNumber(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsRealNumber<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsRealNumber(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsRealNumber<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsRealNumber(Of T)(T)
+- uid: System.NumbersomeExtensions.IsSubnormal*
+  name: IsSubnormal
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsSubnormal_
+  commentId: Overload:System.NumbersomeExtensions.IsSubnormal
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsSubnormal
+  nameWithType: NumbersomeExtensions.IsSubnormal
+- uid: System.NumbersomeExtensions.IsSubnormal``1(``0)
+  name: IsSubnormal<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsSubnormal__1___0_
+  commentId: M:System.NumbersomeExtensions.IsSubnormal``1(``0)
+  name.vb: IsSubnormal(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsSubnormal<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsSubnormal(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsSubnormal<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsSubnormal(Of T)(T)
+- uid: System.NumbersomeExtensions.IsZero*
+  name: IsZero
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsZero_
+  commentId: Overload:System.NumbersomeExtensions.IsZero
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.IsZero
+  nameWithType: NumbersomeExtensions.IsZero
+- uid: System.NumbersomeExtensions.IsZero``1(``0)
+  name: IsZero<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_IsZero__1___0_
+  commentId: M:System.NumbersomeExtensions.IsZero``1(``0)
+  name.vb: IsZero(Of T)(T)
+  fullName: System.NumbersomeExtensions.IsZero<T>(T)
+  fullName.vb: System.NumbersomeExtensions.IsZero(Of T)(T)
+  nameWithType: NumbersomeExtensions.IsZero<T>(T)
+  nameWithType.vb: NumbersomeExtensions.IsZero(Of T)(T)
+- uid: System.NumbersomeExtensions.LeadingZeroCount*
+  name: LeadingZeroCount
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_LeadingZeroCount_
+  commentId: Overload:System.NumbersomeExtensions.LeadingZeroCount
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.LeadingZeroCount
+  nameWithType: NumbersomeExtensions.LeadingZeroCount
+- uid: System.NumbersomeExtensions.LeadingZeroCount``1(``0)
+  name: LeadingZeroCount<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_LeadingZeroCount__1___0_
+  commentId: M:System.NumbersomeExtensions.LeadingZeroCount``1(``0)
+  name.vb: LeadingZeroCount(Of T)(T)
+  fullName: System.NumbersomeExtensions.LeadingZeroCount<T>(T)
+  fullName.vb: System.NumbersomeExtensions.LeadingZeroCount(Of T)(T)
+  nameWithType: NumbersomeExtensions.LeadingZeroCount<T>(T)
+  nameWithType.vb: NumbersomeExtensions.LeadingZeroCount(Of T)(T)
+- uid: System.NumbersomeExtensions.Log*
+  name: Log
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Log_
+  commentId: Overload:System.NumbersomeExtensions.Log
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Log
+  nameWithType: NumbersomeExtensions.Log
+- uid: System.NumbersomeExtensions.Log``1(``0)
+  name: Log<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Log__1___0_
+  commentId: M:System.NumbersomeExtensions.Log``1(``0)
+  name.vb: Log(Of T)(T)
+  fullName: System.NumbersomeExtensions.Log<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Log(Of T)(T)
+  nameWithType: NumbersomeExtensions.Log<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Log(Of T)(T)
+- uid: System.NumbersomeExtensions.Log10*
+  name: Log10
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Log10_
+  commentId: Overload:System.NumbersomeExtensions.Log10
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Log10
+  nameWithType: NumbersomeExtensions.Log10
+- uid: System.NumbersomeExtensions.Log10``1(``0)
+  name: Log10<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Log10__1___0_
+  commentId: M:System.NumbersomeExtensions.Log10``1(``0)
+  name.vb: Log10(Of T)(T)
+  fullName: System.NumbersomeExtensions.Log10<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Log10(Of T)(T)
+  nameWithType: NumbersomeExtensions.Log10<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Log10(Of T)(T)
+- uid: System.NumbersomeExtensions.Log2*
+  name: Log2
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Log2_
+  commentId: Overload:System.NumbersomeExtensions.Log2
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Log2
+  nameWithType: NumbersomeExtensions.Log2
+- uid: System.NumbersomeExtensions.Log2``1(``0)
+  name: Log2<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Log2__1___0_
+  commentId: M:System.NumbersomeExtensions.Log2``1(``0)
+  name.vb: Log2(Of T)(T)
+  fullName: System.NumbersomeExtensions.Log2<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Log2(Of T)(T)
+  nameWithType: NumbersomeExtensions.Log2<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Log2(Of T)(T)
+- uid: System.NumbersomeExtensions.Max*
+  name: Max
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max_
+  commentId: Overload:System.NumbersomeExtensions.Max
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Max
+  nameWithType: NumbersomeExtensions.Max
+- uid: System.NumbersomeExtensions.Max``1(``0[])
+  name: Max<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1___0___
+  commentId: M:System.NumbersomeExtensions.Max``1(``0[])
+  name.vb: Max(Of T)(T())
+  fullName: System.NumbersomeExtensions.Max<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(T())
+  nameWithType: NumbersomeExtensions.Max<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(T())
+- uid: System.NumbersomeExtensions.Max``1(IEnumerable{``0})
+  name: Max<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.Max``1(IEnumerable{``0})
+  name.vb: Max(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.Max<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.Max<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.Max``1(System.ArraySegment{``0})
+  name: Max<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.Max``1(System.ArraySegment{``0})
+  name.vb: Max(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.Max<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.Max<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.Max``1(System.Memory{``0})
+  name: Max<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.Max``1(System.Memory{``0})
+  name.vb: Max(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.Max<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.Max<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.Max``1(System.ReadOnlyMemory{``0})
+  name: Max<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.Max``1(System.ReadOnlyMemory{``0})
+  name.vb: Max(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.Max<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.Max<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.Max``1(System.ReadOnlySpan{``0})
+  name: Max<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.Max``1(System.ReadOnlySpan{``0})
+  name.vb: Max(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.Max<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.Max<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.Max``1(System.Span{``0})
+  name: Max<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.Max``1(System.Span{``0})
+  name.vb: Max(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.Max<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.Max<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitude*
+  name: MaxMagnitude
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude_
+  commentId: Overload:System.NumbersomeExtensions.MaxMagnitude
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.MaxMagnitude
+  nameWithType: NumbersomeExtensions.MaxMagnitude
+- uid: System.NumbersomeExtensions.MaxMagnitude``1(``0[])
+  name: MaxMagnitude<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1___0___
+  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(``0[])
+  name.vb: MaxMagnitude(Of T)(T())
+  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(T())
+  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(T())
+- uid: System.NumbersomeExtensions.MaxMagnitude``1(IEnumerable{``0})
+  name: MaxMagnitude<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(IEnumerable{``0})
+  name.vb: MaxMagnitude(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.ArraySegment{``0})
+  name: MaxMagnitude<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.ArraySegment{``0})
+  name.vb: MaxMagnitude(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.Memory{``0})
+  name: MaxMagnitude<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.Memory{``0})
+  name.vb: MaxMagnitude(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.ReadOnlyMemory{``0})
+  name: MaxMagnitude<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.ReadOnlyMemory{``0})
+  name.vb: MaxMagnitude(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.ReadOnlySpan{``0})
+  name: MaxMagnitude<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.ReadOnlySpan{``0})
+  name.vb: MaxMagnitude(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.Span{``0})
+  name: MaxMagnitude<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.Span{``0})
+  name.vb: MaxMagnitude(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitudeNumber*
+  name: MaxMagnitudeNumber
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber_
+  commentId: Overload:System.NumbersomeExtensions.MaxMagnitudeNumber
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber
+  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber
+- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(``0[])
+  name: MaxMagnitudeNumber<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1___0___
+  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(``0[])
+  name.vb: MaxMagnitudeNumber(Of T)(T())
+  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(T())
+  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(T())
+- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(IEnumerable{``0})
+  name: MaxMagnitudeNumber<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(IEnumerable{``0})
+  name.vb: MaxMagnitudeNumber(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ArraySegment{``0})
+  name: MaxMagnitudeNumber<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ArraySegment{``0})
+  name.vb: MaxMagnitudeNumber(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.Memory{``0})
+  name: MaxMagnitudeNumber<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.Memory{``0})
+  name.vb: MaxMagnitudeNumber(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ReadOnlyMemory{``0})
+  name: MaxMagnitudeNumber<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ReadOnlyMemory{``0})
+  name.vb: MaxMagnitudeNumber(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ReadOnlySpan{``0})
+  name: MaxMagnitudeNumber<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ReadOnlySpan{``0})
+  name.vb: MaxMagnitudeNumber(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.Span{``0})
+  name: MaxMagnitudeNumber<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.Span{``0})
+  name.vb: MaxMagnitudeNumber(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.MaxNumber*
+  name: MaxNumber
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber_
+  commentId: Overload:System.NumbersomeExtensions.MaxNumber
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.MaxNumber
+  nameWithType: NumbersomeExtensions.MaxNumber
+- uid: System.NumbersomeExtensions.MaxNumber``1(``0[])
+  name: MaxNumber<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1___0___
+  commentId: M:System.NumbersomeExtensions.MaxNumber``1(``0[])
+  name.vb: MaxNumber(Of T)(T())
+  fullName: System.NumbersomeExtensions.MaxNumber<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(T())
+  nameWithType: NumbersomeExtensions.MaxNumber<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(T())
+- uid: System.NumbersomeExtensions.MaxNumber``1(IEnumerable{``0})
+  name: MaxNumber<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.MaxNumber``1(IEnumerable{``0})
+  name.vb: MaxNumber(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.MaxNumber<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.MaxNumber<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.MaxNumber``1(System.ArraySegment{``0})
+  name: MaxNumber<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.ArraySegment{``0})
+  name.vb: MaxNumber(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.MaxNumber<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.MaxNumber``1(System.Memory{``0})
+  name: MaxNumber<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.Memory{``0})
+  name.vb: MaxNumber(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.MaxNumber<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.MaxNumber``1(System.ReadOnlyMemory{``0})
+  name: MaxNumber<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.ReadOnlyMemory{``0})
+  name.vb: MaxNumber(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.MaxNumber<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.MaxNumber``1(System.ReadOnlySpan{``0})
+  name: MaxNumber<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.ReadOnlySpan{``0})
+  name.vb: MaxNumber(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.MaxNumber<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.MaxNumber``1(System.Span{``0})
+  name: MaxNumber<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.Span{``0})
+  name.vb: MaxNumber(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.MaxNumber<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.Min*
+  name: Min
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min_
+  commentId: Overload:System.NumbersomeExtensions.Min
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Min
+  nameWithType: NumbersomeExtensions.Min
+- uid: System.NumbersomeExtensions.Min``1(``0[])
+  name: Min<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min__1___0___
+  commentId: M:System.NumbersomeExtensions.Min``1(``0[])
+  name.vb: Min(Of T)(T())
+  fullName: System.NumbersomeExtensions.Min<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.Min(Of T)(T())
+  nameWithType: NumbersomeExtensions.Min<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.Min(Of T)(T())
+- uid: System.NumbersomeExtensions.Min``1(IEnumerable{``0})
+  name: Min<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.Min``1(IEnumerable{``0})
+  name.vb: Min(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.Min<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.Min(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.Min<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.Min(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.Min``1(System.ArraySegment{``0})
+  name: Min<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.Min``1(System.ArraySegment{``0})
+  name.vb: Min(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.Min<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.Min(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.Min<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.Min(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.Min``1(System.Memory{``0})
+  name: Min<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.Min``1(System.Memory{``0})
+  name.vb: Min(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.Min<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.Min(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.Min<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.Min(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.Min``1(System.ReadOnlyMemory{``0})
+  name: Min<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.Min``1(System.ReadOnlyMemory{``0})
+  name.vb: Min(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.Min<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.Min(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.Min<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.Min(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.Min``1(System.ReadOnlySpan{``0})
+  name: Min<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.Min``1(System.ReadOnlySpan{``0})
+  name.vb: Min(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.Min<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.Min(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.Min<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.Min(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.Min``1(System.Span{``0})
+  name: Min<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.Min``1(System.Span{``0})
+  name.vb: Min(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.Min<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.Min(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.Min<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.Min(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitude*
+  name: MinMagnitude
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude_
+  commentId: Overload:System.NumbersomeExtensions.MinMagnitude
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.MinMagnitude
+  nameWithType: NumbersomeExtensions.MinMagnitude
+- uid: System.NumbersomeExtensions.MinMagnitude``1(``0[])
+  name: MinMagnitude<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1___0___
+  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(``0[])
+  name.vb: MinMagnitude(Of T)(T())
+  fullName: System.NumbersomeExtensions.MinMagnitude<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(T())
+  nameWithType: NumbersomeExtensions.MinMagnitude<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(T())
+- uid: System.NumbersomeExtensions.MinMagnitude``1(IEnumerable{``0})
+  name: MinMagnitude<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(IEnumerable{``0})
+  name.vb: MinMagnitude(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitude<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitude<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitude``1(System.ArraySegment{``0})
+  name: MinMagnitude<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.ArraySegment{``0})
+  name.vb: MinMagnitude(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitude<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitude``1(System.Memory{``0})
+  name: MinMagnitude<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.Memory{``0})
+  name.vb: MinMagnitude(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitude<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitude``1(System.ReadOnlyMemory{``0})
+  name: MinMagnitude<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.ReadOnlyMemory{``0})
+  name.vb: MinMagnitude(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitude<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitude``1(System.ReadOnlySpan{``0})
+  name: MinMagnitude<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.ReadOnlySpan{``0})
+  name.vb: MinMagnitude(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitude<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitude``1(System.Span{``0})
+  name: MinMagnitude<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.Span{``0})
+  name.vb: MinMagnitude(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitude<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitudeNumber*
+  name: MinMagnitudeNumber
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber_
+  commentId: Overload:System.NumbersomeExtensions.MinMagnitudeNumber
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.MinMagnitudeNumber
+  nameWithType: NumbersomeExtensions.MinMagnitudeNumber
+- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(``0[])
+  name: MinMagnitudeNumber<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1___0___
+  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(``0[])
+  name.vb: MinMagnitudeNumber(Of T)(T())
+  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(T())
+  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(T())
+- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(IEnumerable{``0})
+  name: MinMagnitudeNumber<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(IEnumerable{``0})
+  name.vb: MinMagnitudeNumber(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ArraySegment{``0})
+  name: MinMagnitudeNumber<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ArraySegment{``0})
+  name.vb: MinMagnitudeNumber(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.Memory{``0})
+  name: MinMagnitudeNumber<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.Memory{``0})
+  name.vb: MinMagnitudeNumber(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ReadOnlyMemory{``0})
+  name: MinMagnitudeNumber<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ReadOnlyMemory{``0})
+  name.vb: MinMagnitudeNumber(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ReadOnlySpan{``0})
+  name: MinMagnitudeNumber<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ReadOnlySpan{``0})
+  name.vb: MinMagnitudeNumber(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.Span{``0})
+  name: MinMagnitudeNumber<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.Span{``0})
+  name.vb: MinMagnitudeNumber(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.MinNumber*
+  name: MinNumber
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber_
+  commentId: Overload:System.NumbersomeExtensions.MinNumber
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.MinNumber
+  nameWithType: NumbersomeExtensions.MinNumber
+- uid: System.NumbersomeExtensions.MinNumber``1(``0[])
+  name: MinNumber<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1___0___
+  commentId: M:System.NumbersomeExtensions.MinNumber``1(``0[])
+  name.vb: MinNumber(Of T)(T())
+  fullName: System.NumbersomeExtensions.MinNumber<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(T())
+  nameWithType: NumbersomeExtensions.MinNumber<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(T())
+- uid: System.NumbersomeExtensions.MinNumber``1(IEnumerable{``0})
+  name: MinNumber<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.MinNumber``1(IEnumerable{``0})
+  name.vb: MinNumber(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.MinNumber<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.MinNumber<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.MinNumber``1(System.ArraySegment{``0})
+  name: MinNumber<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.ArraySegment{``0})
+  name.vb: MinNumber(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.MinNumber<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.MinNumber<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.MinNumber``1(System.Memory{``0})
+  name: MinNumber<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.Memory{``0})
+  name.vb: MinNumber(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.MinNumber<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.MinNumber<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.MinNumber``1(System.ReadOnlyMemory{``0})
+  name: MinNumber<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.ReadOnlyMemory{``0})
+  name.vb: MinNumber(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.MinNumber<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.MinNumber<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.MinNumber``1(System.ReadOnlySpan{``0})
+  name: MinNumber<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.ReadOnlySpan{``0})
+  name.vb: MinNumber(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.MinNumber<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.MinNumber<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.MinNumber``1(System.Span{``0})
+  name: MinNumber<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.Span{``0})
+  name.vb: MinNumber(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.MinNumber<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.MinNumber<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.PopCount*
+  name: PopCount
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_PopCount_
+  commentId: Overload:System.NumbersomeExtensions.PopCount
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.PopCount
+  nameWithType: NumbersomeExtensions.PopCount
+- uid: System.NumbersomeExtensions.PopCount``1(``0)
+  name: PopCount<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_PopCount__1___0_
+  commentId: M:System.NumbersomeExtensions.PopCount``1(``0)
+  name.vb: PopCount(Of T)(T)
+  fullName: System.NumbersomeExtensions.PopCount<T>(T)
+  fullName.vb: System.NumbersomeExtensions.PopCount(Of T)(T)
+  nameWithType: NumbersomeExtensions.PopCount<T>(T)
+  nameWithType.vb: NumbersomeExtensions.PopCount(Of T)(T)
+- uid: System.NumbersomeExtensions.Pow*
+  name: Pow
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Pow_
+  commentId: Overload:System.NumbersomeExtensions.Pow
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Pow
+  nameWithType: NumbersomeExtensions.Pow
+- uid: System.NumbersomeExtensions.Pow``1(``0,``0)
+  name: Pow<T>(T, T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Pow__1___0___0_
+  commentId: M:System.NumbersomeExtensions.Pow``1(``0,``0)
+  name.vb: Pow(Of T)(T, T)
+  fullName: System.NumbersomeExtensions.Pow<T>(T, T)
+  fullName.vb: System.NumbersomeExtensions.Pow(Of T)(T, T)
+  nameWithType: NumbersomeExtensions.Pow<T>(T, T)
+  nameWithType.vb: NumbersomeExtensions.Pow(Of T)(T, T)
+- uid: System.NumbersomeExtensions.Product*
+  name: Product
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Product_
+  commentId: Overload:System.NumbersomeExtensions.Product
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Product
+  nameWithType: NumbersomeExtensions.Product
+- uid: System.NumbersomeExtensions.Product``1(``0[])
+  name: Product<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Product__1___0___
+  commentId: M:System.NumbersomeExtensions.Product``1(``0[])
+  name.vb: Product(Of T)(T())
+  fullName: System.NumbersomeExtensions.Product<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.Product(Of T)(T())
+  nameWithType: NumbersomeExtensions.Product<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.Product(Of T)(T())
+- uid: System.NumbersomeExtensions.Product``1(IEnumerable{``0})
+  name: Product<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Product__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.Product``1(IEnumerable{``0})
+  name.vb: Product(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.Product<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.Product(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.Product<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.Product(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.Product``1(System.ArraySegment{``0})
+  name: Product<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Product__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.Product``1(System.ArraySegment{``0})
+  name.vb: Product(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.Product<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.Product(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.Product<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.Product(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.Product``1(System.Memory{``0})
+  name: Product<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Product__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.Product``1(System.Memory{``0})
+  name.vb: Product(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.Product<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.Product(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.Product<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.Product(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.Product``1(System.ReadOnlyMemory{``0})
+  name: Product<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Product__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.Product``1(System.ReadOnlyMemory{``0})
+  name.vb: Product(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.Product<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.Product(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.Product<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.Product(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.Product``1(System.ReadOnlySpan{``0})
+  name: Product<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Product__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.Product``1(System.ReadOnlySpan{``0})
+  name.vb: Product(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.Product<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.Product(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.Product<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.Product(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.Product``1(System.Span{``0})
+  name: Product<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Product__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.Product``1(System.Span{``0})
+  name.vb: Product(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.Product<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.Product(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.Product<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.Product(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.ReciprocalEstimate*
+  name: ReciprocalEstimate
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ReciprocalEstimate_
+  commentId: Overload:System.NumbersomeExtensions.ReciprocalEstimate
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.ReciprocalEstimate
+  nameWithType: NumbersomeExtensions.ReciprocalEstimate
+- uid: System.NumbersomeExtensions.ReciprocalEstimate``1(``0)
+  name: ReciprocalEstimate<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ReciprocalEstimate__1___0_
+  commentId: M:System.NumbersomeExtensions.ReciprocalEstimate``1(``0)
+  name.vb: ReciprocalEstimate(Of T)(T)
+  fullName: System.NumbersomeExtensions.ReciprocalEstimate<T>(T)
+  fullName.vb: System.NumbersomeExtensions.ReciprocalEstimate(Of T)(T)
+  nameWithType: NumbersomeExtensions.ReciprocalEstimate<T>(T)
+  nameWithType.vb: NumbersomeExtensions.ReciprocalEstimate(Of T)(T)
+- uid: System.NumbersomeExtensions.ReciprocalSqrtEstimate*
+  name: ReciprocalSqrtEstimate
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ReciprocalSqrtEstimate_
+  commentId: Overload:System.NumbersomeExtensions.ReciprocalSqrtEstimate
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.ReciprocalSqrtEstimate
+  nameWithType: NumbersomeExtensions.ReciprocalSqrtEstimate
+- uid: System.NumbersomeExtensions.ReciprocalSqrtEstimate``1(``0)
+  name: ReciprocalSqrtEstimate<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ReciprocalSqrtEstimate__1___0_
+  commentId: M:System.NumbersomeExtensions.ReciprocalSqrtEstimate``1(``0)
+  name.vb: ReciprocalSqrtEstimate(Of T)(T)
+  fullName: System.NumbersomeExtensions.ReciprocalSqrtEstimate<T>(T)
+  fullName.vb: System.NumbersomeExtensions.ReciprocalSqrtEstimate(Of T)(T)
+  nameWithType: NumbersomeExtensions.ReciprocalSqrtEstimate<T>(T)
+  nameWithType.vb: NumbersomeExtensions.ReciprocalSqrtEstimate(Of T)(T)
+- uid: System.NumbersomeExtensions.Root*
+  name: Root
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Root_
+  commentId: Overload:System.NumbersomeExtensions.Root
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Root
+  nameWithType: NumbersomeExtensions.Root
+- uid: System.NumbersomeExtensions.Root``1(``0,System.Int32)
+  name: Root<T>(T, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Root__1___0_System_Int32_
+  commentId: M:System.NumbersomeExtensions.Root``1(``0,System.Int32)
+  name.vb: Root(Of T)(T, Int32)
+  fullName: System.NumbersomeExtensions.Root<T>(T, System.Int32)
+  fullName.vb: System.NumbersomeExtensions.Root(Of T)(T, System.Int32)
+  nameWithType: NumbersomeExtensions.Root<T>(T, Int32)
+  nameWithType.vb: NumbersomeExtensions.Root(Of T)(T, Int32)
+- uid: System.NumbersomeExtensions.RotateLeft*
+  name: RotateLeft
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_RotateLeft_
+  commentId: Overload:System.NumbersomeExtensions.RotateLeft
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.RotateLeft
+  nameWithType: NumbersomeExtensions.RotateLeft
+- uid: System.NumbersomeExtensions.RotateLeft``1(``0,System.Int32)
+  name: RotateLeft<T>(T, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_RotateLeft__1___0_System_Int32_
+  commentId: M:System.NumbersomeExtensions.RotateLeft``1(``0,System.Int32)
+  name.vb: RotateLeft(Of T)(T, Int32)
+  fullName: System.NumbersomeExtensions.RotateLeft<T>(T, System.Int32)
+  fullName.vb: System.NumbersomeExtensions.RotateLeft(Of T)(T, System.Int32)
+  nameWithType: NumbersomeExtensions.RotateLeft<T>(T, Int32)
+  nameWithType.vb: NumbersomeExtensions.RotateLeft(Of T)(T, Int32)
+- uid: System.NumbersomeExtensions.RotateRight*
+  name: RotateRight
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_RotateRight_
+  commentId: Overload:System.NumbersomeExtensions.RotateRight
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.RotateRight
+  nameWithType: NumbersomeExtensions.RotateRight
+- uid: System.NumbersomeExtensions.RotateRight``1(``0,System.Int32)
+  name: RotateRight<T>(T, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_RotateRight__1___0_System_Int32_
+  commentId: M:System.NumbersomeExtensions.RotateRight``1(``0,System.Int32)
+  name.vb: RotateRight(Of T)(T, Int32)
+  fullName: System.NumbersomeExtensions.RotateRight<T>(T, System.Int32)
+  fullName.vb: System.NumbersomeExtensions.RotateRight(Of T)(T, System.Int32)
+  nameWithType: NumbersomeExtensions.RotateRight<T>(T, Int32)
+  nameWithType.vb: NumbersomeExtensions.RotateRight(Of T)(T, Int32)
+- uid: System.NumbersomeExtensions.Round*
+  name: Round
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Round_
+  commentId: Overload:System.NumbersomeExtensions.Round
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Round
+  nameWithType: NumbersomeExtensions.Round
+- uid: System.NumbersomeExtensions.Round``1(``0)
+  name: Round<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Round__1___0_
+  commentId: M:System.NumbersomeExtensions.Round``1(``0)
+  name.vb: Round(Of T)(T)
+  fullName: System.NumbersomeExtensions.Round<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Round(Of T)(T)
+  nameWithType: NumbersomeExtensions.Round<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Round(Of T)(T)
+- uid: System.NumbersomeExtensions.Round``1(``0,System.Int32)
+  name: Round<T>(T, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Round__1___0_System_Int32_
+  commentId: M:System.NumbersomeExtensions.Round``1(``0,System.Int32)
+  name.vb: Round(Of T)(T, Int32)
+  fullName: System.NumbersomeExtensions.Round<T>(T, System.Int32)
+  fullName.vb: System.NumbersomeExtensions.Round(Of T)(T, System.Int32)
+  nameWithType: NumbersomeExtensions.Round<T>(T, Int32)
+  nameWithType.vb: NumbersomeExtensions.Round(Of T)(T, Int32)
+- uid: System.NumbersomeExtensions.Round``1(``0,System.Int32,System.MidpointRounding)
+  name: Round<T>(T, Int32, MidpointRounding)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Round__1___0_System_Int32_System_MidpointRounding_
+  commentId: M:System.NumbersomeExtensions.Round``1(``0,System.Int32,System.MidpointRounding)
+  name.vb: Round(Of T)(T, Int32, MidpointRounding)
+  fullName: System.NumbersomeExtensions.Round<T>(T, System.Int32, System.MidpointRounding)
+  fullName.vb: System.NumbersomeExtensions.Round(Of T)(T, System.Int32, System.MidpointRounding)
+  nameWithType: NumbersomeExtensions.Round<T>(T, Int32, MidpointRounding)
+  nameWithType.vb: NumbersomeExtensions.Round(Of T)(T, Int32, MidpointRounding)
+- uid: System.NumbersomeExtensions.Round``1(``0,System.MidpointRounding)
+  name: Round<T>(T, MidpointRounding)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Round__1___0_System_MidpointRounding_
+  commentId: M:System.NumbersomeExtensions.Round``1(``0,System.MidpointRounding)
+  name.vb: Round(Of T)(T, MidpointRounding)
+  fullName: System.NumbersomeExtensions.Round<T>(T, System.MidpointRounding)
+  fullName.vb: System.NumbersomeExtensions.Round(Of T)(T, System.MidpointRounding)
+  nameWithType: NumbersomeExtensions.Round<T>(T, MidpointRounding)
+  nameWithType.vb: NumbersomeExtensions.Round(Of T)(T, MidpointRounding)
+- uid: System.NumbersomeExtensions.ScaleB*
+  name: ScaleB
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ScaleB_
+  commentId: Overload:System.NumbersomeExtensions.ScaleB
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.ScaleB
+  nameWithType: NumbersomeExtensions.ScaleB
+- uid: System.NumbersomeExtensions.ScaleB``1(``0,System.Int32)
+  name: ScaleB<T>(T, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ScaleB__1___0_System_Int32_
+  commentId: M:System.NumbersomeExtensions.ScaleB``1(``0,System.Int32)
+  name.vb: ScaleB(Of T)(T, Int32)
+  fullName: System.NumbersomeExtensions.ScaleB<T>(T, System.Int32)
+  fullName.vb: System.NumbersomeExtensions.ScaleB(Of T)(T, System.Int32)
+  nameWithType: NumbersomeExtensions.ScaleB<T>(T, Int32)
+  nameWithType.vb: NumbersomeExtensions.ScaleB(Of T)(T, Int32)
+- uid: System.NumbersomeExtensions.Sec*
+  name: Sec
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sec_
+  commentId: Overload:System.NumbersomeExtensions.Sec
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Sec
+  nameWithType: NumbersomeExtensions.Sec
+- uid: System.NumbersomeExtensions.Sec``1(``0)
+  name: Sec<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sec__1___0_
+  commentId: M:System.NumbersomeExtensions.Sec``1(``0)
+  name.vb: Sec(Of T)(T)
+  fullName: System.NumbersomeExtensions.Sec<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Sec(Of T)(T)
+  nameWithType: NumbersomeExtensions.Sec<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Sec(Of T)(T)
+- uid: System.NumbersomeExtensions.Sech*
+  name: Sech
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sech_
+  commentId: Overload:System.NumbersomeExtensions.Sech
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Sech
+  nameWithType: NumbersomeExtensions.Sech
+- uid: System.NumbersomeExtensions.Sech``1(``0)
+  name: Sech<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sech__1___0_
+  commentId: M:System.NumbersomeExtensions.Sech``1(``0)
+  name.vb: Sech(Of T)(T)
+  fullName: System.NumbersomeExtensions.Sech<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Sech(Of T)(T)
+  nameWithType: NumbersomeExtensions.Sech<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Sech(Of T)(T)
+- uid: System.NumbersomeExtensions.ShiftLeft*
+  name: ShiftLeft
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ShiftLeft_
+  commentId: Overload:System.NumbersomeExtensions.ShiftLeft
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.ShiftLeft
+  nameWithType: NumbersomeExtensions.ShiftLeft
+- uid: System.NumbersomeExtensions.ShiftLeft``1(``0,System.Int32)
+  name: ShiftLeft<T>(T, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ShiftLeft__1___0_System_Int32_
+  commentId: M:System.NumbersomeExtensions.ShiftLeft``1(``0,System.Int32)
+  name.vb: ShiftLeft(Of T)(T, Int32)
+  fullName: System.NumbersomeExtensions.ShiftLeft<T>(T, System.Int32)
+  fullName.vb: System.NumbersomeExtensions.ShiftLeft(Of T)(T, System.Int32)
+  nameWithType: NumbersomeExtensions.ShiftLeft<T>(T, Int32)
+  nameWithType.vb: NumbersomeExtensions.ShiftLeft(Of T)(T, Int32)
+- uid: System.NumbersomeExtensions.ShiftRight*
+  name: ShiftRight
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ShiftRight_
+  commentId: Overload:System.NumbersomeExtensions.ShiftRight
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.ShiftRight
+  nameWithType: NumbersomeExtensions.ShiftRight
+- uid: System.NumbersomeExtensions.ShiftRight``1(``0,System.Int32)
+  name: ShiftRight<T>(T, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ShiftRight__1___0_System_Int32_
+  commentId: M:System.NumbersomeExtensions.ShiftRight``1(``0,System.Int32)
+  name.vb: ShiftRight(Of T)(T, Int32)
+  fullName: System.NumbersomeExtensions.ShiftRight<T>(T, System.Int32)
+  fullName.vb: System.NumbersomeExtensions.ShiftRight(Of T)(T, System.Int32)
+  nameWithType: NumbersomeExtensions.ShiftRight<T>(T, Int32)
+  nameWithType.vb: NumbersomeExtensions.ShiftRight(Of T)(T, Int32)
+- uid: System.NumbersomeExtensions.Sign*
+  name: Sign
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sign_
+  commentId: Overload:System.NumbersomeExtensions.Sign
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Sign
+  nameWithType: NumbersomeExtensions.Sign
+- uid: System.NumbersomeExtensions.Sign``1(``0)
+  name: Sign<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sign__1___0_
+  commentId: M:System.NumbersomeExtensions.Sign``1(``0)
+  name.vb: Sign(Of T)(T)
+  fullName: System.NumbersomeExtensions.Sign<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Sign(Of T)(T)
+  nameWithType: NumbersomeExtensions.Sign<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Sign(Of T)(T)
+- uid: System.NumbersomeExtensions.Sin*
+  name: Sin
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sin_
+  commentId: Overload:System.NumbersomeExtensions.Sin
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Sin
+  nameWithType: NumbersomeExtensions.Sin
+- uid: System.NumbersomeExtensions.Sin``1(``0)
+  name: Sin<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sin__1___0_
+  commentId: M:System.NumbersomeExtensions.Sin``1(``0)
+  name.vb: Sin(Of T)(T)
+  fullName: System.NumbersomeExtensions.Sin<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Sin(Of T)(T)
+  nameWithType: NumbersomeExtensions.Sin<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Sin(Of T)(T)
+- uid: System.NumbersomeExtensions.SinCos*
+  name: SinCos
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_SinCos_
+  commentId: Overload:System.NumbersomeExtensions.SinCos
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.SinCos
+  nameWithType: NumbersomeExtensions.SinCos
+- uid: System.NumbersomeExtensions.SinCos``1(``0)
+  name: SinCos<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_SinCos__1___0_
+  commentId: M:System.NumbersomeExtensions.SinCos``1(``0)
+  name.vb: SinCos(Of T)(T)
+  fullName: System.NumbersomeExtensions.SinCos<T>(T)
+  fullName.vb: System.NumbersomeExtensions.SinCos(Of T)(T)
+  nameWithType: NumbersomeExtensions.SinCos<T>(T)
+  nameWithType.vb: NumbersomeExtensions.SinCos(Of T)(T)
+- uid: System.NumbersomeExtensions.Sinh*
+  name: Sinh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sinh_
+  commentId: Overload:System.NumbersomeExtensions.Sinh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Sinh
+  nameWithType: NumbersomeExtensions.Sinh
+- uid: System.NumbersomeExtensions.Sinh``1(``0)
+  name: Sinh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sinh__1___0_
+  commentId: M:System.NumbersomeExtensions.Sinh``1(``0)
+  name.vb: Sinh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Sinh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Sinh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Sinh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Sinh(Of T)(T)
+- uid: System.NumbersomeExtensions.Sqrt*
+  name: Sqrt
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sqrt_
+  commentId: Overload:System.NumbersomeExtensions.Sqrt
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Sqrt
+  nameWithType: NumbersomeExtensions.Sqrt
+- uid: System.NumbersomeExtensions.Sqrt``1(``0)
+  name: Sqrt<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sqrt__1___0_
+  commentId: M:System.NumbersomeExtensions.Sqrt``1(``0)
+  name.vb: Sqrt(Of T)(T)
+  fullName: System.NumbersomeExtensions.Sqrt<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Sqrt(Of T)(T)
+  nameWithType: NumbersomeExtensions.Sqrt<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Sqrt(Of T)(T)
+- uid: System.NumbersomeExtensions.Sum*
+  name: Sum
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum_
+  commentId: Overload:System.NumbersomeExtensions.Sum
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Sum
+  nameWithType: NumbersomeExtensions.Sum
+- uid: System.NumbersomeExtensions.Sum``1(``0[])
+  name: Sum<T>(T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum__1___0___
+  commentId: M:System.NumbersomeExtensions.Sum``1(``0[])
+  name.vb: Sum(Of T)(T())
+  fullName: System.NumbersomeExtensions.Sum<T>(T[])
+  fullName.vb: System.NumbersomeExtensions.Sum(Of T)(T())
+  nameWithType: NumbersomeExtensions.Sum<T>(T[])
+  nameWithType.vb: NumbersomeExtensions.Sum(Of T)(T())
+- uid: System.NumbersomeExtensions.Sum``1(IEnumerable{``0})
+  name: Sum<T>(IEnumerable<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum__1_IEnumerable___0__
+  commentId: M:System.NumbersomeExtensions.Sum``1(IEnumerable{``0})
+  name.vb: Sum(Of T)(IEnumerable(Of T))
+  fullName: System.NumbersomeExtensions.Sum<T>(IEnumerable<T>)
+  fullName.vb: System.NumbersomeExtensions.Sum(Of T)(IEnumerable(Of T))
+  nameWithType: NumbersomeExtensions.Sum<T>(IEnumerable<T>)
+  nameWithType.vb: NumbersomeExtensions.Sum(Of T)(IEnumerable(Of T))
+- uid: System.NumbersomeExtensions.Sum``1(System.ArraySegment{``0})
+  name: Sum<T>(ArraySegment<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum__1_System_ArraySegment___0__
+  commentId: M:System.NumbersomeExtensions.Sum``1(System.ArraySegment{``0})
+  name.vb: Sum(Of T)(ArraySegment(Of T))
+  fullName: System.NumbersomeExtensions.Sum<T>(System.ArraySegment<T>)
+  fullName.vb: System.NumbersomeExtensions.Sum(Of T)(System.ArraySegment(Of T))
+  nameWithType: NumbersomeExtensions.Sum<T>(ArraySegment<T>)
+  nameWithType.vb: NumbersomeExtensions.Sum(Of T)(ArraySegment(Of T))
+- uid: System.NumbersomeExtensions.Sum``1(System.Memory{``0})
+  name: Sum<T>(Memory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum__1_System_Memory___0__
+  commentId: M:System.NumbersomeExtensions.Sum``1(System.Memory{``0})
+  name.vb: Sum(Of T)(Memory(Of T))
+  fullName: System.NumbersomeExtensions.Sum<T>(System.Memory<T>)
+  fullName.vb: System.NumbersomeExtensions.Sum(Of T)(System.Memory(Of T))
+  nameWithType: NumbersomeExtensions.Sum<T>(Memory<T>)
+  nameWithType.vb: NumbersomeExtensions.Sum(Of T)(Memory(Of T))
+- uid: System.NumbersomeExtensions.Sum``1(System.ReadOnlyMemory{``0})
+  name: Sum<T>(ReadOnlyMemory<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum__1_System_ReadOnlyMemory___0__
+  commentId: M:System.NumbersomeExtensions.Sum``1(System.ReadOnlyMemory{``0})
+  name.vb: Sum(Of T)(ReadOnlyMemory(Of T))
+  fullName: System.NumbersomeExtensions.Sum<T>(System.ReadOnlyMemory<T>)
+  fullName.vb: System.NumbersomeExtensions.Sum(Of T)(System.ReadOnlyMemory(Of T))
+  nameWithType: NumbersomeExtensions.Sum<T>(ReadOnlyMemory<T>)
+  nameWithType.vb: NumbersomeExtensions.Sum(Of T)(ReadOnlyMemory(Of T))
+- uid: System.NumbersomeExtensions.Sum``1(System.ReadOnlySpan{``0})
+  name: Sum<T>(ReadOnlySpan<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum__1_System_ReadOnlySpan___0__
+  commentId: M:System.NumbersomeExtensions.Sum``1(System.ReadOnlySpan{``0})
+  name.vb: Sum(Of T)(ReadOnlySpan(Of T))
+  fullName: System.NumbersomeExtensions.Sum<T>(System.ReadOnlySpan<T>)
+  fullName.vb: System.NumbersomeExtensions.Sum(Of T)(System.ReadOnlySpan(Of T))
+  nameWithType: NumbersomeExtensions.Sum<T>(ReadOnlySpan<T>)
+  nameWithType.vb: NumbersomeExtensions.Sum(Of T)(ReadOnlySpan(Of T))
+- uid: System.NumbersomeExtensions.Sum``1(System.Span{``0})
+  name: Sum<T>(Span<T>)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum__1_System_Span___0__
+  commentId: M:System.NumbersomeExtensions.Sum``1(System.Span{``0})
+  name.vb: Sum(Of T)(Span(Of T))
+  fullName: System.NumbersomeExtensions.Sum<T>(System.Span<T>)
+  fullName.vb: System.NumbersomeExtensions.Sum(Of T)(System.Span(Of T))
+  nameWithType: NumbersomeExtensions.Sum<T>(Span<T>)
+  nameWithType.vb: NumbersomeExtensions.Sum(Of T)(Span(Of T))
+- uid: System.NumbersomeExtensions.Tan*
+  name: Tan
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Tan_
+  commentId: Overload:System.NumbersomeExtensions.Tan
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Tan
+  nameWithType: NumbersomeExtensions.Tan
+- uid: System.NumbersomeExtensions.Tan``1(``0)
+  name: Tan<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Tan__1___0_
+  commentId: M:System.NumbersomeExtensions.Tan``1(``0)
+  name.vb: Tan(Of T)(T)
+  fullName: System.NumbersomeExtensions.Tan<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Tan(Of T)(T)
+  nameWithType: NumbersomeExtensions.Tan<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Tan(Of T)(T)
+- uid: System.NumbersomeExtensions.Tanh*
+  name: Tanh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Tanh_
+  commentId: Overload:System.NumbersomeExtensions.Tanh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Tanh
+  nameWithType: NumbersomeExtensions.Tanh
+- uid: System.NumbersomeExtensions.Tanh``1(``0)
+  name: Tanh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Tanh__1___0_
+  commentId: M:System.NumbersomeExtensions.Tanh``1(``0)
+  name.vb: Tanh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Tanh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Tanh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Tanh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Tanh(Of T)(T)
+- uid: System.NumbersomeExtensions.TrailingZeroCount*
+  name: TrailingZeroCount
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_TrailingZeroCount_
+  commentId: Overload:System.NumbersomeExtensions.TrailingZeroCount
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.TrailingZeroCount
+  nameWithType: NumbersomeExtensions.TrailingZeroCount
+- uid: System.NumbersomeExtensions.TrailingZeroCount``1(``0)
+  name: TrailingZeroCount<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_TrailingZeroCount__1___0_
+  commentId: M:System.NumbersomeExtensions.TrailingZeroCount``1(``0)
+  name.vb: TrailingZeroCount(Of T)(T)
+  fullName: System.NumbersomeExtensions.TrailingZeroCount<T>(T)
+  fullName.vb: System.NumbersomeExtensions.TrailingZeroCount(Of T)(T)
+  nameWithType: NumbersomeExtensions.TrailingZeroCount<T>(T)
+  nameWithType.vb: NumbersomeExtensions.TrailingZeroCount(Of T)(T)
+- uid: System.NumbersomeExtensions.Truncate*
+  name: Truncate
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Truncate_
+  commentId: Overload:System.NumbersomeExtensions.Truncate
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Truncate
+  nameWithType: NumbersomeExtensions.Truncate
+- uid: System.NumbersomeExtensions.Truncate``1(``0)
+  name: Truncate<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Truncate__1___0_
+  commentId: M:System.NumbersomeExtensions.Truncate``1(``0)
+  name.vb: Truncate(Of T)(T)
+  fullName: System.NumbersomeExtensions.Truncate<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Truncate(Of T)(T)
+  nameWithType: NumbersomeExtensions.Truncate<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Truncate(Of T)(T)
+- uid: System.NumbersomeExtensions.UnsignedShiftRight*
+  name: UnsignedShiftRight
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_UnsignedShiftRight_
+  commentId: Overload:System.NumbersomeExtensions.UnsignedShiftRight
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.UnsignedShiftRight
+  nameWithType: NumbersomeExtensions.UnsignedShiftRight
+- uid: System.NumbersomeExtensions.UnsignedShiftRight``1(``0,System.Int32)
+  name: UnsignedShiftRight<T>(T, Int32)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_UnsignedShiftRight__1___0_System_Int32_
+  commentId: M:System.NumbersomeExtensions.UnsignedShiftRight``1(``0,System.Int32)
+  name.vb: UnsignedShiftRight(Of T)(T, Int32)
+  fullName: System.NumbersomeExtensions.UnsignedShiftRight<T>(T, System.Int32)
+  fullName.vb: System.NumbersomeExtensions.UnsignedShiftRight(Of T)(T, System.Int32)
+  nameWithType: NumbersomeExtensions.UnsignedShiftRight<T>(T, Int32)
+  nameWithType.vb: NumbersomeExtensions.UnsignedShiftRight(Of T)(T, Int32)
+- uid: System.NumbersomeExtensions.Vcs*
+  name: Vcs
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Vcs_
+  commentId: Overload:System.NumbersomeExtensions.Vcs
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Vcs
+  nameWithType: NumbersomeExtensions.Vcs
+- uid: System.NumbersomeExtensions.Vcs``1(``0)
+  name: Vcs<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Vcs__1___0_
+  commentId: M:System.NumbersomeExtensions.Vcs``1(``0)
+  name.vb: Vcs(Of T)(T)
+  fullName: System.NumbersomeExtensions.Vcs<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Vcs(Of T)(T)
+  nameWithType: NumbersomeExtensions.Vcs<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Vcs(Of T)(T)
+- uid: System.NumbersomeExtensions.Vcsh*
+  name: Vcsh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Vcsh_
+  commentId: Overload:System.NumbersomeExtensions.Vcsh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Vcsh
+  nameWithType: NumbersomeExtensions.Vcsh
+- uid: System.NumbersomeExtensions.Vcsh``1(``0)
+  name: Vcsh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Vcsh__1___0_
+  commentId: M:System.NumbersomeExtensions.Vcsh``1(``0)
+  name.vb: Vcsh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Vcsh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Vcsh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Vcsh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Vcsh(Of T)(T)
+- uid: System.NumbersomeExtensions.Ver*
+  name: Ver
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Ver_
+  commentId: Overload:System.NumbersomeExtensions.Ver
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Ver
+  nameWithType: NumbersomeExtensions.Ver
+- uid: System.NumbersomeExtensions.Ver``1(``0)
+  name: Ver<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Ver__1___0_
+  commentId: M:System.NumbersomeExtensions.Ver``1(``0)
+  name.vb: Ver(Of T)(T)
+  fullName: System.NumbersomeExtensions.Ver<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Ver(Of T)(T)
+  nameWithType: NumbersomeExtensions.Ver<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Ver(Of T)(T)
+- uid: System.NumbersomeExtensions.Verh*
+  name: Verh
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Verh_
+  commentId: Overload:System.NumbersomeExtensions.Verh
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Verh
+  nameWithType: NumbersomeExtensions.Verh
+- uid: System.NumbersomeExtensions.Verh``1(``0)
+  name: Verh<T>(T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Verh__1___0_
+  commentId: M:System.NumbersomeExtensions.Verh``1(``0)
+  name.vb: Verh(Of T)(T)
+  fullName: System.NumbersomeExtensions.Verh<T>(T)
+  fullName.vb: System.NumbersomeExtensions.Verh(Of T)(T)
+  nameWithType: NumbersomeExtensions.Verh<T>(T)
+  nameWithType.vb: NumbersomeExtensions.Verh(Of T)(T)
+- uid: System.RangeEnumerator
+  name: RangeEnumerator
+  href: api/System.RangeEnumerator.html
+  commentId: T:System.RangeEnumerator
+  fullName: System.RangeEnumerator
+  nameWithType: RangeEnumerator
+- uid: System.RangeEnumerator.Current
+  name: Current
+  href: api/System.RangeEnumerator.html#System_RangeEnumerator_Current
+  commentId: P:System.RangeEnumerator.Current
+  fullName: System.RangeEnumerator.Current
+  nameWithType: RangeEnumerator.Current
+- uid: System.RangeEnumerator.Current*
+  name: Current
+  href: api/System.RangeEnumerator.html#System_RangeEnumerator_Current_
+  commentId: Overload:System.RangeEnumerator.Current
+  isSpec: "True"
+  fullName: System.RangeEnumerator.Current
+  nameWithType: RangeEnumerator.Current
+- uid: System.RangeEnumerator.MoveNext
+  name: MoveNext()
+  href: api/System.RangeEnumerator.html#System_RangeEnumerator_MoveNext
+  commentId: M:System.RangeEnumerator.MoveNext
+  fullName: System.RangeEnumerator.MoveNext()
+  nameWithType: RangeEnumerator.MoveNext()
+- uid: System.RangeEnumerator.MoveNext*
+  name: MoveNext
+  href: api/System.RangeEnumerator.html#System_RangeEnumerator_MoveNext_
+  commentId: Overload:System.RangeEnumerator.MoveNext
+  isSpec: "True"
+  fullName: System.RangeEnumerator.MoveNext
+  nameWithType: RangeEnumerator.MoveNext
+- uid: System.RangeEnumerator.Reset
+  name: Reset()
+  href: api/System.RangeEnumerator.html#System_RangeEnumerator_Reset
+  commentId: M:System.RangeEnumerator.Reset
+  fullName: System.RangeEnumerator.Reset()
+  nameWithType: RangeEnumerator.Reset()
+- uid: System.RangeEnumerator.Reset*
+  name: Reset
+  href: api/System.RangeEnumerator.html#System_RangeEnumerator_Reset_
+  commentId: Overload:System.RangeEnumerator.Reset
+  isSpec: "True"
+  fullName: System.RangeEnumerator.Reset
+  nameWithType: RangeEnumerator.Reset

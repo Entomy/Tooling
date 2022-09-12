@@ -4,15 +4,75 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Collections.Generic.NumbersomeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Collections.Generic.NumbersomeExtensions.html",
+          "hash": "PFbgKsdW8A2QhgzQt41SvN7m9V3hqMAyIdRjeL4q6Xk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Collections.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Collections.Generic.html",
+          "hash": "pEzEXBFEICJT4TfbK1ZTBCQbFBR9x7Kh0v3vZsbmgbs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.NumbersomeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.NumbersomeExtensions.html",
+          "hash": "POYv2VtlS6EiDG53aX1+b25WhDIXH3I1U0XTl+dG3Pk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.RangeEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.RangeEnumerator.html",
+          "hash": "uVwFwsfpA0lXgGZea5zYK8EUV0fAjLb4PlQsYp/es8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.html",
+          "hash": "KSqOoxnBzMbBGO+n47rIgnv163CBNtKpU04q9jgtdUM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "yRcKp+B4+JBzOQzczOXF+RGdfu9VSh5WQddm5cK5EXA="
+          "hash": "KHeYXtLs1UKjV/ievPAsAfjsWGv7UnjVMhmZN3xNbvk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "53cDPdjyKTmYSaPMwcMYYJO/bYpeY21eGi/JWyVQBqE="
+          "hash": "/Uv0KxnfC76vJ7T8cR3g5Sr2W53EsQRq6re+q30gUvI="
         }
       },
       "is_incremental": false,
@@ -33,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "WoQJ7qGWhbbAW1X4zWy+QJfcTES4HoZR1b88oDzIpWA="
+          "hash": "WOUSkkIQs1ZLnf6G/e3EbeM3ojVWnGA7x9l4RY2flms="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "zr+4S6y7Zt4Cxki7RtiFllQYuTHW9OZvDthhfvMttqI="
+          "hash": "aAJO2GYs+nZtb1IAhBconQO6Wc7dHyJsUcuoh8sObfo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -79,17 +139,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -102,8 +170,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

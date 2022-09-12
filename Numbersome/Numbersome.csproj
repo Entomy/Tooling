@@ -37,15 +37,15 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
 		<PackageReference Include="ExceptionAnalyzer" Version="1.0.5" PrivateAssets="all" />
-		<PackageReference Include="Meziantou.Analyzer" Version="1.0.667" PrivateAssets="all" />
-		<PackageReference Include="Microsoft.CodeAnalysis" Version="4.2.0" PrivateAssets="all" />
+		<PackageReference Include="Meziantou.Analyzer" Version="1.0.723" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.CodeAnalysis" Version="4.3.0" PrivateAssets="all" />
 		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" PrivateAssets="all" />
 		<PackageReference Include="Roslynator.Analyzers" Version="4.1.1" PrivateAssets="all" />
-		<PackageReference Include="SonarAnalyzer.CSharp" Version="8.25.0.33663" PrivateAssets="all" />
+		<PackageReference Include="SonarAnalyzer.CSharp" Version="8.44.0.52574" PrivateAssets="all" />
 		<PackageReference Include="ClrHeapAllocationAnalyzer" Version="3.0.0" PrivateAssets="all" />
 		<PackageReference Include="IDisposableAnalyzers" Version="4.0.2" PrivateAssets="all" />
 		<PackageReference Include="codecracker.CSharp" Version="1.1.0" PrivateAssets="all" />
-		<PackageReference Include="CSharpGuidelinesAnalyzer" Version="3.8.1" PrivateAssets="all" />
+		<PackageReference Include="CSharpGuidelinesAnalyzer" Version="3.8.2" PrivateAssets="all" />
 		<PackageReference Include="SwitchAnalyzer" Version="0.6.10" PrivateAssets="all" />
 		<PackageReference Include="NetFabric.Hyperlinq.Analyzer" Version="2.0.4" PrivateAssets="all" />
 		<PackageReference Include="ExhaustiveMatching.Analyzer" Version="0.5.0" PrivateAssets="All" />
