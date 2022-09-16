@@ -48,7 +48,7 @@ public static partial class NumbersomeExtensions {
 	/// <param name="values">The values to find the average of.</param>
 	/// <returns>The average of the <paramref name="values"/>.</returns>
 	public static T ArithmeticMean<T>(this ReadOnlySpan<T> values) where T : INumberBase<T> {
-		T sum = T.Zero;
+		T sum = T.AdditiveIdentity;
 		T count = T.Zero;
 		foreach (T value in values) {
 			sum += value;
@@ -67,7 +67,7 @@ public static partial class NumbersomeExtensions {
 		if (values is null) {
 			throw new ArgumentNullException(nameof(values));
 		}
-		T sum = T.Zero;
+		T sum = T.AdditiveIdentity;
 		T count = T.Zero;
 		foreach (T value in values) {
 			sum += value;

@@ -118,7 +118,7 @@
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Abs__1___0_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Abs%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Abs.cs/#L9">View Source</a>
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Abs.cs/#L11">View Source</a>
   </span>
   <a id="System_NumbersomeExtensions_Abs_" data-uid="System.NumbersomeExtensions.Abs*"></a>
   <h4 id="System_NumbersomeExtensions_Abs__1___0_" data-uid="System.NumbersomeExtensions.Abs``1(``0)">Abs&lt;T&gt;(T)</h4>
@@ -1785,7 +1785,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T CopySign&lt;T&gt;(this T magnitide, T sign)
+    <pre><code class="lang-csharp hljs">public static T CopySign&lt;T&gt;(this T magnitude, T sign)
     where T : INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1800,7 +1800,7 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><span class="parametername">magnitide</span></td>
+        <td><span class="parametername">magnitude</span></td>
         <td><p>The value whose magnitude is used in the result.</p>
 </td>
       </tr>
@@ -1823,7 +1823,7 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><p>A value with the <code data-dev-comment-type="paramref" class="paramref">magnitide</code> and the <code data-dev-comment-type="paramref" class="paramref">sign</code>.</p>
+        <td><p>A value with the <code data-dev-comment-type="paramref" class="paramref">magnitude</code> and the <code data-dev-comment-type="paramref" class="paramref">sign</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -6260,10 +6260,162 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1___0___0_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L14">View Source</a>
+  </span>
+  <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
+  <h4 id="System_NumbersomeExtensions_Max__1___0___0_" data-uid="System.NumbersomeExtensions.Max``1(``0,``0)">Max&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Compares two values to compute which is greater.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this T first, T second)
+    where T : INumber&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">first</span></td>
+        <td><p>The value to compare to <code data-dev-comment-type="paramref" class="paramref">second</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">second</span></td>
+        <td><p>The value to compare to <code data-dev-comment-type="paramref" class="paramref">first</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">first</code> if it is greater than <code data-dev-comment-type="paramref" class="paramref">second</code>; otherwise, <code data-dev-comment-type="paramref" class="paramref">second</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>A numeric of <see cref="!:INumber&lt;TSelf>"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_NumbersomeExtensions_Max__1___0___0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For <see cref="!:IFloatingPoint&lt;TSelf>"></see>, this method matches the IEEE 754:2019 maximum function. This requires <see cref="!:IFloatingPointIeee754&lt;TSelf>.NaN"></see> inputs to be propagated back to the caller and for <see cref="!:IFloatingPointIeee754&lt;TSelf>.NegativeZero"></see> to be treated as less than <see cref="!:INumberBase&lt;TSelf>.Zero"></see>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1___0___0___.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(%60%600%2C%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L28">View Source</a>
+  </span>
+  <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
+  <h4 id="System_NumbersomeExtensions_Max__1___0___0___" data-uid="System.NumbersomeExtensions.Max``1(``0,``0[])">Max&lt;T&gt;(T, T[])</h4>
+  <div class="markdown level1 summary"><p>Compares the values to compute which is greater.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this T first, params T[] others)
+    where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">first</span></td>
+        <td><p>The first of the values to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">others</span></td>
+        <td><p>The other values to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The greatest of the values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>A numeric of <see cref="!:IMinMaxValue&lt;TSelf>"></see> and <see cref="!:INumber&lt;TSelf>"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="System_NumbersomeExtensions_Max__1___0___0____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For <see cref="!:IFloatingPoint&lt;TSelf>"></see>, this method matches the IEEE 754:2019 maximum function. This requires <see cref="!:IFloatingPointIeee754&lt;TSelf>.NaN"></see> inputs to be propagated back to the caller and for <see cref="!:IFloatingPointIeee754&lt;TSelf>.NegativeZero"></see> to be treated as less than <see cref="!:INumberBase&lt;TSelf>.Zero"></see>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1___0___.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L12">View Source</a>
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L47">View Source</a>
   </span>
   <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
   <h4 id="System_NumbersomeExtensions_Max__1___0___" data-uid="System.NumbersomeExtensions.Max``1(``0[])">Max&lt;T&gt;(T[])</h4>
@@ -6332,7 +6484,7 @@
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1_IEnumerable___0__.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L78">View Source</a>
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L113">View Source</a>
   </span>
   <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
   <h4 id="System_NumbersomeExtensions_Max__1_IEnumerable___0__" data-uid="System.NumbersomeExtensions.Max``1(IEnumerable{``0})">Max&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
@@ -6401,7 +6553,7 @@
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1_System_ArraySegment___0__.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(System.ArraySegment%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L22">View Source</a>
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L57">View Source</a>
   </span>
   <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
   <h4 id="System_NumbersomeExtensions_Max__1_System_ArraySegment___0__" data-uid="System.NumbersomeExtensions.Max``1(System.ArraySegment{``0})">Max&lt;T&gt;(ArraySegment&lt;T&gt;)</h4>
@@ -6470,7 +6622,7 @@
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1_System_Memory___0__.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(System.Memory%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L32">View Source</a>
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L67">View Source</a>
   </span>
   <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
   <h4 id="System_NumbersomeExtensions_Max__1_System_Memory___0__" data-uid="System.NumbersomeExtensions.Max``1(System.Memory{``0})">Max&lt;T&gt;(Memory&lt;T&gt;)</h4>
@@ -6539,7 +6691,7 @@
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1_System_ReadOnlyMemory___0__.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(System.ReadOnlyMemory%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L42">View Source</a>
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L77">View Source</a>
   </span>
   <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
   <h4 id="System_NumbersomeExtensions_Max__1_System_ReadOnlyMemory___0__" data-uid="System.NumbersomeExtensions.Max``1(System.ReadOnlyMemory{``0})">Max&lt;T&gt;(ReadOnlyMemory&lt;T&gt;)</h4>
@@ -6608,7 +6760,7 @@
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1_System_ReadOnlySpan___0__.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(System.ReadOnlySpan%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L62">View Source</a>
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L97">View Source</a>
   </span>
   <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
   <h4 id="System_NumbersomeExtensions_Max__1_System_ReadOnlySpan___0__" data-uid="System.NumbersomeExtensions.Max``1(System.ReadOnlySpan{``0})">Max&lt;T&gt;(ReadOnlySpan&lt;T&gt;)</h4>
@@ -6677,7 +6829,7 @@
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Max__1_System_Span___0__.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Max%60%601(System.Span%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L52">View Source</a>
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Max.cs/#L87">View Source</a>
   </span>
   <a id="System_NumbersomeExtensions_Max_" data-uid="System.NumbersomeExtensions.Max*"></a>
   <h4 id="System_NumbersomeExtensions_Max__1_System_Span___0__" data-uid="System.NumbersomeExtensions.Max``1(System.Span{``0})">Max&lt;T&gt;(Span&lt;T&gt;)</h4>
@@ -13165,7 +13317,7 @@
                     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Verh.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Zero.cs/#L2" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

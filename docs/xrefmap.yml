@@ -1402,6 +1402,24 @@ references:
   isSpec: "True"
   fullName: System.NumbersomeExtensions.Max
   nameWithType: NumbersomeExtensions.Max
+- uid: System.NumbersomeExtensions.Max``1(``0,``0)
+  name: Max<T>(T, T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1___0___0_
+  commentId: M:System.NumbersomeExtensions.Max``1(``0,``0)
+  name.vb: Max(Of T)(T, T)
+  fullName: System.NumbersomeExtensions.Max<T>(T, T)
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(T, T)
+  nameWithType: NumbersomeExtensions.Max<T>(T, T)
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(T, T)
+- uid: System.NumbersomeExtensions.Max``1(``0,``0[])
+  name: Max<T>(T, T[])
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1___0___0___
+  commentId: M:System.NumbersomeExtensions.Max``1(``0,``0[])
+  name.vb: Max(Of T)(T, T())
+  fullName: System.NumbersomeExtensions.Max<T>(T, T[])
+  fullName.vb: System.NumbersomeExtensions.Max(Of T)(T, T())
+  nameWithType: NumbersomeExtensions.Max<T>(T, T[])
+  nameWithType.vb: NumbersomeExtensions.Max(Of T)(T, T())
 - uid: System.NumbersomeExtensions.Max``1(``0[])
   name: Max<T>(T[])
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1___0___

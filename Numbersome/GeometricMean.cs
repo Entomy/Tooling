@@ -42,7 +42,7 @@ public static partial class NumbersomeExtensions {
 	/// <param name="values">The values to find the average of.</param>
 	/// <returns>The average of the <paramref name="values"/>.</returns>
 	public static T GeometricMean<T>(this ReadOnlySpan<T> values) where T : INumberBase<T>, IPowerFunctions<T> {
-		T product = T.One;
+		T product = T.MultiplicativeIdentity;
 		T count = T.Zero;
 		foreach (T value in values) {
 			product *= value;
@@ -60,7 +60,7 @@ public static partial class NumbersomeExtensions {
 		if (values is null) {
 			throw new ArgumentNullException(nameof(values));
 		}
-		T product = T.One;
+		T product = T.MultiplicativeIdentity;
 		T count = T.Zero;
 		foreach (T value in values) {
 			product *= value;
