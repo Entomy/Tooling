@@ -7,5 +7,5 @@ public partial class NumbersomeExtensionsTests {
 	[InlineData(0, 10, 5, true)]
 	[InlineData(0, 10, 10, true)]
 	[InlineData(0, 10, 11, false)]
-	public void Contains(Int32 start, Int32 end, Int32 value, Boolean expected) => Assert.Equal((start..end).Contains(value), expected);
+	public void Contains(Int32 start, Int32 end, Int32 value, Boolean expected) => Assert.Equal(expected, (start..end).Contains(value));
 }

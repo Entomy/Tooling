@@ -2,41 +2,6 @@
 
 public static partial class NumbersomeExtensions {
 	/// <summary>
-	/// Compares two values to compute which is greater.
-	/// </summary>
-	/// <typeparam name="T">A numeric of <see cref="INumber{TSelf}"/>.</typeparam>
-	/// <param name="first">The value to compare to <paramref name="second"/>.</param>
-	/// <param name="second">The value to compare to <paramref name="first"/>.</param>
-	/// <returns><paramref name="first"/> if it is greater than <paramref name="second"/>; otherwise, <paramref name="second"/>.</returns>
-	/// <remarks>
-	/// For <see cref="IFloatingPoint{TSelf}"/>, this method matches the IEEE 754:2019 maximum function. This requires <see cref="IFloatingPointIeee754{TSelf}.NaN"/> inputs to be propagated back to the caller and for <see cref="IFloatingPointIeee754{TSelf}.NegativeZero"/> to be treated as less than <see cref="INumberBase{TSelf}.Zero"/>.
-	/// </remarks>
-	[ExcludeFromCodeCoverage]
-	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	public static T Max<T>(this T first, T second) where T : INumber<T> => T.Max(first, second);
-
-	/// <summary>
-	/// Compares the values to compute which is greater.
-	/// </summary>
-	/// <typeparam name="T">A numeric of <see cref="IMinMaxValue{TSelf}"/> and <see cref="INumber{TSelf}"/>.</typeparam>
-	/// <param name="first">The first of the values to compare.</param>
-	/// <param name="others">The other values to compare.</param>
-	/// <returns>The greatest of the values.</returns>
-	/// <remarks>
-	/// For <see cref="IFloatingPoint{TSelf}"/>, this method matches the IEEE 754:2019 maximum function. This requires <see cref="IFloatingPointIeee754{TSelf}.NaN"/> inputs to be propagated back to the caller and for <see cref="IFloatingPointIeee754{TSelf}.NegativeZero"/> to be treated as less than <see cref="INumberBase{TSelf}.Zero"/>.
-	/// </remarks>
-	public static T Max<T>(this T first, params T[] others) where T : IMinMaxValue<T>, INumber<T> {
-		if (others is null) {
-			return first;
-		}
-		T max = T.MinValue;
-		foreach (T value in others) {
-			max = T.Max(value, max);
-		}
-		return T.Max(first, max);
-	}
-
-	/// <summary>
 	/// Compares the <paramref name="values"/> to compute which is greater.
 	/// </summary>
 	/// <param name="values">The values to compare.</param>

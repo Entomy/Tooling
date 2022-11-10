@@ -1402,24 +1402,6 @@ references:
   isSpec: "True"
   fullName: System.NumbersomeExtensions.Max
   nameWithType: NumbersomeExtensions.Max
-- uid: System.NumbersomeExtensions.Max``1(``0,``0)
-  name: Max<T>(T, T)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1___0___0_
-  commentId: M:System.NumbersomeExtensions.Max``1(``0,``0)
-  name.vb: Max(Of T)(T, T)
-  fullName: System.NumbersomeExtensions.Max<T>(T, T)
-  fullName.vb: System.NumbersomeExtensions.Max(Of T)(T, T)
-  nameWithType: NumbersomeExtensions.Max<T>(T, T)
-  nameWithType.vb: NumbersomeExtensions.Max(Of T)(T, T)
-- uid: System.NumbersomeExtensions.Max``1(``0,``0[])
-  name: Max<T>(T, T[])
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1___0___0___
-  commentId: M:System.NumbersomeExtensions.Max``1(``0,``0[])
-  name.vb: Max(Of T)(T, T())
-  fullName: System.NumbersomeExtensions.Max<T>(T, T[])
-  fullName.vb: System.NumbersomeExtensions.Max(Of T)(T, T())
-  nameWithType: NumbersomeExtensions.Max<T>(T, T[])
-  nameWithType.vb: NumbersomeExtensions.Max(Of T)(T, T())
 - uid: System.NumbersomeExtensions.Max``1(``0[])
   name: Max<T>(T[])
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Max__1___0___
@@ -1483,216 +1465,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.Max(Of T)(System.Span(Of T))
   nameWithType: NumbersomeExtensions.Max<T>(Span<T>)
   nameWithType.vb: NumbersomeExtensions.Max(Of T)(Span(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitude*
-  name: MaxMagnitude
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude_
-  commentId: Overload:System.NumbersomeExtensions.MaxMagnitude
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.MaxMagnitude
-  nameWithType: NumbersomeExtensions.MaxMagnitude
-- uid: System.NumbersomeExtensions.MaxMagnitude``1(``0[])
-  name: MaxMagnitude<T>(T[])
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1___0___
-  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(``0[])
-  name.vb: MaxMagnitude(Of T)(T())
-  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(T[])
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(T())
-  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(T[])
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(T())
-- uid: System.NumbersomeExtensions.MaxMagnitude``1(IEnumerable{``0})
-  name: MaxMagnitude<T>(IEnumerable<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_IEnumerable___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(IEnumerable{``0})
-  name.vb: MaxMagnitude(Of T)(IEnumerable(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(IEnumerable<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(IEnumerable(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(IEnumerable<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(IEnumerable(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.ArraySegment{``0})
-  name: MaxMagnitude<T>(ArraySegment<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_ArraySegment___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.ArraySegment{``0})
-  name.vb: MaxMagnitude(Of T)(ArraySegment(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.ArraySegment<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.ArraySegment(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(ArraySegment<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(ArraySegment(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.Memory{``0})
-  name: MaxMagnitude<T>(Memory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_Memory___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.Memory{``0})
-  name.vb: MaxMagnitude(Of T)(Memory(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.Memory<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.Memory(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(Memory<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(Memory(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.ReadOnlyMemory{``0})
-  name: MaxMagnitude<T>(ReadOnlyMemory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_ReadOnlyMemory___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.ReadOnlyMemory{``0})
-  name.vb: MaxMagnitude(Of T)(ReadOnlyMemory(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.ReadOnlyMemory<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.ReadOnlyMemory(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(ReadOnlyMemory<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(ReadOnlyMemory(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.ReadOnlySpan{``0})
-  name: MaxMagnitude<T>(ReadOnlySpan<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_ReadOnlySpan___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.ReadOnlySpan{``0})
-  name.vb: MaxMagnitude(Of T)(ReadOnlySpan(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.ReadOnlySpan<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.ReadOnlySpan(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(ReadOnlySpan<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(ReadOnlySpan(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitude``1(System.Span{``0})
-  name: MaxMagnitude<T>(Span<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitude__1_System_Span___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitude``1(System.Span{``0})
-  name.vb: MaxMagnitude(Of T)(Span(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitude<T>(System.Span<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitude(Of T)(System.Span(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitude<T>(Span<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitude(Of T)(Span(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitudeNumber*
-  name: MaxMagnitudeNumber
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber_
-  commentId: Overload:System.NumbersomeExtensions.MaxMagnitudeNumber
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber
-  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber
-- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(``0[])
-  name: MaxMagnitudeNumber<T>(T[])
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1___0___
-  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(``0[])
-  name.vb: MaxMagnitudeNumber(Of T)(T())
-  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(T[])
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(T())
-  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(T[])
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(T())
-- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(IEnumerable{``0})
-  name: MaxMagnitudeNumber<T>(IEnumerable<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_IEnumerable___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(IEnumerable{``0})
-  name.vb: MaxMagnitudeNumber(Of T)(IEnumerable(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(IEnumerable<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(IEnumerable(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(IEnumerable<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(IEnumerable(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ArraySegment{``0})
-  name: MaxMagnitudeNumber<T>(ArraySegment<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_ArraySegment___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ArraySegment{``0})
-  name.vb: MaxMagnitudeNumber(Of T)(ArraySegment(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.ArraySegment<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.ArraySegment(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(ArraySegment<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(ArraySegment(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.Memory{``0})
-  name: MaxMagnitudeNumber<T>(Memory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_Memory___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.Memory{``0})
-  name.vb: MaxMagnitudeNumber(Of T)(Memory(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.Memory<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.Memory(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(Memory<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(Memory(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ReadOnlyMemory{``0})
-  name: MaxMagnitudeNumber<T>(ReadOnlyMemory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_ReadOnlyMemory___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ReadOnlyMemory{``0})
-  name.vb: MaxMagnitudeNumber(Of T)(ReadOnlyMemory(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.ReadOnlyMemory<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.ReadOnlyMemory(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(ReadOnlyMemory<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(ReadOnlyMemory(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ReadOnlySpan{``0})
-  name: MaxMagnitudeNumber<T>(ReadOnlySpan<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_ReadOnlySpan___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.ReadOnlySpan{``0})
-  name.vb: MaxMagnitudeNumber(Of T)(ReadOnlySpan(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.ReadOnlySpan<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.ReadOnlySpan(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(ReadOnlySpan<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(ReadOnlySpan(Of T))
-- uid: System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.Span{``0})
-  name: MaxMagnitudeNumber<T>(Span<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxMagnitudeNumber__1_System_Span___0__
-  commentId: M:System.NumbersomeExtensions.MaxMagnitudeNumber``1(System.Span{``0})
-  name.vb: MaxMagnitudeNumber(Of T)(Span(Of T))
-  fullName: System.NumbersomeExtensions.MaxMagnitudeNumber<T>(System.Span<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxMagnitudeNumber(Of T)(System.Span(Of T))
-  nameWithType: NumbersomeExtensions.MaxMagnitudeNumber<T>(Span<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxMagnitudeNumber(Of T)(Span(Of T))
-- uid: System.NumbersomeExtensions.MaxNumber*
-  name: MaxNumber
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber_
-  commentId: Overload:System.NumbersomeExtensions.MaxNumber
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.MaxNumber
-  nameWithType: NumbersomeExtensions.MaxNumber
-- uid: System.NumbersomeExtensions.MaxNumber``1(``0[])
-  name: MaxNumber<T>(T[])
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1___0___
-  commentId: M:System.NumbersomeExtensions.MaxNumber``1(``0[])
-  name.vb: MaxNumber(Of T)(T())
-  fullName: System.NumbersomeExtensions.MaxNumber<T>(T[])
-  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(T())
-  nameWithType: NumbersomeExtensions.MaxNumber<T>(T[])
-  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(T())
-- uid: System.NumbersomeExtensions.MaxNumber``1(IEnumerable{``0})
-  name: MaxNumber<T>(IEnumerable<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_IEnumerable___0__
-  commentId: M:System.NumbersomeExtensions.MaxNumber``1(IEnumerable{``0})
-  name.vb: MaxNumber(Of T)(IEnumerable(Of T))
-  fullName: System.NumbersomeExtensions.MaxNumber<T>(IEnumerable<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(IEnumerable(Of T))
-  nameWithType: NumbersomeExtensions.MaxNumber<T>(IEnumerable<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(IEnumerable(Of T))
-- uid: System.NumbersomeExtensions.MaxNumber``1(System.ArraySegment{``0})
-  name: MaxNumber<T>(ArraySegment<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_ArraySegment___0__
-  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.ArraySegment{``0})
-  name.vb: MaxNumber(Of T)(ArraySegment(Of T))
-  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.ArraySegment<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.ArraySegment(Of T))
-  nameWithType: NumbersomeExtensions.MaxNumber<T>(ArraySegment<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(ArraySegment(Of T))
-- uid: System.NumbersomeExtensions.MaxNumber``1(System.Memory{``0})
-  name: MaxNumber<T>(Memory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_Memory___0__
-  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.Memory{``0})
-  name.vb: MaxNumber(Of T)(Memory(Of T))
-  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.Memory<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.Memory(Of T))
-  nameWithType: NumbersomeExtensions.MaxNumber<T>(Memory<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(Memory(Of T))
-- uid: System.NumbersomeExtensions.MaxNumber``1(System.ReadOnlyMemory{``0})
-  name: MaxNumber<T>(ReadOnlyMemory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_ReadOnlyMemory___0__
-  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.ReadOnlyMemory{``0})
-  name.vb: MaxNumber(Of T)(ReadOnlyMemory(Of T))
-  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.ReadOnlyMemory<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.ReadOnlyMemory(Of T))
-  nameWithType: NumbersomeExtensions.MaxNumber<T>(ReadOnlyMemory<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(ReadOnlyMemory(Of T))
-- uid: System.NumbersomeExtensions.MaxNumber``1(System.ReadOnlySpan{``0})
-  name: MaxNumber<T>(ReadOnlySpan<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_ReadOnlySpan___0__
-  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.ReadOnlySpan{``0})
-  name.vb: MaxNumber(Of T)(ReadOnlySpan(Of T))
-  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.ReadOnlySpan<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.ReadOnlySpan(Of T))
-  nameWithType: NumbersomeExtensions.MaxNumber<T>(ReadOnlySpan<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(ReadOnlySpan(Of T))
-- uid: System.NumbersomeExtensions.MaxNumber``1(System.Span{``0})
-  name: MaxNumber<T>(Span<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MaxNumber__1_System_Span___0__
-  commentId: M:System.NumbersomeExtensions.MaxNumber``1(System.Span{``0})
-  name.vb: MaxNumber(Of T)(Span(Of T))
-  fullName: System.NumbersomeExtensions.MaxNumber<T>(System.Span<T>)
-  fullName.vb: System.NumbersomeExtensions.MaxNumber(Of T)(System.Span(Of T))
-  nameWithType: NumbersomeExtensions.MaxNumber<T>(Span<T>)
-  nameWithType.vb: NumbersomeExtensions.MaxNumber(Of T)(Span(Of T))
 - uid: System.NumbersomeExtensions.Min*
   name: Min
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Min_
@@ -1763,216 +1535,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.Min(Of T)(System.Span(Of T))
   nameWithType: NumbersomeExtensions.Min<T>(Span<T>)
   nameWithType.vb: NumbersomeExtensions.Min(Of T)(Span(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitude*
-  name: MinMagnitude
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude_
-  commentId: Overload:System.NumbersomeExtensions.MinMagnitude
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.MinMagnitude
-  nameWithType: NumbersomeExtensions.MinMagnitude
-- uid: System.NumbersomeExtensions.MinMagnitude``1(``0[])
-  name: MinMagnitude<T>(T[])
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1___0___
-  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(``0[])
-  name.vb: MinMagnitude(Of T)(T())
-  fullName: System.NumbersomeExtensions.MinMagnitude<T>(T[])
-  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(T())
-  nameWithType: NumbersomeExtensions.MinMagnitude<T>(T[])
-  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(T())
-- uid: System.NumbersomeExtensions.MinMagnitude``1(IEnumerable{``0})
-  name: MinMagnitude<T>(IEnumerable<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_IEnumerable___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(IEnumerable{``0})
-  name.vb: MinMagnitude(Of T)(IEnumerable(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitude<T>(IEnumerable<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(IEnumerable(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitude<T>(IEnumerable<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(IEnumerable(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitude``1(System.ArraySegment{``0})
-  name: MinMagnitude<T>(ArraySegment<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_ArraySegment___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.ArraySegment{``0})
-  name.vb: MinMagnitude(Of T)(ArraySegment(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.ArraySegment<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.ArraySegment(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitude<T>(ArraySegment<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(ArraySegment(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitude``1(System.Memory{``0})
-  name: MinMagnitude<T>(Memory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_Memory___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.Memory{``0})
-  name.vb: MinMagnitude(Of T)(Memory(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.Memory<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.Memory(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitude<T>(Memory<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(Memory(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitude``1(System.ReadOnlyMemory{``0})
-  name: MinMagnitude<T>(ReadOnlyMemory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_ReadOnlyMemory___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.ReadOnlyMemory{``0})
-  name.vb: MinMagnitude(Of T)(ReadOnlyMemory(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.ReadOnlyMemory<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.ReadOnlyMemory(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitude<T>(ReadOnlyMemory<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(ReadOnlyMemory(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitude``1(System.ReadOnlySpan{``0})
-  name: MinMagnitude<T>(ReadOnlySpan<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_ReadOnlySpan___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.ReadOnlySpan{``0})
-  name.vb: MinMagnitude(Of T)(ReadOnlySpan(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.ReadOnlySpan<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.ReadOnlySpan(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitude<T>(ReadOnlySpan<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(ReadOnlySpan(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitude``1(System.Span{``0})
-  name: MinMagnitude<T>(Span<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitude__1_System_Span___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitude``1(System.Span{``0})
-  name.vb: MinMagnitude(Of T)(Span(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitude<T>(System.Span<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitude(Of T)(System.Span(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitude<T>(Span<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitude(Of T)(Span(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitudeNumber*
-  name: MinMagnitudeNumber
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber_
-  commentId: Overload:System.NumbersomeExtensions.MinMagnitudeNumber
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.MinMagnitudeNumber
-  nameWithType: NumbersomeExtensions.MinMagnitudeNumber
-- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(``0[])
-  name: MinMagnitudeNumber<T>(T[])
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1___0___
-  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(``0[])
-  name.vb: MinMagnitudeNumber(Of T)(T())
-  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(T[])
-  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(T())
-  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(T[])
-  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(T())
-- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(IEnumerable{``0})
-  name: MinMagnitudeNumber<T>(IEnumerable<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_IEnumerable___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(IEnumerable{``0})
-  name.vb: MinMagnitudeNumber(Of T)(IEnumerable(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(IEnumerable<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(IEnumerable(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(IEnumerable<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(IEnumerable(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ArraySegment{``0})
-  name: MinMagnitudeNumber<T>(ArraySegment<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_ArraySegment___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ArraySegment{``0})
-  name.vb: MinMagnitudeNumber(Of T)(ArraySegment(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.ArraySegment<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.ArraySegment(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(ArraySegment<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(ArraySegment(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.Memory{``0})
-  name: MinMagnitudeNumber<T>(Memory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_Memory___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.Memory{``0})
-  name.vb: MinMagnitudeNumber(Of T)(Memory(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.Memory<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.Memory(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(Memory<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(Memory(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ReadOnlyMemory{``0})
-  name: MinMagnitudeNumber<T>(ReadOnlyMemory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_ReadOnlyMemory___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ReadOnlyMemory{``0})
-  name.vb: MinMagnitudeNumber(Of T)(ReadOnlyMemory(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.ReadOnlyMemory<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.ReadOnlyMemory(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(ReadOnlyMemory<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(ReadOnlyMemory(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ReadOnlySpan{``0})
-  name: MinMagnitudeNumber<T>(ReadOnlySpan<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_ReadOnlySpan___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.ReadOnlySpan{``0})
-  name.vb: MinMagnitudeNumber(Of T)(ReadOnlySpan(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.ReadOnlySpan<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.ReadOnlySpan(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(ReadOnlySpan<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(ReadOnlySpan(Of T))
-- uid: System.NumbersomeExtensions.MinMagnitudeNumber``1(System.Span{``0})
-  name: MinMagnitudeNumber<T>(Span<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinMagnitudeNumber__1_System_Span___0__
-  commentId: M:System.NumbersomeExtensions.MinMagnitudeNumber``1(System.Span{``0})
-  name.vb: MinMagnitudeNumber(Of T)(Span(Of T))
-  fullName: System.NumbersomeExtensions.MinMagnitudeNumber<T>(System.Span<T>)
-  fullName.vb: System.NumbersomeExtensions.MinMagnitudeNumber(Of T)(System.Span(Of T))
-  nameWithType: NumbersomeExtensions.MinMagnitudeNumber<T>(Span<T>)
-  nameWithType.vb: NumbersomeExtensions.MinMagnitudeNumber(Of T)(Span(Of T))
-- uid: System.NumbersomeExtensions.MinNumber*
-  name: MinNumber
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber_
-  commentId: Overload:System.NumbersomeExtensions.MinNumber
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.MinNumber
-  nameWithType: NumbersomeExtensions.MinNumber
-- uid: System.NumbersomeExtensions.MinNumber``1(``0[])
-  name: MinNumber<T>(T[])
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1___0___
-  commentId: M:System.NumbersomeExtensions.MinNumber``1(``0[])
-  name.vb: MinNumber(Of T)(T())
-  fullName: System.NumbersomeExtensions.MinNumber<T>(T[])
-  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(T())
-  nameWithType: NumbersomeExtensions.MinNumber<T>(T[])
-  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(T())
-- uid: System.NumbersomeExtensions.MinNumber``1(IEnumerable{``0})
-  name: MinNumber<T>(IEnumerable<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_IEnumerable___0__
-  commentId: M:System.NumbersomeExtensions.MinNumber``1(IEnumerable{``0})
-  name.vb: MinNumber(Of T)(IEnumerable(Of T))
-  fullName: System.NumbersomeExtensions.MinNumber<T>(IEnumerable<T>)
-  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(IEnumerable(Of T))
-  nameWithType: NumbersomeExtensions.MinNumber<T>(IEnumerable<T>)
-  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(IEnumerable(Of T))
-- uid: System.NumbersomeExtensions.MinNumber``1(System.ArraySegment{``0})
-  name: MinNumber<T>(ArraySegment<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_ArraySegment___0__
-  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.ArraySegment{``0})
-  name.vb: MinNumber(Of T)(ArraySegment(Of T))
-  fullName: System.NumbersomeExtensions.MinNumber<T>(System.ArraySegment<T>)
-  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.ArraySegment(Of T))
-  nameWithType: NumbersomeExtensions.MinNumber<T>(ArraySegment<T>)
-  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(ArraySegment(Of T))
-- uid: System.NumbersomeExtensions.MinNumber``1(System.Memory{``0})
-  name: MinNumber<T>(Memory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_Memory___0__
-  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.Memory{``0})
-  name.vb: MinNumber(Of T)(Memory(Of T))
-  fullName: System.NumbersomeExtensions.MinNumber<T>(System.Memory<T>)
-  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.Memory(Of T))
-  nameWithType: NumbersomeExtensions.MinNumber<T>(Memory<T>)
-  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(Memory(Of T))
-- uid: System.NumbersomeExtensions.MinNumber``1(System.ReadOnlyMemory{``0})
-  name: MinNumber<T>(ReadOnlyMemory<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_ReadOnlyMemory___0__
-  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.ReadOnlyMemory{``0})
-  name.vb: MinNumber(Of T)(ReadOnlyMemory(Of T))
-  fullName: System.NumbersomeExtensions.MinNumber<T>(System.ReadOnlyMemory<T>)
-  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.ReadOnlyMemory(Of T))
-  nameWithType: NumbersomeExtensions.MinNumber<T>(ReadOnlyMemory<T>)
-  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(ReadOnlyMemory(Of T))
-- uid: System.NumbersomeExtensions.MinNumber``1(System.ReadOnlySpan{``0})
-  name: MinNumber<T>(ReadOnlySpan<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_ReadOnlySpan___0__
-  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.ReadOnlySpan{``0})
-  name.vb: MinNumber(Of T)(ReadOnlySpan(Of T))
-  fullName: System.NumbersomeExtensions.MinNumber<T>(System.ReadOnlySpan<T>)
-  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.ReadOnlySpan(Of T))
-  nameWithType: NumbersomeExtensions.MinNumber<T>(ReadOnlySpan<T>)
-  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(ReadOnlySpan(Of T))
-- uid: System.NumbersomeExtensions.MinNumber``1(System.Span{``0})
-  name: MinNumber<T>(Span<T>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_MinNumber__1_System_Span___0__
-  commentId: M:System.NumbersomeExtensions.MinNumber``1(System.Span{``0})
-  name.vb: MinNumber(Of T)(Span(Of T))
-  fullName: System.NumbersomeExtensions.MinNumber<T>(System.Span<T>)
-  fullName.vb: System.NumbersomeExtensions.MinNumber(Of T)(System.Span(Of T))
-  nameWithType: NumbersomeExtensions.MinNumber<T>(Span<T>)
-  nameWithType.vb: NumbersomeExtensions.MinNumber(Of T)(Span(Of T))
 - uid: System.NumbersomeExtensions.PopCount*
   name: PopCount
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_PopCount_
@@ -2572,6 +2134,319 @@ references:
   fullName.vb: System.NumbersomeExtensions.Verh(Of T)(T)
   nameWithType: NumbersomeExtensions.Verh<T>(T)
   nameWithType.vb: NumbersomeExtensions.Verh(Of T)(T)
+- uid: System.Numerics
+  name: System.Numerics
+  href: api/System.Numerics.html
+  commentId: N:System.Numerics
+  fullName: System.Numerics
+  nameWithType: System.Numerics
+- uid: System.Numerics.Percent`1
+  name: Percent<T>
+  href: api/System.Numerics.Percent-1.html
+  commentId: T:System.Numerics.Percent`1
+  name.vb: Percent(Of T)
+  fullName: System.Numerics.Percent<T>
+  fullName.vb: System.Numerics.Percent(Of T)
+  nameWithType: Percent<T>
+  nameWithType.vb: Percent(Of T)
+- uid: System.Numerics.Percent`1.#ctor
+  name: Percent()
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1__ctor
+  commentId: M:System.Numerics.Percent`1.#ctor
+  fullName: System.Numerics.Percent<T>.Percent()
+  fullName.vb: System.Numerics.Percent(Of T).Percent()
+  nameWithType: Percent<T>.Percent()
+  nameWithType.vb: Percent(Of T).Percent()
+- uid: System.Numerics.Percent`1.#ctor(`0)
+  name: Percent(T)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1__ctor__0_
+  commentId: M:System.Numerics.Percent`1.#ctor(`0)
+  fullName: System.Numerics.Percent<T>.Percent(T)
+  fullName.vb: System.Numerics.Percent(Of T).Percent(T)
+  nameWithType: Percent<T>.Percent(T)
+  nameWithType.vb: Percent(Of T).Percent(T)
+- uid: System.Numerics.Percent`1.#ctor*
+  name: Percent
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1__ctor_
+  commentId: Overload:System.Numerics.Percent`1.#ctor
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Percent
+  fullName.vb: System.Numerics.Percent(Of T).Percent
+  nameWithType: Percent<T>.Percent
+  nameWithType.vb: Percent(Of T).Percent
+- uid: System.Numerics.Percent`1.AdditiveIdentity
+  name: AdditiveIdentity
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_AdditiveIdentity
+  commentId: P:System.Numerics.Percent`1.AdditiveIdentity
+  fullName: System.Numerics.Percent<T>.AdditiveIdentity
+  fullName.vb: System.Numerics.Percent(Of T).AdditiveIdentity
+  nameWithType: Percent<T>.AdditiveIdentity
+  nameWithType.vb: Percent(Of T).AdditiveIdentity
+- uid: System.Numerics.Percent`1.AdditiveIdentity*
+  name: AdditiveIdentity
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_AdditiveIdentity_
+  commentId: Overload:System.Numerics.Percent`1.AdditiveIdentity
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.AdditiveIdentity
+  fullName.vb: System.Numerics.Percent(Of T).AdditiveIdentity
+  nameWithType: Percent<T>.AdditiveIdentity
+  nameWithType.vb: Percent(Of T).AdditiveIdentity
+- uid: System.Numerics.Percent`1.Equals(System.Numerics.Percent{`0})
+  name: Equals(Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_Equals_System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.Equals(System.Numerics.Percent{`0})
+  name.vb: Equals(Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Equals(System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Equals(System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Equals(Percent<T>)
+  nameWithType.vb: Percent(Of T).Equals(Percent(Of T))
+- uid: System.Numerics.Percent`1.Equals(System.Object)
+  name: Equals(Object)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_Equals_System_Object_
+  commentId: M:System.Numerics.Percent`1.Equals(System.Object)
+  fullName: System.Numerics.Percent<T>.Equals(System.Object)
+  fullName.vb: System.Numerics.Percent(Of T).Equals(System.Object)
+  nameWithType: Percent<T>.Equals(Object)
+  nameWithType.vb: Percent(Of T).Equals(Object)
+- uid: System.Numerics.Percent`1.Equals*
+  name: Equals
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_Equals_
+  commentId: Overload:System.Numerics.Percent`1.Equals
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Equals
+  fullName.vb: System.Numerics.Percent(Of T).Equals
+  nameWithType: Percent<T>.Equals
+  nameWithType.vb: Percent(Of T).Equals
+- uid: System.Numerics.Percent`1.GetHashCode
+  name: GetHashCode()
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_GetHashCode
+  commentId: M:System.Numerics.Percent`1.GetHashCode
+  fullName: System.Numerics.Percent<T>.GetHashCode()
+  fullName.vb: System.Numerics.Percent(Of T).GetHashCode()
+  nameWithType: Percent<T>.GetHashCode()
+  nameWithType.vb: Percent(Of T).GetHashCode()
+- uid: System.Numerics.Percent`1.GetHashCode*
+  name: GetHashCode
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_GetHashCode_
+  commentId: Overload:System.Numerics.Percent`1.GetHashCode
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.GetHashCode
+  fullName.vb: System.Numerics.Percent(Of T).GetHashCode
+  nameWithType: Percent<T>.GetHashCode
+  nameWithType.vb: Percent(Of T).GetHashCode
+- uid: System.Numerics.Percent`1.MultiplicativeIdentity
+  name: MultiplicativeIdentity
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_MultiplicativeIdentity
+  commentId: P:System.Numerics.Percent`1.MultiplicativeIdentity
+  fullName: System.Numerics.Percent<T>.MultiplicativeIdentity
+  fullName.vb: System.Numerics.Percent(Of T).MultiplicativeIdentity
+  nameWithType: Percent<T>.MultiplicativeIdentity
+  nameWithType.vb: Percent(Of T).MultiplicativeIdentity
+- uid: System.Numerics.Percent`1.MultiplicativeIdentity*
+  name: MultiplicativeIdentity
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_MultiplicativeIdentity_
+  commentId: Overload:System.Numerics.Percent`1.MultiplicativeIdentity
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.MultiplicativeIdentity
+  fullName.vb: System.Numerics.Percent(Of T).MultiplicativeIdentity
+  nameWithType: Percent<T>.MultiplicativeIdentity
+  nameWithType.vb: Percent(Of T).MultiplicativeIdentity
+- uid: System.Numerics.Percent`1.Of(`0)
+  name: Of(T)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_Of__0_
+  commentId: M:System.Numerics.Percent`1.Of(`0)
+  fullName: System.Numerics.Percent<T>.Of(T)
+  fullName.vb: System.Numerics.Percent(Of T).Of(T)
+  nameWithType: Percent<T>.Of(T)
+  nameWithType.vb: Percent(Of T).Of(T)
+- uid: System.Numerics.Percent`1.Of*
+  name: Of
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_Of_
+  commentId: Overload:System.Numerics.Percent`1.Of
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Of
+  fullName.vb: System.Numerics.Percent(Of T).Of
+  nameWithType: Percent<T>.Of
+  nameWithType.vb: Percent(Of T).Of
+- uid: System.Numerics.Percent`1.op_Addition(`0,System.Numerics.Percent{`0})
+  name: Addition(T, Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Addition__0_System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_Addition(`0,System.Numerics.Percent{`0})
+  name.vb: Addition(T, Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Addition(T, System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Addition(T, System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Addition(T, Percent<T>)
+  nameWithType.vb: Percent(Of T).Addition(T, Percent(Of T))
+- uid: System.Numerics.Percent`1.op_Addition(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name: Addition(Percent<T>, Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Addition_System_Numerics_Percent__0__System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_Addition(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name.vb: Addition(Percent(Of T), Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Addition(System.Numerics.Percent<T>, System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Addition(System.Numerics.Percent(Of T), System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Addition(Percent<T>, Percent<T>)
+  nameWithType.vb: Percent(Of T).Addition(Percent(Of T), Percent(Of T))
+- uid: System.Numerics.Percent`1.op_Addition*
+  name: Addition
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Addition_
+  commentId: Overload:System.Numerics.Percent`1.op_Addition
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Addition
+  fullName.vb: System.Numerics.Percent(Of T).Addition
+  nameWithType: Percent<T>.Addition
+  nameWithType.vb: Percent(Of T).Addition
+- uid: System.Numerics.Percent`1.op_Division(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name: Division(Percent<T>, Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Division_System_Numerics_Percent__0__System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_Division(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name.vb: Division(Percent(Of T), Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Division(System.Numerics.Percent<T>, System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Division(System.Numerics.Percent(Of T), System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Division(Percent<T>, Percent<T>)
+  nameWithType.vb: Percent(Of T).Division(Percent(Of T), Percent(Of T))
+- uid: System.Numerics.Percent`1.op_Division*
+  name: Division
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Division_
+  commentId: Overload:System.Numerics.Percent`1.op_Division
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Division
+  fullName.vb: System.Numerics.Percent(Of T).Division
+  nameWithType: Percent<T>.Division
+  nameWithType.vb: Percent(Of T).Division
+- uid: System.Numerics.Percent`1.op_Equality(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name: Equality(Percent<T>, Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Equality_System_Numerics_Percent__0__System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_Equality(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name.vb: Equality(Percent(Of T), Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Equality(System.Numerics.Percent<T>, System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Equality(System.Numerics.Percent(Of T), System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Equality(Percent<T>, Percent<T>)
+  nameWithType.vb: Percent(Of T).Equality(Percent(Of T), Percent(Of T))
+- uid: System.Numerics.Percent`1.op_Equality*
+  name: Equality
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Equality_
+  commentId: Overload:System.Numerics.Percent`1.op_Equality
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Equality
+  fullName.vb: System.Numerics.Percent(Of T).Equality
+  nameWithType: Percent<T>.Equality
+  nameWithType.vb: Percent(Of T).Equality
+- uid: System.Numerics.Percent`1.op_Inequality(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name: Inequality(Percent<T>, Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Inequality_System_Numerics_Percent__0__System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_Inequality(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name.vb: Inequality(Percent(Of T), Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Inequality(System.Numerics.Percent<T>, System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Inequality(System.Numerics.Percent(Of T), System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Inequality(Percent<T>, Percent<T>)
+  nameWithType.vb: Percent(Of T).Inequality(Percent(Of T), Percent(Of T))
+- uid: System.Numerics.Percent`1.op_Inequality*
+  name: Inequality
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Inequality_
+  commentId: Overload:System.Numerics.Percent`1.op_Inequality
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Inequality
+  fullName.vb: System.Numerics.Percent(Of T).Inequality
+  nameWithType: Percent<T>.Inequality
+  nameWithType.vb: Percent(Of T).Inequality
+- uid: System.Numerics.Percent`1.op_Multiply(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name: Multiply(Percent<T>, Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Multiply_System_Numerics_Percent__0__System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_Multiply(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name.vb: Multiply(Percent(Of T), Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Multiply(System.Numerics.Percent<T>, System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Multiply(System.Numerics.Percent(Of T), System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Multiply(Percent<T>, Percent<T>)
+  nameWithType.vb: Percent(Of T).Multiply(Percent(Of T), Percent(Of T))
+- uid: System.Numerics.Percent`1.op_Multiply*
+  name: Multiply
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Multiply_
+  commentId: Overload:System.Numerics.Percent`1.op_Multiply
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Multiply
+  fullName.vb: System.Numerics.Percent(Of T).Multiply
+  nameWithType: Percent<T>.Multiply
+  nameWithType.vb: Percent(Of T).Multiply
+- uid: System.Numerics.Percent`1.op_Subtraction(`0,System.Numerics.Percent{`0})
+  name: Subtraction(T, Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Subtraction__0_System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_Subtraction(`0,System.Numerics.Percent{`0})
+  name.vb: Subtraction(T, Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Subtraction(T, System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Subtraction(T, System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Subtraction(T, Percent<T>)
+  nameWithType.vb: Percent(Of T).Subtraction(T, Percent(Of T))
+- uid: System.Numerics.Percent`1.op_Subtraction(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name: Subtraction(Percent<T>, Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Subtraction_System_Numerics_Percent__0__System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_Subtraction(System.Numerics.Percent{`0},System.Numerics.Percent{`0})
+  name.vb: Subtraction(Percent(Of T), Percent(Of T))
+  fullName: System.Numerics.Percent<T>.Subtraction(System.Numerics.Percent<T>, System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).Subtraction(System.Numerics.Percent(Of T), System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.Subtraction(Percent<T>, Percent<T>)
+  nameWithType.vb: Percent(Of T).Subtraction(Percent(Of T), Percent(Of T))
+- uid: System.Numerics.Percent`1.op_Subtraction*
+  name: Subtraction
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_Subtraction_
+  commentId: Overload:System.Numerics.Percent`1.op_Subtraction
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.Subtraction
+  fullName.vb: System.Numerics.Percent(Of T).Subtraction
+  nameWithType: Percent<T>.Subtraction
+  nameWithType.vb: Percent(Of T).Subtraction
+- uid: System.Numerics.Percent`1.op_UnaryNegation(System.Numerics.Percent{`0})
+  name: UnaryNegation(Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_UnaryNegation_System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_UnaryNegation(System.Numerics.Percent{`0})
+  name.vb: UnaryNegation(Percent(Of T))
+  fullName: System.Numerics.Percent<T>.UnaryNegation(System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).UnaryNegation(System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.UnaryNegation(Percent<T>)
+  nameWithType.vb: Percent(Of T).UnaryNegation(Percent(Of T))
+- uid: System.Numerics.Percent`1.op_UnaryNegation*
+  name: UnaryNegation
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_UnaryNegation_
+  commentId: Overload:System.Numerics.Percent`1.op_UnaryNegation
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.UnaryNegation
+  fullName.vb: System.Numerics.Percent(Of T).UnaryNegation
+  nameWithType: Percent<T>.UnaryNegation
+  nameWithType.vb: Percent(Of T).UnaryNegation
+- uid: System.Numerics.Percent`1.op_UnaryPlus(System.Numerics.Percent{`0})
+  name: UnaryPlus(Percent<T>)
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_UnaryPlus_System_Numerics_Percent__0__
+  commentId: M:System.Numerics.Percent`1.op_UnaryPlus(System.Numerics.Percent{`0})
+  name.vb: UnaryPlus(Percent(Of T))
+  fullName: System.Numerics.Percent<T>.UnaryPlus(System.Numerics.Percent<T>)
+  fullName.vb: System.Numerics.Percent(Of T).UnaryPlus(System.Numerics.Percent(Of T))
+  nameWithType: Percent<T>.UnaryPlus(Percent<T>)
+  nameWithType.vb: Percent(Of T).UnaryPlus(Percent(Of T))
+- uid: System.Numerics.Percent`1.op_UnaryPlus*
+  name: UnaryPlus
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_op_UnaryPlus_
+  commentId: Overload:System.Numerics.Percent`1.op_UnaryPlus
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.UnaryPlus
+  fullName.vb: System.Numerics.Percent(Of T).UnaryPlus
+  nameWithType: Percent<T>.UnaryPlus
+  nameWithType.vb: Percent(Of T).UnaryPlus
+- uid: System.Numerics.Percent`1.ToString
+  name: ToString()
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_ToString
+  commentId: M:System.Numerics.Percent`1.ToString
+  fullName: System.Numerics.Percent<T>.ToString()
+  fullName.vb: System.Numerics.Percent(Of T).ToString()
+  nameWithType: Percent<T>.ToString()
+  nameWithType.vb: Percent(Of T).ToString()
+- uid: System.Numerics.Percent`1.ToString*
+  name: ToString
+  href: api/System.Numerics.Percent-1.html#System_Numerics_Percent_1_ToString_
+  commentId: Overload:System.Numerics.Percent`1.ToString
+  isSpec: "True"
+  fullName: System.Numerics.Percent<T>.ToString
+  fullName.vb: System.Numerics.Percent(Of T).ToString
+  nameWithType: Percent<T>.ToString
+  nameWithType.vb: Percent(Of T).ToString
 - uid: System.RangeEnumerator
   name: RangeEnumerator
   href: api/System.RangeEnumerator.html

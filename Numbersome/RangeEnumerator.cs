@@ -6,7 +6,7 @@
 public ref struct RangeEnumerator {
 	private readonly Int32 end;
 
-	private readonly Boolean isFromEnd;
+	private readonly Boolean isForeward;
 
 	private readonly Int32 start;
 
@@ -16,9 +16,9 @@ public ref struct RangeEnumerator {
 	/// <param name="range">The <see cref="Range"/> to enumerate.</param>
 	internal RangeEnumerator(Range range) {
 		end = range.End.Value;
-		isFromEnd = range.Start.IsFromEnd;
 		start = range.Start.Value;
-		Current = !isFromEnd ? start - 1 : start + 1;
+		isForeward = range.Start.Value <= range.End.Value;
+		Current = isForeward ? start - 1 : start + 1;
 	}
 
 	/// <summary>
@@ -31,7 +31,7 @@ public ref struct RangeEnumerator {
 	/// </summary>
 	/// <returns><see langword="true"/> if the enumerator was successfully advanced to the next element; <see langword="false"/> if the enumerator has passed the end of the <see cref="Range"/>.</returns>
 	public Boolean MoveNext() {
-		if (!isFromEnd) {
+		if (isForeward) {
 			Current++;
 			return Current < end;
 		} else {
@@ -43,5 +43,5 @@ public ref struct RangeEnumerator {
 	/// <summary>
 	/// Sets the enumerator to its initial position, which is before the first element in the <see cref="Range"/>.
 	/// </summary>
-	public void Reset() => Current = !isFromEnd ? start - 1 : start + 1;
+	public void Reset() => Current = isForeward ? start - 1 : start + 1;
 }

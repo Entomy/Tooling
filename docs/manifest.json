@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/p-kel/Desktop/Numbersome/Documentation",
+  "source_base_path": "C:/Users/p-kel/OneDrive/Desktop/Numbersome/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/System.Collections.Generic.NumbersomeExtensions.html",
-          "hash": "PFbgKsdW8A2QhgzQt41SvN7m9V3hqMAyIdRjeL4q6Xk="
+          "hash": "Dy26RvbwLrwObPV6xlhIOSkfm1UIGOZKAPqSCBYdBWg="
         }
       },
       "is_incremental": true,
@@ -33,10 +33,34 @@
       "output": {
         ".html": {
           "relative_path": "api/System.NumbersomeExtensions.html",
-          "hash": "noz0c2IPxf10H2j+z/Qh1YelaRARVrN1YX+8CgEIcdQ="
+          "hash": "S+JYt98Mznvp6FcroA0+gpMkcINJyOa5K7VYUndsKek="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Numerics.Percent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Numerics.Percent-1.html",
+          "hash": "kCjkSK7Wley2L2RkBlOioWzeY2+G3F4+eIM/Wo9o8PI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Numerics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Numerics.html",
+          "hash": "7aTNe+tayDgRNUe7KvzYrmrrOEYDCWjVuR5zu7tKQpI="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/System.RangeEnumerator.html",
-          "hash": "uVwFwsfpA0lXgGZea5zYK8EUV0fAjLb4PlQsYp/es8s="
+          "hash": "6nASem9iHW3wYCyQ+sHD0r/6zmXgXdB8ryEvHXvcJz0="
         }
       },
       "is_incremental": true,
@@ -57,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/System.html",
-          "hash": "KSqOoxnBzMbBGO+n47rIgnv163CBNtKpU04q9jgtdUM="
+          "hash": "iTSnHxr9JcxLMXjTi7O/aDIPOyrK45UlvFprI0auqpU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/Uv0KxnfC76vJ7T8cR3g5Sr2W53EsQRq6re+q30gUvI="
+          "hash": "Ii+Zu/HGF+48moUkgM8Y0cfPiE8j4+t70lzvXmKWv3I="
         }
       },
       "is_incremental": false,
@@ -154,8 +178,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 4
+          "total_file_count": 7,
+          "skipped_file_count": 7
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

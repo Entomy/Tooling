@@ -8,6 +8,39 @@ open System.Numerics
 [<AutoOpen>]
 module public NumbersomeFunctions =
 
+    /// <summary>Computes the unary plus of a value.</summary>
+    let inline ( ~+ ) (value) = NumbersomeExtensions.Assert(value)
+
+    /// <summary>Computes the unary negation of a value.</summary>
+    let inline ( ~- ) (value) = NumbersomeExtensions.Negate(value)
+
+    /// <summary>Adds two values together to compute their sum.</summary>
+    let inline ( + ) (left) (right) = NumbersomeExtensions.Add(left, right)
+
+    /// <summary>Divides one value by another to compute their quotient.</summary>
+    let inline ( / ) (left) (right) = NumbersomeExtensions.Divide(left, right)
+
+    /// <summary>Divides two values together to compute their modulus or remainder.</summary>
+    let inline ( % ) (left) (right) = NumbersomeExtensions.Modulus(left, right)
+
+    /// <summary>Multiplies two values together to compute their product.</summary>
+    let inline ( * ) (left) (right) = NumbersomeExtensions.Multiply(left, right)
+
+    /// <summary>Subtracts two values to compute their difference.</summary>
+    let inline ( - ) (left) (right) = NumbersomeExtensions.Subtract(left, right)
+
+    /// <summary>Computes the ones-complement representation of a given value.</summary>
+    let inline ( ~~~ ) (value) = NumbersomeExtensions.OnesComplement(value)
+
+    /// <summary>Computes the bitwise-and of two values.</summary>
+    let inline ( &&& ) (left) (right) = NumbersomeExtensions.And(left, right)
+
+    /// <summary>Computes the bitwise-or of two values.</summary>
+    let inline ( ||| ) (left) (right) = NumbersomeExtensions.Or(left, right)
+
+    /// <summary>Computes the exclusive-or of two values.</summary>
+    let inline ( ^^^ ) (left) (right) = NumbersomeExtensions.XOr(left, right)
+
     /// <summary>Computes the absolute of a value.</summary>
     let inline abs (value) = NumbersomeExtensions.Abs(value)
 

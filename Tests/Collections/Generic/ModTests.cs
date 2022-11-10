@@ -9,6 +9,19 @@ public partial class NumbersomeExtensionsTests {
 		stack.Push(first);
 		stack.Push(second);
 		stack.Mod();
-		Assert.Equal(stack.Pop(), expected);
+		Assert.Equal(expected, stack.Pop());
+	}
+
+	[Fact]
+	public void Mod_Null() {
+		Stack<Double>? stack = null!;
+		Assert.Throws<ArgumentNullException>(() => stack!.Mod());
+	}
+
+	[Fact]
+	public void Mod_Invalid() {
+		Stack<Double> stack = new Stack<Double>();
+		stack.Push(1.0);
+		Assert.Throws<InvalidOperationException>(() => stack.Mod());
 	}
 }
