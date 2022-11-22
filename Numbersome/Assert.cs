@@ -10,5 +10,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The unary plus of value.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult Assert<TValue, TResult>(TValue value) where TValue : IUnaryPlusOperators<TValue, TResult> => +value;
+	public static TResult Assert<TValue, TResult>(TValue value) where TValue : IUnaryPlusOperators<TValue, TResult> => +value;
 }

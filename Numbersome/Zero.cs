@@ -7,5 +7,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns><c>0</c></returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static T Zero<T>() where T : INumberBase<T> => T.Zero;
+	public static T Zero<T>() where T : INumberBase<T> => T.Zero;
 }

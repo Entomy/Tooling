@@ -9,7 +9,7 @@
     <Rule Id="CC0001" Action="None" />
   </Rules>
   <Rules AnalyzerId="Meziantou.Analyzer" RuleNamespace="Meziantou.Analyzer">
-    <Rule Id="MA0048" Action="Error" />
+    <Rule Id="MA0048" Action="Info" />
   </Rules>
   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
     <Rule Id="CA1000" Action="Warning" />

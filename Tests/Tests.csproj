@@ -7,7 +7,6 @@
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<IsPackable>false</IsPackable>
-		<CodeAnalysisRuleSet>..\Global.ruleset</CodeAnalysisRuleSet>
 	</PropertyGroup>
 
 	<ItemGroup>

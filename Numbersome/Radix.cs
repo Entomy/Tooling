@@ -8,5 +8,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The radix of <typeparamref name="T"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static Int32 Radix<T>() where T : INumberBase<T> => T.Radix;
+	public static Int32 Radix<T>() where T : INumberBase<T> => T.Radix;
 }

@@ -8,5 +8,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns><c>1</c></returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static T One<T>() where T : INumberBase<T> => T.One;
+	public static T One<T>() where T : INumberBase<T> => T.One;
 }

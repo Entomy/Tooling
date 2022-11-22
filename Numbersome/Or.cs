@@ -12,5 +12,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The bitwise-or of <paramref name="left"/> and <paramref name="right"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult Or<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IBitwiseOperators<TLeft, TRight, TResult> => left | right;
+	public static TResult Or<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IBitwiseOperators<TLeft, TRight, TResult> => left | right;
 }

@@ -8,5 +8,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns><c>NaN</c> of <see cref="IFloatingPointIeee754{TSelf}"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static T NaN<T>() where T : IFloatingPointIeee754<T> => T.NaN;
+	public static T NaN<T>() where T : IFloatingPointIeee754<T> => T.NaN;
 }

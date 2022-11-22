@@ -316,28 +316,10 @@ module public NumbersomeFunctions =
         s
 
     /// <summary>Averages the <paramref name="values"/>, by arithmetic mean.</summary>
-    let inline arithmeticMean (values:^a seq):^a =
-        let mutable sum = additiveIdentity< ^a>
-        let mutable count = zero< ^a>
-        for value in values do
-            sum <- sum + value
-            count <- count + one< ^a>
-        sum / count
+    let inline arithmeticMean (values:^a seq):^a = NumbersomeExtensions.ArithmeticMean(values)
 
     /// <summary>Averages the <paramref name="values"/>, by geometric mean.</summary>
-    let inline geometricMean (values:^a seq) =
-        let mutable prod = multiplicativeIdentity< ^a>
-        let mutable count = zero< ^a>
-        for value in values do
-            prod <- prod * value
-            count <- count + one< ^a>
-        prod |> pow (one< ^a> / count)
+    let inline geometricMean (values:^a seq) = NumbersomeExtensions.GeometricMean(values)
 
     /// <summary>Averages the <paramref name="values"/>, by harmonic mean.</summary>
-    let inline harmonicMean (values:^a seq):^a =
-        let mutable sum = additiveIdentity< ^a>
-        let mutable count = zero< ^a>
-        for value in values do
-            sum <- one< ^a> / value
-            count <- count + one< ^a>
-        count / sum
+    let inline harmonicMean (values:^a seq):^a = NumbersomeExtensions.HarmonicMean(values)

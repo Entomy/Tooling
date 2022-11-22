@@ -10,5 +10,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The ones-complement of <paramref name="value"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult OnesComplement<TValue, TResult>(TValue value) where TValue : IBitwiseOperators<TValue, TValue, TResult> => ~value;
+	public static TResult OnesComplement<TValue, TResult>(TValue value) where TValue : IBitwiseOperators<TValue, TValue, TResult> => ~value;
 }

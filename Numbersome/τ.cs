@@ -8,5 +8,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns><c>τ</c> for <typeparamref name="T"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static T τ<T>() where T : IFloatingPointConstants<T> => T.Tau;
+	public static T τ<T>() where T : IFloatingPointConstants<T> => T.Tau;
 }

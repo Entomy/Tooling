@@ -2,24 +2,13 @@
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
-		<PackageVersion>7.0.0</PackageVersion>
 		<LangVersion>11.0</LangVersion>
 		<Nullable>enable</Nullable>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<IsTrimmable>true</IsTrimmable>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
 		<Description>Numerical extensions and types for a more pleasant math experience.</Description>
-		<Copyright>2022</Copyright>
-		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
-		<PackageProjectUrl>https://entomy.github.io/Numbersome/</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/Entomy/Numbersome</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<PackageTags>number, numeric, numerics, math, maths, mathematics</PackageTags>
 		<AssemblyName>Numbersome</AssemblyName>
 		<RootNamespace>System</RootNamespace>
@@ -33,23 +22,6 @@
 
 	<ItemGroup>
 		<None Include="Logo.png" Pack="true" Visible="true" PackagePath="\" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
-		<PackageReference Include="ExceptionAnalyzer" Version="1.0.5" PrivateAssets="all" />
-		<PackageReference Include="Meziantou.Analyzer" Version="1.0.723" PrivateAssets="all" />
-		<PackageReference Include="Microsoft.CodeAnalysis" Version="4.3.0" PrivateAssets="all" />
-		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" PrivateAssets="all" />
-		<PackageReference Include="Roslynator.Analyzers" Version="4.1.1" PrivateAssets="all" />
-		<PackageReference Include="SonarAnalyzer.CSharp" Version="8.44.0.52574" PrivateAssets="all" />
-		<PackageReference Include="ClrHeapAllocationAnalyzer" Version="3.0.0" PrivateAssets="all" />
-		<PackageReference Include="IDisposableAnalyzers" Version="4.0.2" PrivateAssets="all" />
-		<PackageReference Include="codecracker.CSharp" Version="1.1.0" PrivateAssets="all" />
-		<PackageReference Include="CSharpGuidelinesAnalyzer" Version="3.8.2" PrivateAssets="all" />
-		<PackageReference Include="SwitchAnalyzer" Version="0.6.10" PrivateAssets="all" />
-		<PackageReference Include="NetFabric.Hyperlinq.Analyzer" Version="2.0.4" PrivateAssets="all" />
-		<PackageReference Include="ExhaustiveMatching.Analyzer" Version="0.5.0" PrivateAssets="All" />
 	</ItemGroup>
 
 </Project>

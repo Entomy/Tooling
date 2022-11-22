@@ -8,5 +8,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The additive identity of <typeparamref name="T"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static T AdditiveIdentity<T>() where T : IAdditiveIdentity<T, T> => T.AdditiveIdentity;
+	public static T AdditiveIdentity<T>() where T : IAdditiveIdentity<T, T> => T.AdditiveIdentity;
 }

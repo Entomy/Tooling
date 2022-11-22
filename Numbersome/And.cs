@@ -12,5 +12,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns></returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult And<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IBitwiseOperators<TLeft, TRight, TResult> => left & right;
+	public static TResult And<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IBitwiseOperators<TLeft, TRight, TResult> => left & right;
 }

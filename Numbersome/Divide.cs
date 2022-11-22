@@ -12,5 +12,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The quotient of <paramref name="left"/> divided by <paramref name="right"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult Divide<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IDivisionOperators<TLeft, TRight, TResult> => left / right;
+	public static TResult Divide<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IDivisionOperators<TLeft, TRight, TResult> => left / right;
 }

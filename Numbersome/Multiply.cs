@@ -12,5 +12,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The product of <paramref name="left"/> </returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult Multiply<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IMultiplyOperators<TLeft, TRight, TResult> => left * right;
+	public static TResult Multiply<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IMultiplyOperators<TLeft, TRight, TResult> => left * right;
 }

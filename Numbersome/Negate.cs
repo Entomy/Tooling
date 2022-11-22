@@ -10,5 +10,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The unary negation of <paramref name="value"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult Negate<TValue, TResult>(TValue value) where TValue : IUnaryNegationOperators<TValue, TResult> => -value;
+	public static TResult Negate<TValue, TResult>(TValue value) where TValue : IUnaryNegationOperators<TValue, TResult> => -value;
 }

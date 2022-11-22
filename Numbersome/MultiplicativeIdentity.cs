@@ -8,5 +8,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The multiplicative identity of <typeparamref name="T"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static T MultiplicativeIdentity<T>() where T : IMultiplicativeIdentity<T, T> => T.MultiplicativeIdentity;
+	public static T MultiplicativeIdentity<T>() where T : IMultiplicativeIdentity<T, T> => T.MultiplicativeIdentity;
 }

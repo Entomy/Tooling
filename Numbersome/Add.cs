@@ -12,5 +12,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The sum of <paramref name="left"/> and <paramref name="right"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult Add<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IAdditionOperators<TLeft, TRight, TResult> => left + right;
+	public static TResult Add<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IAdditionOperators<TLeft, TRight, TResult> => left + right;
 }

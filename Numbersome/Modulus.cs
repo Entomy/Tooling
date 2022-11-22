@@ -12,5 +12,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The modulus or remainder of <paramref name="left"/> divided by <paramref name="right"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult Modulus<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IModulusOperators<TLeft, TRight, TResult> => left % right;
+	public static TResult Modulus<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : IModulusOperators<TLeft, TRight, TResult> => left % right;
 }

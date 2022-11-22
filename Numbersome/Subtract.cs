@@ -12,5 +12,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The value of <paramref name="right"/> subtracted from <paramref name="left"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	internal static TResult Subtract<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : ISubtractionOperators<TLeft, TRight, TResult> => left - right;
+	public static TResult Subtract<TLeft, TRight, TResult>(TLeft left, TRight right) where TLeft : ISubtractionOperators<TLeft, TRight, TResult> => left - right;
 }
