@@ -2,7 +2,6 @@
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
-		<PackageVersion>7.0.0</PackageVersion>
 		<IsTrimmable>true</IsTrimmable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -23,7 +22,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Include="NumbersomeFunctions.fs" />
+		<Compile Include="System.fs" />
+		<Compile Include="SystemNumerics.fs" />
 	</ItemGroup>
 
 	<ItemGroup>

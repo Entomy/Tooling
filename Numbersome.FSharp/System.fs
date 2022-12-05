@@ -9,37 +9,37 @@ open System.Numerics
 module public NumbersomeFunctions =
 
     /// <summary>Computes the unary plus of a value.</summary>
-    let inline ( ~+ ) (value) = NumbersomeExtensions.Assert(value)
+    let inline ( ~+ ) (value:^value):^result = ((^value) : (static member (~+) : ^value -> ^result)(value))
 
     /// <summary>Computes the unary negation of a value.</summary>
-    let inline ( ~- ) (value) = NumbersomeExtensions.Negate(value)
+    let inline ( ~- ) (value:^value):^result = ((^value) : (static member (~-) : ^value -> ^result)(value))
 
     /// <summary>Adds two values together to compute their sum.</summary>
-    let inline ( + ) (left) (right) = NumbersomeExtensions.Add(left, right)
+    let inline ( + ) (left:^left) (right:^right):^result = ((^left or ^right) : (static member (+) : ^left -> ^right -> ^result)(left, right))
 
     /// <summary>Divides one value by another to compute their quotient.</summary>
-    let inline ( / ) (left) (right) = NumbersomeExtensions.Divide(left, right)
+    let inline ( / ) (left:^left) (right:^right):^result = ((^left or ^right) : (static member (/) : ^left -> ^right -> ^result)(left, right))
 
     /// <summary>Divides two values together to compute their modulus or remainder.</summary>
-    let inline ( % ) (left) (right) = NumbersomeExtensions.Modulus(left, right)
+    let inline ( % ) (left:^left) (right:^right):^result = ((^left or ^right) : (static member (%) : ^left -> ^right -> ^result)(left, right))
 
     /// <summary>Multiplies two values together to compute their product.</summary>
-    let inline ( * ) (left) (right) = NumbersomeExtensions.Multiply(left, right)
+    let inline ( * ) (left:^left) (right:^right):^result = ((^left or ^right) : (static member (*) : ^left -> ^right -> ^result)(left, right))
 
     /// <summary>Subtracts two values to compute their difference.</summary>
-    let inline ( - ) (left) (right) = NumbersomeExtensions.Subtract(left, right)
+    let inline ( - ) (left:^left) (right:^right) = ((^left or ^right) : (static member (-) : ^left -> ^right -> ^result)(left, right))
 
     /// <summary>Computes the ones-complement representation of a given value.</summary>
-    let inline ( ~~~ ) (value) = NumbersomeExtensions.OnesComplement(value)
+    let inline ( ~~~ ) (value:^value):^result = ((^value) : (static member (~~~) : ^value -> ^result)(value))
 
     /// <summary>Computes the bitwise-and of two values.</summary>
-    let inline ( &&& ) (left) (right) = NumbersomeExtensions.And(left, right)
+    let inline ( &&& ) (left:^left) (right:^right):^result = ((^left or ^right) : (static member (&&&) : ^left -> ^right -> ^result)(left, right))
 
     /// <summary>Computes the bitwise-or of two values.</summary>
-    let inline ( ||| ) (left) (right) = NumbersomeExtensions.Or(left, right)
+    let inline ( ||| ) (left:^left) (right:^right):^result = ((^left or ^right) : (static member (|||) : ^left -> ^right -> ^result)(left, right))
 
     /// <summary>Computes the exclusive-or of two values.</summary>
-    let inline ( ^^^ ) (left) (right) = NumbersomeExtensions.XOr(left, right)
+    let inline ( ^^^ ) (left:^left) (right:^right):^result = ((^left or ^right) : (static member (^^^) : ^left -> ^right -> ^result)(left, right))
 
     /// <summary>Computes the absolute of a value.</summary>
     let inline abs (value) = NumbersomeExtensions.Abs(value)
@@ -154,6 +154,9 @@ module public NumbersomeFunctions =
     /// <summary>Computes the fused multiply-add of three values.</summary>
     let inline ( *+ ) (multiplicands:^a * ^a) (addend:^a) = NumbersomeExtensions.FusedMultiplyAdd(multiplicands.ToValueTuple(), addend)
 
+    /// <summary>Finds the greatest common divisor of two values.</summary>
+    let inline gcd (first) (second) = NumbersomeExtensions.Gcd(first, second)
+
     /// <summary>Computes the halved versed sine of a value.</summary>
     let inline hav (value) = NumbersomeExtensions.Hav(value)
     
@@ -189,6 +192,9 @@ module public NumbersomeFunctions =
 
     /// <summary>Determines if a value is <see cref="IFloatingPointIeee754{TSelf}.NaN"/>.</summary>
     let inline isNaN (value) = NumbersomeExtensions.IsNaN(value)
+
+    /// <summary>Finds the least common multiple of two values.</summary>
+    let inline lcm (first) (second) = NumbersomeExtensions.Lcm(first, second)
 
     /// <summary>Computes the natural (base-<see cref="IFloatingPointConstants{TSelf}.E"/>) logarithm of a value.</summary>
     let inline log (value) = NumbersomeExtensions.Log(value)
@@ -302,18 +308,10 @@ module public NumbersomeFunctions =
     let inline zero< ^a when ^a :> INumberBase< ^a>> = NumbersomeExtensions.Zero< ^a>()
 
     /// <summary>Multiplies the <paramref name="values"/>.</summary>
-    let inline product (values:^a seq) =
-        let mutable p = multiplicativeIdentity< ^a>
-        for value in values do
-            p <- p * value
-        p
+    let inline product (values:^a seq) = NumbersomeExtensions.Product(values)
 
     /// <summary>Sumates the <paramref name="values"/>.</summary>
-    let inline sum (values:^a seq) =
-        let mutable s = additiveIdentity< ^a>
-        for value in values do
-            s <- s + value
-        s
+    let inline sum (values:^a seq) = NumbersomeExtensions.Sum(values)
 
     /// <summary>Averages the <paramref name="values"/>, by arithmetic mean.</summary>
     let inline arithmeticMean (values:^a seq):^a = NumbersomeExtensions.ArithmeticMean(values)

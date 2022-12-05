@@ -1,15 +1,19 @@
 namespace Tests
 
 open System
+open System.Numerics
 open Xunit
 
-module NumbersomeFunctions =
+module System =
     
     [<Fact>]
-    let ``+`` () = Assert.Equal(2.0, 1.0 + 1.0)
-
+    let ``+`` () =
+        Assert.Equal(2, 1 + 1)
+        Assert.Equal(2.0, 1.0 + 1.0)
+        Assert.Equal("hello!", "hello" + "!")
+        
     [<Fact>]
-    let ``&&&`` () = Assert.Equal(0.0, 0.0 &&& 1.0)
+    let ``&&&`` () = Assert.Equal(0, 0 &&& 1)
 
     [<Fact>]
     let ``arithmeticMean`` () = Assert.Equal(3.0, arithmeticMean [1.0; 2.0; 3.0; 4.0; 5.0])
@@ -42,13 +46,23 @@ module NumbersomeFunctions =
     let ``~-`` () = Assert.Equal(1.0, -(-1.0))
 
     [<Fact>]
-    let ``~~~`` () = Assert.Equal(-3.9999999999999996, ~~~1.0)
+    let ``~~~`` () = Assert.Equal(-2, ~~~1)
 
     [<Fact>]
-    let ``|||`` () = Assert.Equal(1.0, 0.0 ||| 1.0)
+    let ``|||`` () = Assert.Equal(1, 0 ||| 1)
 
     [<Fact>]
     let ``product`` () = Assert.Equal(120.0, product [1.0; 2.0; 3.0; 4.0; 5.0])
 
     [<Fact>]
     let ``sum`` () = Assert.Equal(15.0, sum [1.0; 2.0; 3.0; 4.0; 5.0])
+
+module SystemNumerics =
+    [<Fact>]
+    let ``+`` () = Assert.Equal(12.5, 10.0 + percent(25.0))
+
+    [<Fact>]
+    let ``%>`` () = Assert.Equal(2.5, percent(25.0) %> 10.0)
+
+    [<Fact>]
+    let ``<%`` () = Assert.Equal(2.5, 10.0 <% percent(25.0))
