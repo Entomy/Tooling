@@ -10,5 +10,5 @@ public static partial class NumbersomeExtensions {
 	/// <returns>The result of rotating <paramref name="value"/> right by <paramref name="amount"/>.</returns>
 	[ExcludeFromCodeCoverage]
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
-	public static T RotateRight<T>(this T value, Int32 amount) where T : IBinaryInteger<T> => T.RotateLeft(value, amount);
+	public static T RotateRight<T>(this T value, Int32 amount) where T : IBinaryInteger<T> => T.RotateRight(value, amount);
 }

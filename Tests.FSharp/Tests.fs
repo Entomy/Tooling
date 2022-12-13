@@ -11,6 +11,9 @@ module System =
         Assert.Equal(2, 1 + 1)
         Assert.Equal(2.0, 1.0 + 1.0)
         Assert.Equal("hello!", "hello" + "!")
+        Assert.Equal(2y, 1y + 1y)
+        Assert.Equal(2us, 1us + 1us)
+        Assert.Equal(2L, 1L + 1L)
         
     [<Fact>]
     let ``&&&`` () = Assert.Equal(0, 0 &&& 1)

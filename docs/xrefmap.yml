@@ -153,31 +153,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.Acosh(Of T)(T)
   nameWithType: NumbersomeExtensions.Acosh<T>(T)
   nameWithType.vb: NumbersomeExtensions.Acosh(Of T)(T)
-- uid: System.NumbersomeExtensions.Add*
-  name: Add
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Add_
-  commentId: Overload:System.NumbersomeExtensions.Add
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.Add
-  nameWithType: NumbersomeExtensions.Add
-- uid: System.NumbersomeExtensions.Add``3(``0,IAdditionOperators{``0,``1,``2})
-  name: Add<TLeft, TRight, TResult>(TLeft, IAdditionOperators<TLeft, TRight, TResult>)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Add__3___0_IAdditionOperators___0___1___2__
-  commentId: M:System.NumbersomeExtensions.Add``3(``0,IAdditionOperators{``0,``1,``2})
-  name.vb: Add(Of TLeft, TRight, TResult)(TLeft, IAdditionOperators(Of TLeft, TRight, TResult))
-  fullName: System.NumbersomeExtensions.Add<TLeft, TRight, TResult>(TLeft, IAdditionOperators<TLeft, TRight, TResult>)
-  fullName.vb: System.NumbersomeExtensions.Add(Of TLeft, TRight, TResult)(TLeft, IAdditionOperators(Of TLeft, TRight, TResult))
-  nameWithType: NumbersomeExtensions.Add<TLeft, TRight, TResult>(TLeft, IAdditionOperators<TLeft, TRight, TResult>)
-  nameWithType.vb: NumbersomeExtensions.Add(Of TLeft, TRight, TResult)(TLeft, IAdditionOperators(Of TLeft, TRight, TResult))
-- uid: System.NumbersomeExtensions.Add``3(IAdditionOperators{``0,``1,``2},``1)
-  name: Add<TLeft, TRight, TResult>(IAdditionOperators<TLeft, TRight, TResult>, TRight)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Add__3_IAdditionOperators___0___1___2____1_
-  commentId: M:System.NumbersomeExtensions.Add``3(IAdditionOperators{``0,``1,``2},``1)
-  name.vb: Add(Of TLeft, TRight, TResult)(IAdditionOperators(Of TLeft, TRight, TResult), TRight)
-  fullName: System.NumbersomeExtensions.Add<TLeft, TRight, TResult>(IAdditionOperators<TLeft, TRight, TResult>, TRight)
-  fullName.vb: System.NumbersomeExtensions.Add(Of TLeft, TRight, TResult)(IAdditionOperators(Of TLeft, TRight, TResult), TRight)
-  nameWithType: NumbersomeExtensions.Add<TLeft, TRight, TResult>(IAdditionOperators<TLeft, TRight, TResult>, TRight)
-  nameWithType.vb: NumbersomeExtensions.Add(Of TLeft, TRight, TResult)(IAdditionOperators(Of TLeft, TRight, TResult), TRight)
 - uid: System.NumbersomeExtensions.AdditiveIdentity*
   name: AdditiveIdentity
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_AdditiveIdentity_
@@ -194,22 +169,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.AdditiveIdentity(Of T)()
   nameWithType: NumbersomeExtensions.AdditiveIdentity<T>()
   nameWithType.vb: NumbersomeExtensions.AdditiveIdentity(Of T)()
-- uid: System.NumbersomeExtensions.And*
-  name: And
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_And_
-  commentId: Overload:System.NumbersomeExtensions.And
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.And
-  nameWithType: NumbersomeExtensions.And
-- uid: System.NumbersomeExtensions.And``3(``0,``1)
-  name: And<TLeft, TRight, TResult>(TLeft, TRight)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_And__3___0___1_
-  commentId: M:System.NumbersomeExtensions.And``3(``0,``1)
-  name.vb: And(Of TLeft, TRight, TResult)(TLeft, TRight)
-  fullName: System.NumbersomeExtensions.And<TLeft, TRight, TResult>(TLeft, TRight)
-  fullName.vb: System.NumbersomeExtensions.And(Of TLeft, TRight, TResult)(TLeft, TRight)
-  nameWithType: NumbersomeExtensions.And<TLeft, TRight, TResult>(TLeft, TRight)
-  nameWithType.vb: NumbersomeExtensions.And(Of TLeft, TRight, TResult)(TLeft, TRight)
 - uid: System.NumbersomeExtensions.ArithmeticMean*
   name: ArithmeticMean
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_ArithmeticMean_
@@ -755,22 +714,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.Cvsh(Of T)(T)
   nameWithType: NumbersomeExtensions.Cvsh<T>(T)
   nameWithType.vb: NumbersomeExtensions.Cvsh(Of T)(T)
-- uid: System.NumbersomeExtensions.Divide*
-  name: Divide
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Divide_
-  commentId: Overload:System.NumbersomeExtensions.Divide
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.Divide
-  nameWithType: NumbersomeExtensions.Divide
-- uid: System.NumbersomeExtensions.Divide``3(``0,``1)
-  name: Divide<TLeft, TRight, TResult>(TLeft, TRight)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Divide__3___0___1_
-  commentId: M:System.NumbersomeExtensions.Divide``3(``0,``1)
-  name.vb: Divide(Of TLeft, TRight, TResult)(TLeft, TRight)
-  fullName: System.NumbersomeExtensions.Divide<TLeft, TRight, TResult>(TLeft, TRight)
-  fullName.vb: System.NumbersomeExtensions.Divide(Of TLeft, TRight, TResult)(TLeft, TRight)
-  nameWithType: NumbersomeExtensions.Divide<TLeft, TRight, TResult>(TLeft, TRight)
-  nameWithType.vb: NumbersomeExtensions.Divide(Of TLeft, TRight, TResult)(TLeft, TRight)
 - uid: System.NumbersomeExtensions.DivRem*
   name: DivRem
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_DivRem_
@@ -931,6 +874,22 @@ references:
   fullName.vb: System.NumbersomeExtensions.FusedMultiplyAdd(Of T)(System.ValueTuple(Of T, T), T)
   nameWithType: NumbersomeExtensions.FusedMultiplyAdd<T>((T Left, T Right), T)
   nameWithType.vb: NumbersomeExtensions.FusedMultiplyAdd(Of T)((Left As T, Right As T)(Of T, T), T)
+- uid: System.NumbersomeExtensions.Gcd*
+  name: Gcd
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Gcd_
+  commentId: Overload:System.NumbersomeExtensions.Gcd
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Gcd
+  nameWithType: NumbersomeExtensions.Gcd
+- uid: System.NumbersomeExtensions.Gcd``1(``0,``0)
+  name: Gcd<T>(T, T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Gcd__1___0___0_
+  commentId: M:System.NumbersomeExtensions.Gcd``1(``0,``0)
+  name.vb: Gcd(Of T)(T, T)
+  fullName: System.NumbersomeExtensions.Gcd<T>(T, T)
+  fullName.vb: System.NumbersomeExtensions.Gcd(Of T)(T, T)
+  nameWithType: NumbersomeExtensions.Gcd<T>(T, T)
+  nameWithType.vb: NumbersomeExtensions.Gcd(Of T)(T, T)
 - uid: System.NumbersomeExtensions.GeometricMean*
   name: GeometricMean
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_GeometricMean_
@@ -1420,6 +1379,22 @@ references:
   fullName.vb: System.NumbersomeExtensions.IsZero(Of T)(T)
   nameWithType: NumbersomeExtensions.IsZero<T>(T)
   nameWithType.vb: NumbersomeExtensions.IsZero(Of T)(T)
+- uid: System.NumbersomeExtensions.Lcm*
+  name: Lcm
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Lcm_
+  commentId: Overload:System.NumbersomeExtensions.Lcm
+  isSpec: "True"
+  fullName: System.NumbersomeExtensions.Lcm
+  nameWithType: NumbersomeExtensions.Lcm
+- uid: System.NumbersomeExtensions.Lcm``1(``0,``0)
+  name: Lcm<T>(T, T)
+  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Lcm__1___0___0_
+  commentId: M:System.NumbersomeExtensions.Lcm``1(``0,``0)
+  name.vb: Lcm(Of T)(T, T)
+  fullName: System.NumbersomeExtensions.Lcm<T>(T, T)
+  fullName.vb: System.NumbersomeExtensions.Lcm(Of T)(T, T)
+  nameWithType: NumbersomeExtensions.Lcm<T>(T, T)
+  nameWithType.vb: NumbersomeExtensions.Lcm(Of T)(T, T)
 - uid: System.NumbersomeExtensions.LeadingZeroCount*
   name: LeadingZeroCount
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_LeadingZeroCount_
@@ -1656,22 +1631,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.MultiplicativeIdentity(Of T)()
   nameWithType: NumbersomeExtensions.MultiplicativeIdentity<T>()
   nameWithType.vb: NumbersomeExtensions.MultiplicativeIdentity(Of T)()
-- uid: System.NumbersomeExtensions.Multiply*
-  name: Multiply
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Multiply_
-  commentId: Overload:System.NumbersomeExtensions.Multiply
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.Multiply
-  nameWithType: NumbersomeExtensions.Multiply
-- uid: System.NumbersomeExtensions.Multiply``3(``0,``1)
-  name: Multiply<TLeft, TRight, TResult>(TLeft, TRight)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Multiply__3___0___1_
-  commentId: M:System.NumbersomeExtensions.Multiply``3(``0,``1)
-  name.vb: Multiply(Of TLeft, TRight, TResult)(TLeft, TRight)
-  fullName: System.NumbersomeExtensions.Multiply<TLeft, TRight, TResult>(TLeft, TRight)
-  fullName.vb: System.NumbersomeExtensions.Multiply(Of TLeft, TRight, TResult)(TLeft, TRight)
-  nameWithType: NumbersomeExtensions.Multiply<TLeft, TRight, TResult>(TLeft, TRight)
-  nameWithType.vb: NumbersomeExtensions.Multiply(Of TLeft, TRight, TResult)(TLeft, TRight)
 - uid: System.NumbersomeExtensions.NaN*
   name: NaN
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_NaN_
@@ -1688,22 +1647,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.NaN(Of T)()
   nameWithType: NumbersomeExtensions.NaN<T>()
   nameWithType.vb: NumbersomeExtensions.NaN(Of T)()
-- uid: System.NumbersomeExtensions.Negate*
-  name: Negate
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Negate_
-  commentId: Overload:System.NumbersomeExtensions.Negate
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.Negate
-  nameWithType: NumbersomeExtensions.Negate
-- uid: System.NumbersomeExtensions.Negate``2(``0)
-  name: Negate<TValue, TResult>(TValue)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Negate__2___0_
-  commentId: M:System.NumbersomeExtensions.Negate``2(``0)
-  name.vb: Negate(Of TValue, TResult)(TValue)
-  fullName: System.NumbersomeExtensions.Negate<TValue, TResult>(TValue)
-  fullName.vb: System.NumbersomeExtensions.Negate(Of TValue, TResult)(TValue)
-  nameWithType: NumbersomeExtensions.Negate<TValue, TResult>(TValue)
-  nameWithType.vb: NumbersomeExtensions.Negate(Of TValue, TResult)(TValue)
 - uid: System.NumbersomeExtensions.One*
   name: One
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_One_
@@ -1736,22 +1679,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.OnesComplement(Of TValue, TResult)(TValue)
   nameWithType: NumbersomeExtensions.OnesComplement<TValue, TResult>(TValue)
   nameWithType.vb: NumbersomeExtensions.OnesComplement(Of TValue, TResult)(TValue)
-- uid: System.NumbersomeExtensions.Or*
-  name: Or
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Or_
-  commentId: Overload:System.NumbersomeExtensions.Or
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.Or
-  nameWithType: NumbersomeExtensions.Or
-- uid: System.NumbersomeExtensions.Or``3(``0,``1)
-  name: Or<TLeft, TRight, TResult>(TLeft, TRight)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Or__3___0___1_
-  commentId: M:System.NumbersomeExtensions.Or``3(``0,``1)
-  name.vb: Or(Of TLeft, TRight, TResult)(TLeft, TRight)
-  fullName: System.NumbersomeExtensions.Or<TLeft, TRight, TResult>(TLeft, TRight)
-  fullName.vb: System.NumbersomeExtensions.Or(Of TLeft, TRight, TResult)(TLeft, TRight)
-  nameWithType: NumbersomeExtensions.Or<TLeft, TRight, TResult>(TLeft, TRight)
-  nameWithType.vb: NumbersomeExtensions.Or(Of TLeft, TRight, TResult)(TLeft, TRight)
 - uid: System.NumbersomeExtensions.PopCount*
   name: PopCount
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_PopCount_
@@ -2153,22 +2080,6 @@ references:
   fullName.vb: System.NumbersomeExtensions.Sqrt(Of T)(T)
   nameWithType: NumbersomeExtensions.Sqrt<T>(T)
   nameWithType.vb: NumbersomeExtensions.Sqrt(Of T)(T)
-- uid: System.NumbersomeExtensions.Subtract*
-  name: Subtract
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Subtract_
-  commentId: Overload:System.NumbersomeExtensions.Subtract
-  isSpec: "True"
-  fullName: System.NumbersomeExtensions.Subtract
-  nameWithType: NumbersomeExtensions.Subtract
-- uid: System.NumbersomeExtensions.Subtract``3(``0,``1)
-  name: Subtract<TLeft, TRight, TResult>(TLeft, TRight)
-  href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Subtract__3___0___1_
-  commentId: M:System.NumbersomeExtensions.Subtract``3(``0,``1)
-  name.vb: Subtract(Of TLeft, TRight, TResult)(TLeft, TRight)
-  fullName: System.NumbersomeExtensions.Subtract<TLeft, TRight, TResult>(TLeft, TRight)
-  fullName.vb: System.NumbersomeExtensions.Subtract(Of TLeft, TRight, TResult)(TLeft, TRight)
-  nameWithType: NumbersomeExtensions.Subtract<TLeft, TRight, TResult>(TLeft, TRight)
-  nameWithType.vb: NumbersomeExtensions.Subtract(Of TLeft, TRight, TResult)(TLeft, TRight)
 - uid: System.NumbersomeExtensions.Sum*
   name: Sum
   href: api/System.NumbersomeExtensions.html#System_NumbersomeExtensions_Sum_
@@ -2453,162 +2364,6 @@ references:
   commentId: N:System.Numerics
   fullName: System.Numerics
   nameWithType: System.Numerics
-- uid: System.Numerics.Fraction`2
-  name: Fraction<TNumerator, TDenominator>
-  href: api/System.Numerics.Fraction-2.html
-  commentId: T:System.Numerics.Fraction`2
-  name.vb: Fraction(Of TNumerator, TDenominator)
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator)
-  nameWithType: Fraction<TNumerator, TDenominator>
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator)
-- uid: System.Numerics.Fraction`2.#ctor(`0,`1)
-  name: Fraction(TNumerator, TDenominator)
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2__ctor__0__1_
-  commentId: M:System.Numerics.Fraction`2.#ctor(`0,`1)
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Fraction(TNumerator, TDenominator)
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Fraction(TNumerator, TDenominator)
-  nameWithType: Fraction<TNumerator, TDenominator>.Fraction(TNumerator, TDenominator)
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Fraction(TNumerator, TDenominator)
-- uid: System.Numerics.Fraction`2.#ctor*
-  name: Fraction
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2__ctor_
-  commentId: Overload:System.Numerics.Fraction`2.#ctor
-  isSpec: "True"
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Fraction
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Fraction
-  nameWithType: Fraction<TNumerator, TDenominator>.Fraction
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Fraction
-- uid: System.Numerics.Fraction`2.Denominator
-  name: Denominator
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_Denominator
-  commentId: P:System.Numerics.Fraction`2.Denominator
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Denominator
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Denominator
-  nameWithType: Fraction<TNumerator, TDenominator>.Denominator
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Denominator
-- uid: System.Numerics.Fraction`2.Denominator*
-  name: Denominator
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_Denominator_
-  commentId: Overload:System.Numerics.Fraction`2.Denominator
-  isSpec: "True"
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Denominator
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Denominator
-  nameWithType: Fraction<TNumerator, TDenominator>.Denominator
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Denominator
-- uid: System.Numerics.Fraction`2.Equals(System.Numerics.Fraction{`0,`1})
-  name: Equals(Fraction<TNumerator, TDenominator>)
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_Equals_System_Numerics_Fraction__0__1__
-  commentId: M:System.Numerics.Fraction`2.Equals(System.Numerics.Fraction{`0,`1})
-  name.vb: Equals(Fraction(Of TNumerator, TDenominator))
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Equals(System.Numerics.Fraction<TNumerator, TDenominator>)
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Equals(System.Numerics.Fraction(Of TNumerator, TDenominator))
-  nameWithType: Fraction<TNumerator, TDenominator>.Equals(Fraction<TNumerator, TDenominator>)
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Equals(Fraction(Of TNumerator, TDenominator))
-- uid: System.Numerics.Fraction`2.Equals(System.Object)
-  name: Equals(Object)
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_Equals_System_Object_
-  commentId: M:System.Numerics.Fraction`2.Equals(System.Object)
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Equals(System.Object)
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Equals(System.Object)
-  nameWithType: Fraction<TNumerator, TDenominator>.Equals(Object)
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Equals(Object)
-- uid: System.Numerics.Fraction`2.Equals*
-  name: Equals
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_Equals_
-  commentId: Overload:System.Numerics.Fraction`2.Equals
-  isSpec: "True"
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Equals
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Equals
-  nameWithType: Fraction<TNumerator, TDenominator>.Equals
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Equals
-- uid: System.Numerics.Fraction`2.GetHashCode
-  name: GetHashCode()
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_GetHashCode
-  commentId: M:System.Numerics.Fraction`2.GetHashCode
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.GetHashCode()
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).GetHashCode()
-  nameWithType: Fraction<TNumerator, TDenominator>.GetHashCode()
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).GetHashCode()
-- uid: System.Numerics.Fraction`2.GetHashCode*
-  name: GetHashCode
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_GetHashCode_
-  commentId: Overload:System.Numerics.Fraction`2.GetHashCode
-  isSpec: "True"
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.GetHashCode
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).GetHashCode
-  nameWithType: Fraction<TNumerator, TDenominator>.GetHashCode
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).GetHashCode
-- uid: System.Numerics.Fraction`2.Numerator
-  name: Numerator
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_Numerator
-  commentId: P:System.Numerics.Fraction`2.Numerator
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Numerator
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Numerator
-  nameWithType: Fraction<TNumerator, TDenominator>.Numerator
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Numerator
-- uid: System.Numerics.Fraction`2.Numerator*
-  name: Numerator
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_Numerator_
-  commentId: Overload:System.Numerics.Fraction`2.Numerator
-  isSpec: "True"
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Numerator
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Numerator
-  nameWithType: Fraction<TNumerator, TDenominator>.Numerator
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Numerator
-- uid: System.Numerics.Fraction`2.op_Equality(System.Numerics.Fraction{`0,`1},System.Numerics.Fraction{`0,`1})
-  name: Equality(Fraction<TNumerator, TDenominator>, Fraction<TNumerator, TDenominator>)
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_op_Equality_System_Numerics_Fraction__0__1__System_Numerics_Fraction__0__1__
-  commentId: M:System.Numerics.Fraction`2.op_Equality(System.Numerics.Fraction{`0,`1},System.Numerics.Fraction{`0,`1})
-  name.vb: Equality(Fraction(Of TNumerator, TDenominator), Fraction(Of TNumerator, TDenominator))
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Equality(System.Numerics.Fraction<TNumerator, TDenominator>, System.Numerics.Fraction<TNumerator, TDenominator>)
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Equality(System.Numerics.Fraction(Of TNumerator, TDenominator), System.Numerics.Fraction(Of TNumerator, TDenominator))
-  nameWithType: Fraction<TNumerator, TDenominator>.Equality(Fraction<TNumerator, TDenominator>, Fraction<TNumerator, TDenominator>)
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Equality(Fraction(Of TNumerator, TDenominator), Fraction(Of TNumerator, TDenominator))
-- uid: System.Numerics.Fraction`2.op_Equality*
-  name: Equality
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_op_Equality_
-  commentId: Overload:System.Numerics.Fraction`2.op_Equality
-  isSpec: "True"
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Equality
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Equality
-  nameWithType: Fraction<TNumerator, TDenominator>.Equality
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Equality
-- uid: System.Numerics.Fraction`2.op_Inequality(System.Numerics.Fraction{`0,`1},System.Numerics.Fraction{`0,`1})
-  name: Inequality(Fraction<TNumerator, TDenominator>, Fraction<TNumerator, TDenominator>)
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_op_Inequality_System_Numerics_Fraction__0__1__System_Numerics_Fraction__0__1__
-  commentId: M:System.Numerics.Fraction`2.op_Inequality(System.Numerics.Fraction{`0,`1},System.Numerics.Fraction{`0,`1})
-  name.vb: Inequality(Fraction(Of TNumerator, TDenominator), Fraction(Of TNumerator, TDenominator))
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Inequality(System.Numerics.Fraction<TNumerator, TDenominator>, System.Numerics.Fraction<TNumerator, TDenominator>)
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Inequality(System.Numerics.Fraction(Of TNumerator, TDenominator), System.Numerics.Fraction(Of TNumerator, TDenominator))
-  nameWithType: Fraction<TNumerator, TDenominator>.Inequality(Fraction<TNumerator, TDenominator>, Fraction<TNumerator, TDenominator>)
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Inequality(Fraction(Of TNumerator, TDenominator), Fraction(Of TNumerator, TDenominator))
-- uid: System.Numerics.Fraction`2.op_Inequality*
-  name: Inequality
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_op_Inequality_
-  commentId: Overload:System.Numerics.Fraction`2.op_Inequality
-  isSpec: "True"
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.Inequality
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).Inequality
-  nameWithType: Fraction<TNumerator, TDenominator>.Inequality
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).Inequality
-- uid: System.Numerics.Fraction`2.ToString
-  name: ToString()
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_ToString
-  commentId: M:System.Numerics.Fraction`2.ToString
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.ToString()
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).ToString()
-  nameWithType: Fraction<TNumerator, TDenominator>.ToString()
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).ToString()
-- uid: System.Numerics.Fraction`2.ToString*
-  name: ToString
-  href: api/System.Numerics.Fraction-2.html#System_Numerics_Fraction_2_ToString_
-  commentId: Overload:System.Numerics.Fraction`2.ToString
-  isSpec: "True"
-  fullName: System.Numerics.Fraction<TNumerator, TDenominator>.ToString
-  fullName.vb: System.Numerics.Fraction(Of TNumerator, TDenominator).ToString
-  nameWithType: Fraction<TNumerator, TDenominator>.ToString
-  nameWithType.vb: Fraction(Of TNumerator, TDenominator).ToString
 - uid: System.Numerics.Percent`1
   name: Percent<T>
   href: api/System.Numerics.Percent-1.html

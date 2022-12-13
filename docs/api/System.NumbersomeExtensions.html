@@ -128,7 +128,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Abs&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -212,7 +211,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Acos&lt;T&gt;(this T value)
-
     where T : ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -283,7 +281,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Acosh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -338,174 +335,6 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Add__3___0_IAdditionOperators___0___1___2__.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Add%60%603(%60%600%2CIAdditionOperators%7B%60%600%2C%60%601%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Add.cs/#L26">View Source</a>
-  </span>
-  <a id="System_NumbersomeExtensions_Add_" data-uid="System.NumbersomeExtensions.Add*"></a>
-  <h4 id="System_NumbersomeExtensions_Add__3___0_IAdditionOperators___0___1___2__" data-uid="System.NumbersomeExtensions.Add``3(``0,IAdditionOperators{``0,``1,``2})">Add&lt;TLeft, TRight, TResult&gt;(TLeft, IAdditionOperators&lt;TLeft, TRight, TResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Adds two values together to compute their sum.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TResult Add&lt;TLeft, TRight, TResult&gt;(TLeft left, IAdditionOperators&lt;TLeft, TRight, TResult&gt; right)
-
-    where TLeft : IAdditionOperators&lt;TLeft, TRight, TResult&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TLeft</span></td>
-        <td><span class="parametername">left</span></td>
-        <td><p>The value to which <code data-dev-comment-type="paramref" class="paramref">right</code> is added.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">IAdditionOperators</span>&lt;TLeft, TRight, TResult&gt;</td>
-        <td><span class="parametername">right</span></td>
-        <td><p>The value to which is added to <code data-dev-comment-type="paramref" class="paramref">left</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">left</code> and <code data-dev-comment-type="paramref" class="paramref">right</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TLeft</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">left</code> addend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRight</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">right</code> addend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td><p>The type of the returned sum.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Add__3_IAdditionOperators___0___1___2____1_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Add%60%603(IAdditionOperators%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Add.cs/#L13">View Source</a>
-  </span>
-  <a id="System_NumbersomeExtensions_Add_" data-uid="System.NumbersomeExtensions.Add*"></a>
-  <h4 id="System_NumbersomeExtensions_Add__3_IAdditionOperators___0___1___2____1_" data-uid="System.NumbersomeExtensions.Add``3(IAdditionOperators{``0,``1,``2},``1)">Add&lt;TLeft, TRight, TResult&gt;(IAdditionOperators&lt;TLeft, TRight, TResult&gt;, TRight)</h4>
-  <div class="markdown level1 summary"><p>Adds two values together to compute their sum.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TResult Add&lt;TLeft, TRight, TResult&gt;(IAdditionOperators&lt;TLeft, TRight, TResult&gt; left, TRight right)
-
-    where TLeft : IAdditionOperators&lt;TLeft, TRight, TResult&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IAdditionOperators</span>&lt;TLeft, TRight, TResult&gt;</td>
-        <td><span class="parametername">left</span></td>
-        <td><p>The value to which <code data-dev-comment-type="paramref" class="paramref">right</code> is added.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TRight</span></td>
-        <td><span class="parametername">right</span></td>
-        <td><p>The value to which is added to <code data-dev-comment-type="paramref" class="paramref">left</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">left</code> and <code data-dev-comment-type="paramref" class="paramref">right</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TLeft</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">left</code> addend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRight</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">right</code> addend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td><p>The type of the returned sum.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_AdditiveIdentity__1.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.AdditiveIdentity%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -519,7 +348,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T AdditiveIdentity&lt;T&gt;()
-
     where T : IAdditiveIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -556,89 +384,6 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_And__3___0___1_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.And%60%603(%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/And.cs/#L13">View Source</a>
-  </span>
-  <a id="System_NumbersomeExtensions_And_" data-uid="System.NumbersomeExtensions.And*"></a>
-  <h4 id="System_NumbersomeExtensions_And__3___0___1_" data-uid="System.NumbersomeExtensions.And``3(``0,``1)">And&lt;TLeft, TRight, TResult&gt;(TLeft, TRight)</h4>
-  <div class="markdown level1 summary"><p>Computes the bitwise-and of two values.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TResult And&lt;TLeft, TRight, TResult&gt;(TLeft left, TRight right)
-
-    where TLeft : IBitwiseOperators&lt;TLeft, TRight, TResult&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TLeft</span></td>
-        <td><span class="parametername">left</span></td>
-        <td><p>The value to <code>and</code> with <code data-dev-comment-type="paramref" class="paramref">right</code>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TRight</span></td>
-        <td><span class="parametername">right</span></td>
-        <td><p>The value to <code>and</code> with <code data-dev-comment-type="paramref" class="paramref">left</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TLeft</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">left</code> value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRight</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">right</code> value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td><p>The type of the return value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_ArithmeticMean__1___0___.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.ArithmeticMean%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -652,7 +397,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ArithmeticMean&lt;T&gt;(this T[] values)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -720,7 +464,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ArithmeticMean&lt;T&gt;(this IEnumerable&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -788,7 +531,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ArithmeticMean&lt;T&gt;(this ArraySegment&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -856,7 +598,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ArithmeticMean&lt;T&gt;(this Memory&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -924,7 +665,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ArithmeticMean&lt;T&gt;(this ReadOnlyMemory&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -992,7 +732,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ArithmeticMean&lt;T&gt;(this ReadOnlySpan&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1060,7 +799,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ArithmeticMean&lt;T&gt;(this Span&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1128,7 +866,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Asin&lt;T&gt;(this T value)
-
     where T : ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1199,7 +936,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Asinh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1267,7 +1003,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TResult Assert&lt;TValue, TResult&gt;(TValue value)
-
     where TValue : IUnaryPlusOperators&lt;TValue, TResult&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1340,7 +1075,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Atan&lt;T&gt;(this T value)
-
     where T : ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1411,7 +1145,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Atan&lt;T&gt;(this (T X, T Y) point)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1482,7 +1215,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Atanh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1550,7 +1282,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T BitDecrement&lt;T&gt;(this T value)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1618,7 +1349,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T BitIncrement&lt;T&gt;(this T value)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1686,7 +1416,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Cbrt&lt;T&gt;(this T value)
-
     where T : IRootFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1754,7 +1483,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Ceiling&lt;T&gt;(this T value)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1894,7 +1622,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Clamp&lt;T&gt;(this T value, T min, T max)
-
     where T : INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1990,7 +1717,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Co&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2058,7 +1784,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Coh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2182,7 +1907,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T CopySign&lt;T&gt;(this T magnitude, T sign)
-
     where T : INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2433,7 +2157,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Cos&lt;T&gt;(this T value)
-
     where T : ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2504,7 +2227,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Cosh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2572,7 +2294,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Cot&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2640,7 +2361,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Coth&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2758,7 +2478,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Crd&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2826,7 +2545,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Crdh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2894,7 +2612,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Csc&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -2962,7 +2679,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Csch&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3030,7 +2746,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Cvc&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3098,7 +2813,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Cvch&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3166,7 +2880,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Cvs&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3234,7 +2947,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Cvsh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3289,90 +3001,6 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Divide__3___0___1_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Divide%60%603(%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Divide.cs/#L13">View Source</a>
-  </span>
-  <a id="System_NumbersomeExtensions_Divide_" data-uid="System.NumbersomeExtensions.Divide*"></a>
-  <h4 id="System_NumbersomeExtensions_Divide__3___0___1_" data-uid="System.NumbersomeExtensions.Divide``3(``0,``1)">Divide&lt;TLeft, TRight, TResult&gt;(TLeft, TRight)</h4>
-  <div class="markdown level1 summary"><p>Divides one value by another to compute their quotient.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TResult Divide&lt;TLeft, TRight, TResult&gt;(TLeft left, TRight right)
-
-    where TLeft : IDivisionOperators&lt;TLeft, TRight, TResult&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TLeft</span></td>
-        <td><span class="parametername">left</span></td>
-        <td><p>The value which <code data-dev-comment-type="paramref" class="paramref">right</code> divides; the dividend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TRight</span></td>
-        <td><span class="parametername">right</span></td>
-        <td><p>The value which divides <code data-dev-comment-type="paramref" class="paramref">left</code>; the divisor.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><p>The quotient of <code data-dev-comment-type="paramref" class="paramref">left</code> divided by <code data-dev-comment-type="paramref" class="paramref">right</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TLeft</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">left</code> dividend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRight</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">right</code> divisor.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td><p>The type of the result quotient.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_DivRem__1___0___0_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.DivRem%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -3386,7 +3014,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static (T Quotient, T Remainder) DivRem&lt;T&gt;(this T dividend, T divisor)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3460,7 +3087,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Exc&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3528,7 +3154,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Exch&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3596,7 +3221,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Exp&lt;T&gt;(this T power)
-
     where T : IExponentialFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3664,7 +3288,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Exp10&lt;T&gt;(this T power)
-
     where T : IExponentialFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3732,7 +3355,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Exp2&lt;T&gt;(this T power)
-
     where T : IExponentialFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3800,7 +3422,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Exs&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3868,7 +3489,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Exsh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -3936,7 +3556,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Floor&lt;T&gt;(this T value)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4004,7 +3623,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FusedMultiplyAdd&lt;T&gt;(this (T Left, T Right) multiplicands, T addend)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4065,6 +3683,79 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Gcd__1___0___0_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Gcd%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Gcd.cs/#L13">View Source</a>
+  </span>
+  <a id="System_NumbersomeExtensions_Gcd_" data-uid="System.NumbersomeExtensions.Gcd*"></a>
+  <h4 id="System_NumbersomeExtensions_Gcd__1___0___0_" data-uid="System.NumbersomeExtensions.Gcd``1(``0,``0)">Gcd&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of two values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Gcd&lt;T&gt;(this T value, T other)
+    where T : INumber&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>This value to get the greatest common divisor of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other value to get the greatest common divisor of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref" class="paramref">value</code> and <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>A numeric of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.inumber-1">INumber&lt;TSelf&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_GeometricMean__1___0___.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.GeometricMean%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -4078,7 +3769,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GeometricMean&lt;T&gt;(this T[] values)
-
     where T : INumberBase&lt;T&gt;, IPowerFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4145,7 +3835,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GeometricMean&lt;T&gt;(this IEnumerable&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;, IPowerFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4212,7 +3901,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GeometricMean&lt;T&gt;(this ArraySegment&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;, IPowerFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4279,7 +3967,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GeometricMean&lt;T&gt;(this Memory&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;, IPowerFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4346,7 +4033,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GeometricMean&lt;T&gt;(this ReadOnlyMemory&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;, IPowerFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4413,7 +4099,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GeometricMean&lt;T&gt;(this ReadOnlySpan&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;, IPowerFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4480,7 +4165,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GeometricMean&lt;T&gt;(this Span&lt;T&gt; values)
-
     where T : INumberBase&lt;T&gt;, IPowerFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4597,7 +4281,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T HarmonicMean&lt;T&gt;(this T[] values)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4665,7 +4348,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T HarmonicMean&lt;T&gt;(this IEnumerable&lt;T&gt; values)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4733,7 +4415,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T HarmonicMean&lt;T&gt;(this ArraySegment&lt;T&gt; values)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4801,7 +4482,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T HarmonicMean&lt;T&gt;(this Memory&lt;T&gt; values)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4869,7 +4549,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T HarmonicMean&lt;T&gt;(this ReadOnlyMemory&lt;T&gt; values)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -4937,7 +4616,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T HarmonicMean&lt;T&gt;(this ReadOnlySpan&lt;T&gt; values)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5005,7 +4683,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T HarmonicMean&lt;T&gt;(this Span&lt;T&gt; values)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5073,7 +4750,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Hav&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5141,7 +4817,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Havh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5209,7 +4884,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Ieee754Remainder&lt;T&gt;(this T dividend, T divisor)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5283,7 +4957,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ILogB&lt;T&gt;(this T value)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5351,7 +5024,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsCanonical&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5419,7 +5091,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsComplexNumber&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5490,7 +5161,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEvenInteger&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5562,7 +5232,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsFinite&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5634,7 +5303,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsImaginaryNumber&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5705,7 +5373,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsInfinity&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5776,7 +5443,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsInteger&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5847,7 +5513,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNaN&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5915,7 +5580,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNegative&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -5986,7 +5650,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNormal&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6054,7 +5717,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsOddInteger&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6126,7 +5788,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsPositive&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6197,7 +5858,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsPositiveInfinity&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6265,7 +5925,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsPow2&lt;T&gt;(this T value)
-
     where T : IBinaryNumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6333,7 +5992,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsRealNumber&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6404,7 +6062,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsSubnormal&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6472,7 +6129,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsZero&lt;T&gt;(this T value)
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6530,6 +6186,79 @@
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Lcm__1___0___0_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Lcm%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Lcm.cs/#L13">View Source</a>
+  </span>
+  <a id="System_NumbersomeExtensions_Lcm_" data-uid="System.NumbersomeExtensions.Lcm*"></a>
+  <h4 id="System_NumbersomeExtensions_Lcm__1___0___0_" data-uid="System.NumbersomeExtensions.Lcm``1(``0,``0)">Lcm&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of two values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Lcm&lt;T&gt;(this T value, T other)
+    where T : INumber&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>This value to get the least common multiple of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other value to get the least common multipleof.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref" class="paramref">value</code> and <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>A numeric of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.inumber-1">INumber&lt;TSelf&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_LeadingZeroCount__1___0_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.LeadingZeroCount%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -6543,7 +6272,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T LeadingZeroCount&lt;T&gt;(this T value)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6611,7 +6339,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Log&lt;T&gt;(this T value)
-
     where T : ILogarithmicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6679,7 +6406,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Log10&lt;T&gt;(this T value)
-
     where T : ILogarithmicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6747,7 +6473,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Log2&lt;T&gt;(this T value)
-
     where T : ILogarithmicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6815,7 +6540,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this T[] values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6885,7 +6609,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this IEnumerable&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -6955,7 +6678,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this ArraySegment&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7025,7 +6747,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this Memory&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7095,7 +6816,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this ReadOnlyMemory&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7165,7 +6885,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this ReadOnlySpan&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7235,7 +6954,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this Span&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7305,7 +7023,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this T[] values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7375,7 +7092,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this IEnumerable&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7445,7 +7161,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this ArraySegment&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7515,7 +7230,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this Memory&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7585,7 +7299,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this ReadOnlyMemory&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7655,7 +7368,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this ReadOnlySpan&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7725,7 +7437,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this Span&lt;T&gt; values)
-
     where T : IMinMaxValue&lt;T&gt;, INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7795,7 +7506,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TResult Modulus&lt;TLeft, TRight, TResult&gt;(TLeft left, TRight right)
-
     where TLeft : IModulusOperators&lt;TLeft, TRight, TResult&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -7879,7 +7589,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T MultiplicativeIdentity&lt;T&gt;()
-
     where T : IMultiplicativeIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -7916,90 +7625,6 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Multiply__3___0___1_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Multiply%60%603(%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Multiply.cs/#L13">View Source</a>
-  </span>
-  <a id="System_NumbersomeExtensions_Multiply_" data-uid="System.NumbersomeExtensions.Multiply*"></a>
-  <h4 id="System_NumbersomeExtensions_Multiply__3___0___1_" data-uid="System.NumbersomeExtensions.Multiply``3(``0,``1)">Multiply&lt;TLeft, TRight, TResult&gt;(TLeft, TRight)</h4>
-  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TResult Multiply&lt;TLeft, TRight, TResult&gt;(TLeft left, TRight right)
-
-    where TLeft : IMultiplyOperators&lt;TLeft, TRight, TResult&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TLeft</span></td>
-        <td><span class="parametername">left</span></td>
-        <td><p>The value which <code data-dev-comment-type="paramref" class="paramref">right</code> multiplies; the multiplicand.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TRight</span></td>
-        <td><span class="parametername">right</span></td>
-        <td><p>The value which multiplies <code data-dev-comment-type="paramref" class="paramref">left</code>; the multiplicand.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><p>The product of <code data-dev-comment-type="paramref" class="paramref">left</code></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TLeft</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">left</code> multiplicand.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRight</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">right</code> multiplicand.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td><p>The type of the result product.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_NaN__1.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.NaN%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -8013,7 +7638,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T NaN&lt;T&gt;()
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -8050,79 +7674,6 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Negate__2___0_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Negate%60%602(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Negate.cs/#L11">View Source</a>
-  </span>
-  <a id="System_NumbersomeExtensions_Negate_" data-uid="System.NumbersomeExtensions.Negate*"></a>
-  <h4 id="System_NumbersomeExtensions_Negate__2___0_" data-uid="System.NumbersomeExtensions.Negate``2(``0)">Negate&lt;TValue, TResult&gt;(TValue)</h4>
-  <div class="markdown level1 summary"><p>Computes the unary negation of a value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TResult Negate&lt;TValue, TResult&gt;(TValue value)
-
-    where TValue : IUnaryNegationOperators&lt;TValue, TResult&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value for which to compute the unary negation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><p>The unary negation of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td><p>The type of the return value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_One__1.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.One%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -8136,7 +7687,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T One&lt;T&gt;()
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -8186,7 +7736,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TResult OnesComplement&lt;TValue, TResult&gt;(TValue value)
-
     where TValue : IBitwiseOperators&lt;TValue, TValue, TResult&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8246,90 +7795,6 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Or__3___0___1_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Or%60%603(%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Or.cs/#L13">View Source</a>
-  </span>
-  <a id="System_NumbersomeExtensions_Or_" data-uid="System.NumbersomeExtensions.Or*"></a>
-  <h4 id="System_NumbersomeExtensions_Or__3___0___1_" data-uid="System.NumbersomeExtensions.Or``3(``0,``1)">Or&lt;TLeft, TRight, TResult&gt;(TLeft, TRight)</h4>
-  <div class="markdown level1 summary"><p>Computes the bitwise-or of two values.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TResult Or&lt;TLeft, TRight, TResult&gt;(TLeft left, TRight right)
-
-    where TLeft : IBitwiseOperators&lt;TLeft, TRight, TResult&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TLeft</span></td>
-        <td><span class="parametername">left</span></td>
-        <td><p>The value to <code>or</code> with <code data-dev-comment-type="paramref" class="paramref">right</code>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TRight</span></td>
-        <td><span class="parametername">right</span></td>
-        <td><p>The value to <code>or</code> with <code data-dev-comment-type="paramref" class="paramref">left</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><p>The bitwise-or of <code data-dev-comment-type="paramref" class="paramref">left</code> and <code data-dev-comment-type="paramref" class="paramref">right</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TLeft</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">left</code> value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRight</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">right</code> value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td><p>The type of the result value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_PopCount__1___0_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.PopCount%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -8343,7 +7808,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T PopCount&lt;T&gt;(this T value)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8411,7 +7875,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Pow&lt;T&gt;(this T value, T power)
-
     where T : IPowerFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8485,7 +7948,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this T[] values)
-
     where T : IMultiplicativeIdentity&lt;T, T&gt;, IMultiplyOperators&lt;T, T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8553,7 +8015,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this IEnumerable&lt;T&gt; values)
-
     where T : IMultiplicativeIdentity&lt;T, T&gt;, IMultiplyOperators&lt;T, T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8621,7 +8082,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this ArraySegment&lt;T&gt; values)
-
     where T : IMultiplicativeIdentity&lt;T, T&gt;, IMultiplyOperators&lt;T, T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8689,7 +8149,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this Memory&lt;T&gt; values)
-
     where T : IMultiplicativeIdentity&lt;T, T&gt;, IMultiplyOperators&lt;T, T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8757,7 +8216,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this ReadOnlyMemory&lt;T&gt; values)
-
     where T : IMultiplicativeIdentity&lt;T, T&gt;, IMultiplyOperators&lt;T, T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8825,7 +8283,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this ReadOnlySpan&lt;T&gt; values)
-
     where T : IMultiplicativeIdentity&lt;T, T&gt;, IMultiplyOperators&lt;T, T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8893,7 +8350,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this Span&lt;T&gt; values)
-
     where T : IMultiplicativeIdentity&lt;T, T&gt;, IMultiplyOperators&lt;T, T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -8961,7 +8417,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int Radix&lt;T&gt;()
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -9011,7 +8466,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ReciprocalEstimate&lt;T&gt;(this T value)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9079,7 +8533,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ReciprocalSqrtEstimate&lt;T&gt;(this T value)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9147,7 +8600,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Root&lt;T&gt;(this T value, int n)
-
     where T : IRootFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9221,7 +8673,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T RotateLeft&lt;T&gt;(this T value, int amount)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9295,7 +8746,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T RotateRight&lt;T&gt;(this T value, int amount)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9369,7 +8819,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Round&lt;T&gt;(this T value)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9437,7 +8886,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Round&lt;T&gt;(this T value, int digits)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9511,7 +8959,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Round&lt;T&gt;(this T value, int digits, MidpointRounding mode)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9591,7 +9038,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Round&lt;T&gt;(this T value, MidpointRounding mode)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9665,7 +9111,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ScaleB&lt;T&gt;(this T value, int power)
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9739,7 +9184,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sec&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9807,7 +9251,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sech&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9875,7 +9318,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ShiftLeft&lt;T&gt;(this T value, int amount)
-
     where T : IShiftOperators&lt;T, int, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -9949,7 +9391,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ShiftRight&lt;T&gt;(this T value, int amount)
-
     where T : IShiftOperators&lt;T, int, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10023,7 +9464,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int Sign&lt;T&gt;(this T value)
-
     where T : INumber&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10091,7 +9531,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sin&lt;T&gt;(this T value)
-
     where T : ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10162,7 +9601,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static (T Sin, T Cos) SinCos&lt;T&gt;(this T value)
-
     where T : ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10233,7 +9671,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sinh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10301,7 +9738,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sqrt&lt;T&gt;(this T value)
-
     where T : IRootFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10356,90 +9792,6 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Subtract__3___0___1_.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Subtract%60%603(%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Numbersome/blob/main/Numbersome/Subtract.cs/#L13">View Source</a>
-  </span>
-  <a id="System_NumbersomeExtensions_Subtract_" data-uid="System.NumbersomeExtensions.Subtract*"></a>
-  <h4 id="System_NumbersomeExtensions_Subtract__3___0___1_" data-uid="System.NumbersomeExtensions.Subtract``3(``0,``1)">Subtract&lt;TLeft, TRight, TResult&gt;(TLeft, TRight)</h4>
-  <div class="markdown level1 summary"><p>Subtracts two values to compute their difference.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TResult Subtract&lt;TLeft, TRight, TResult&gt;(TLeft left, TRight right)
-
-    where TLeft : ISubtractionOperators&lt;TLeft, TRight, TResult&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TLeft</span></td>
-        <td><span class="parametername">left</span></td>
-        <td><p>The value from which <code data-dev-comment-type="paramref" class="paramref">right</code> is subtracted; the minuend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TRight</span></td>
-        <td><span class="parametername">right</span></td>
-        <td><p>The value which is subtracted from <code data-dev-comment-type="paramref" class="paramref">left</code>; the subtrahend.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><p>The value of <code data-dev-comment-type="paramref" class="paramref">right</code> subtracted from <code data-dev-comment-type="paramref" class="paramref">left</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TLeft</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">left</code> minuend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRight</span></td>
-        <td><p>The type of the <code data-dev-comment-type="paramref" class="paramref">right</code> subtrahend.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td><p>The type of the product value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Numbersome/new/main/apiSpec/new?filename=System_NumbersomeExtensions_Sum__1___0___.md&amp;value=---%0Auid%3A%20System.NumbersomeExtensions.Sum%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -10453,7 +9805,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sum&lt;T&gt;(this T[] values)
-
     where T : IAdditionOperators&lt;T, T, T&gt;, IAdditiveIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10521,7 +9872,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sum&lt;T&gt;(this IEnumerable&lt;T&gt; values)
-
     where T : IAdditionOperators&lt;T, T, T&gt;, IAdditiveIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10589,7 +9939,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sum&lt;T&gt;(this ArraySegment&lt;T&gt; values)
-
     where T : IAdditionOperators&lt;T, T, T&gt;, IAdditiveIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10657,7 +10006,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sum&lt;T&gt;(this Memory&lt;T&gt; values)
-
     where T : IAdditionOperators&lt;T, T, T&gt;, IAdditiveIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10725,7 +10073,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sum&lt;T&gt;(this ReadOnlyMemory&lt;T&gt; values)
-
     where T : IAdditionOperators&lt;T, T, T&gt;, IAdditiveIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10793,7 +10140,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sum&lt;T&gt;(this ReadOnlySpan&lt;T&gt; values)
-
     where T : IAdditionOperators&lt;T, T, T&gt;, IAdditiveIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10861,7 +10207,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Sum&lt;T&gt;(this Span&lt;T&gt; values)
-
     where T : IAdditionOperators&lt;T, T, T&gt;, IAdditiveIdentity&lt;T, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -10929,7 +10274,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Tan&lt;T&gt;(this T value)
-
     where T : ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11000,7 +10344,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Tanh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11068,7 +10411,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T TrailingZeroCount&lt;T&gt;(this T value)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11136,7 +10478,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Truncate&lt;T&gt;(this T value)
-
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11204,7 +10545,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T UnsignedShiftRight&lt;T&gt;(this T value, int amount)
-
     where T : IShiftOperators&lt;T, int, T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11281,7 +10621,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Vcs&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11349,7 +10688,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Vcsh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11417,7 +10755,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Ver&lt;T&gt;(this T value)
-
     where T : IFloatingPointConstants&lt;T&gt;, ITrigonometricFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11485,7 +10822,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Verh&lt;T&gt;(this T value)
-
     where T : IHyperbolicFunctions&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -11553,7 +10889,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Zero&lt;T&gt;()
-
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -11603,7 +10938,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T &#949;&lt;T&gt;()
-
     where T : IFloatingPointIeee754&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -11653,7 +10987,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T &#960;&lt;T&gt;()
-
     where T : IFloatingPointConstants&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -11703,7 +11036,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T &#964;&lt;T&gt;()
-
     where T : IFloatingPointConstants&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
