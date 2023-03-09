@@ -261,7 +261,6 @@
     <Rule Id="CS0628" Action="Error" />
     <Rule Id="CS1570" Action="Error" />
     <Rule Id="CS1571" Action="Error" />
-    <Rule Id="CS1572" Action="Error" />
     <Rule Id="CS1573" Action="Error" />
     <Rule Id="CS1574" Action="Error" />
     <Rule Id="CS1580" Action="Error" />
