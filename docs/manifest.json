@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/p-kel/source/repos/Numbersome/Documentation",
+  "source_base_path": "C:/Users/p-kel/source/repos/Tooling/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/System.Collections.Generic.NumbersomeExtensions.html",
-          "hash": "Dy26RvbwLrwObPV6xlhIOSkfm1UIGOZKAPqSCBYdBWg="
+          "hash": "fxsnll4CZKoyi4kDqTPwO5BKv1fTG5gupxDyiLTouV8="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/System.NumbersomeExtensions.html",
-          "hash": "mgRK/lNZll9FCT1C52qoSH+kFri7HTS2MxGbk9JDe3s="
+          "hash": "zJCz1tydffzIn17TCajL3G7CwVoASwzbfJMpQZk109w="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/System.Numerics.Percent-1.html",
-          "hash": "kCjkSK7Wley2L2RkBlOioWzeY2+G3F4+eIM/Wo9o8PI="
+          "hash": "ubRfUHl9S6jhuM4LS7HQonJ4ChUJznkJjH37ATXaHCk="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/System.RangeEnumerator.html",
-          "hash": "6nASem9iHW3wYCyQ+sHD0r/6zmXgXdB8ryEvHXvcJz0="
+          "hash": "gqZ+ld7juFvQa3abNnXxOHiSS4jnoOe65Dowert0H7I="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "KHeYXtLs1UKjV/ievPAsAfjsWGv7UnjVMhmZN3xNbvk="
+          "hash": "0t8dgw8cQqsLxh0NeDk/1nElegHbH6J6tau0zQHobLE="
         }
       },
       "is_incremental": false,
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "WOUSkkIQs1ZLnf6G/e3EbeM3ojVWnGA7x9l4RY2flms="
+          "hash": "9fOFRUIoghrlNKAgVRzWfHJ1eVHmE16vSvQCDnOfYqM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "aAJO2GYs+nZtb1IAhBconQO6Wc7dHyJsUcuoh8sObfo="
+          "hash": "cFayZQopHzSLMV4XWOhKUJKVUDn7Z4y9LEdbCb2RLo8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -163,23 +163,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 6
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -192,8 +194,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
