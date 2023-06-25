@@ -9,13 +9,16 @@ public static partial class Guard {
 	[Conditional("DEBUG")]
 	public static void Empty(
 #if NETSTANDARD2_1_OR_GREATER || NET5_0_OR_GREATER
-		[DisallowNull]
+		[DisallowNull, NotNull]
 #endif
 		String actual
 #if NETCOREAPP3_0_OR_GREATER
 		, [CallerArgumentExpression("actual")] String expression = ""
 #endif
 		) {
+		if (actual is null) {
+			throw new ArgumentNullException(nameof(actual));
+		}
 		if (actual.Length != 0) {
 			throw new GuardException("The string"
 #if NETCOREAPP3_0_OR_GREATER
@@ -34,13 +37,16 @@ public static partial class Guard {
 	[Conditional("DEBUG")]
 	public static unsafe void Empty(
 #if NETSTANDARD2_1_OR_GREATER || NET5_0_OR_GREATER
-		[DisallowNull]
+		[DisallowNull, NotNull]
 #endif
 		Char* actual
 #if NETCOREAPP3_0_OR_GREATER
 		, [CallerArgumentExpression("actual")] String expression = ""
 #endif
 		) {
+		if (actual is null) {
+			throw new ArgumentNullException(nameof(actual));
+		}
 		if (*actual == '\0') {
 			Int32 length = 0;
 			while (*actual != '\0') { length++; }
@@ -61,13 +67,16 @@ public static partial class Guard {
 	[Conditional("DEBUG")]
 	public static void Empty<T>(
 #if NETSTANDARD2_1_OR_GREATER || NET5_0_OR_GREATER
-		[DisallowNull]
+		[DisallowNull, NotNull]
 #endif
 		T[] actual
 #if NETCOREAPP3_0_OR_GREATER
 		, [CallerArgumentExpression("actual")] String expression = ""
 #endif
 		) {
+		if (actual is null) {
+			throw new ArgumentNullException(nameof(actual));
+		}
 		if (actual.Length != 0) {
 			throw new GuardException("The array"
 #if NETCOREAPP3_0_OR_GREATER
@@ -193,13 +202,16 @@ public static partial class Guard {
 	[Conditional("DEBUG")]
 	public static void Empty<T>(
 #if NETSTANDARD2_1_OR_GREATER || NET5_0_OR_GREATER
-		[DisallowNull]
+		[DisallowNull, NotNull]
 #endif
 		ICollection<T> actual
 #if NETCOREAPP3_0_OR_GREATER
 		, [CallerArgumentExpression("actual")] String expression = ""
 #endif
 		) {
+		if (actual is null) {
+			throw new ArgumentNullException(nameof(actual));
+		}
 		if (actual.Count != 0) {
 			throw new GuardException("The collection"
 #if NETCOREAPP3_0_OR_GREATER

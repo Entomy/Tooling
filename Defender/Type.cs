@@ -10,13 +10,16 @@ public static partial class Guard {
 	[Conditional("DEBUG")]
 	public static void Type<T>(
 #if NETSTANDARD2_1_OR_GREATER || NET5_0_OR_GREATER
-		[DisallowNull]
+		[DisallowNull, NotNull]
 #endif
 		Object actual
 #if NETCOREAPP3_0_OR_GREATER
 		, [CallerArgumentExpression("actual")] String expression = ""
 #endif
 		) where T : notnull {
+		if (actual is null) {
+			throw new ArgumentNullException(nameof(actual));
+		}
 		switch (actual) {
 		case T:
 			return;

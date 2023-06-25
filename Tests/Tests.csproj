@@ -23,6 +23,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\Collectathon\Collectathon.csproj" />
 	  <ProjectReference Include="..\Defender\Defender.csproj" />
 	  <ProjectReference Include="..\Numbersome\Numbersome.csproj" />
 	</ItemGroup>
