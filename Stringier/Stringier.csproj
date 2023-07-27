@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
+		<LangVersion>10.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<IsTrimmable>true</IsTrimmable>
+		<Description>Text extensions for a more pleasant text processing experience.</Description>
+		<PackageTags>text, string, text processing, string processing</PackageTags>
+		<AssemblyName>Stringier</AssemblyName>
+		<RootNamespace>System</RootNamespace>
+		<PackageIcon>Logo.png</PackageIcon>
+		<CodeAnalysisRuleSet>..\Global.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Logo.png" Pack="true" Visible="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FastEnum" Version="1.8.0" />
+		<PackageReference Include="Troschuetz.Random" Version="5.0.1" />
+		<PackageReference Include="UnicodeInformation" Version="2.7.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Collectathon\Collectathon.csproj" />
+	</ItemGroup>
+</Project>

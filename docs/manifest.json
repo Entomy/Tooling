@@ -12,7 +12,7 @@
           "hash": "TxH7qvhcGED2VhjQKcQeQFa5EcSUjiUmSlLG14GRhv0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "pEzEXBFEICJT4TfbK1ZTBCQbFBR9x7Kh0v3vZsbmgbs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "xIWIm78E9JI//W6lLksfPnnomrHFWAnIEQyA7YFWDo0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "ubRfUHl9S6jhuM4LS7HQonJ4ChUJznkJjH37ATXaHCk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "7aTNe+tayDgRNUe7KvzYrmrrOEYDCWjVuR5zu7tKQpI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "iTSnHxr9JcxLMXjTi7O/aDIPOyrK45UlvFprI0auqpU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -179,7 +179,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 4
+          "skipped_file_count": 7
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

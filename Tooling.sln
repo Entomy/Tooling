@@ -28,6 +28,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Defender", "Defender\Defend
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collectathon", "Collectathon\Collectathon.csproj", "{D01503AF-C174-44FF-82ED-2A57CDA6AA6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringier", "Stringier\Stringier.csproj", "{B16DD2EB-BFCD-4C9E-8E7B-C5CB97A6A8A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{D01503AF-C174-44FF-82ED-2A57CDA6AA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D01503AF-C174-44FF-82ED-2A57CDA6AA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D01503AF-C174-44FF-82ED-2A57CDA6AA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16DD2EB-BFCD-4C9E-8E7B-C5CB97A6A8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16DD2EB-BFCD-4C9E-8E7B-C5CB97A6A8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16DD2EB-BFCD-4C9E-8E7B-C5CB97A6A8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16DD2EB-BFCD-4C9E-8E7B-C5CB97A6A8A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

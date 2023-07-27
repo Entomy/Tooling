@@ -34,4 +34,8 @@
 		<None Include="Logo.png" Pack="true" Visible="true" PackagePath="\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Update="FSharp.Core" Version="7.0.300" />
+	</ItemGroup>
+
 </Project>
