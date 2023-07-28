@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
+		<LangVersion>10.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<IsTrimmable>true</IsTrimmable>
+		<Description>Extensions and new types for working with more complex date and time scenarios.</Description>
+		<PackageTags>date, time, datetime</PackageTags>
+		<AssemblyName>Clockage</AssemblyName>
+		<RootNamespace>System</RootNamespace>
+		<PackageIcon>Logo.png</PackageIcon>
+		<CodeAnalysisRuleSet>..\Global.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Logo.png" Pack="true" Visible="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FastEnum" Version="1.8.0" />
+	</ItemGroup>
+
+</Project>
