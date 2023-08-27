@@ -28,4 +28,8 @@
 	<ItemGroup>
 		<ProjectReference Include="..\Collectathon\Collectathon.csproj" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Collections\Specialized\" />
+	</ItemGroup>
 </Project>

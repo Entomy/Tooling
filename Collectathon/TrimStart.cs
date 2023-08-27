@@ -27,7 +27,7 @@ public static partial class CollectathonExtensions {
 	/// <returns>The trimmed source.</returns>
 	[ExcludeFromCodeCoverage]
 	[return: NotNullIfNotNull(nameof(source))]
-	public static T[]? TrimStart<T>(this T[]? source, T[] trimElements) where T : IEquatable<T> => TrimStart(source, trimElements.AsSpan());
+	public static T[]? TrimStart<T>(this T[]? source, params T[]? trimElements) where T : IEquatable<T> => TrimStart(source, trimElements.AsSpan());
 
 	/// <summary>
 	/// Removes all leading occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -110,7 +110,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
 	[ExcludeFromCodeCoverage]
-	public static ArraySegment<T> TrimStart<T>(this ArraySegment<T> source, T[]? trimElements) where T : IEquatable<T> => TrimStart(source, trimElements.AsSpan());
+	public static ArraySegment<T> TrimStart<T>(this ArraySegment<T> source, params T[]? trimElements) where T : IEquatable<T> => TrimStart(source, trimElements.AsSpan());
 
 	/// <summary>
 	/// Removes all leading occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -172,7 +172,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
 	[ExcludeFromCodeCoverage]
-	public static Memory<T> TrimStart<T>(this Memory<T> source, T[]? trimElements) where T : IEquatable<T> => MemoryExtensions.TrimStart(source, trimElements.AsSpan());
+	public static Memory<T> TrimStart<T>(this Memory<T> source, params T[]? trimElements) where T : IEquatable<T> => MemoryExtensions.TrimStart(source, trimElements.AsSpan());
 
 	/// <summary>
 	/// Removes all leading occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -210,7 +210,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
 	[ExcludeFromCodeCoverage]
-	public static ReadOnlyMemory<T> TrimStart<T>(this ReadOnlyMemory<T> source, T[]? trimElements) where T : IEquatable<T> => MemoryExtensions.TrimStart(source, trimElements.AsSpan());
+	public static ReadOnlyMemory<T> TrimStart<T>(this ReadOnlyMemory<T> source, params T[]? trimElements) where T : IEquatable<T> => MemoryExtensions.TrimStart(source, trimElements.AsSpan());
 
 	/// <summary>
 	/// Removes all leading occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -257,7 +257,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
 	[ExcludeFromCodeCoverage]
-	public static Span<T> TrimStart<T>(this Span<T> source, T[]? trimElements) where T : IEquatable<T> => MemoryExtensions.TrimStart(source, trimElements.AsSpan());
+	public static Span<T> TrimStart<T>(this Span<T> source, params T[]? trimElements) where T : IEquatable<T> => MemoryExtensions.TrimStart(source, trimElements.AsSpan());
 
 	/// <summary>
 	/// Removes all leading occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -304,7 +304,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
 	[ExcludeFromCodeCoverage]
-	public static ReadOnlySpan<T> TrimStart<T>(this ReadOnlySpan<T> source, T[]? trimElements) where T : IEquatable<T> => MemoryExtensions.TrimStart(source, trimElements.AsSpan());
+	public static ReadOnlySpan<T> TrimStart<T>(this ReadOnlySpan<T> source, params T[]? trimElements) where T : IEquatable<T> => MemoryExtensions.TrimStart(source, trimElements.AsSpan());
 
 	/// <summary>
 	/// Removes all leading occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.

@@ -28,7 +28,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
 	[ExcludeFromCodeCoverage]
-	public static T[]? TrimEnd<T>(this T[]? source, T[] trimElements) where T : IEquatable<T> => TrimEnd(source, trimElements.AsSpan());
+	public static T[]? TrimEnd<T>(this T[]? source, params T[]? trimElements) where T : IEquatable<T> => TrimEnd(source, trimElements.AsSpan());
 
 	/// <summary>
 	/// Removes all trailing occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.

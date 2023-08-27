@@ -18,7 +18,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="source">The source from which the element is removed.</param>
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
-	public static T[]? Trim<T>(this T[]? source, params T[] trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
+	public static T[]? Trim<T>(this T[]? source, params T[]? trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
 
 	/// <summary>
 	/// Removes all leading and trailing occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -83,7 +83,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="source">The source from which the element is removed.</param>
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
-	public static ArraySegment<T> Trim<T>(this ArraySegment<T> source, params T[] trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
+	public static ArraySegment<T> Trim<T>(this ArraySegment<T> source, params T[]? trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
 
 	/// <summary>
 	/// Removes all leading and trailing occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -148,7 +148,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="source">The source from which the element is removed.</param>
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
-	public static Memory<T> Trim<T>(this Memory<T> source, params T[] trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
+	public static Memory<T> Trim<T>(this Memory<T> source, params T[]? trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
 
 	/// <summary>
 	/// Removes all leading and trailing occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -213,7 +213,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="source">The source from which the element is removed.</param>
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
-	public static ReadOnlyMemory<T> Trim<T>(this ReadOnlyMemory<T> source, params T[] trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
+	public static ReadOnlyMemory<T> Trim<T>(this ReadOnlyMemory<T> source, params T[]? trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
 
 	/// <summary>
 	/// Removes all leading and trailing occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -278,7 +278,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="source">The source from which the element is removed.</param>
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
-	public static Span<T> Trim<T>(this Span<T> source, params T[] trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
+	public static Span<T> Trim<T>(this Span<T> source, params T[]? trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
 
 	/// <summary>
 	/// Removes all leading and trailing occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
@@ -343,7 +343,7 @@ public static partial class CollectathonExtensions {
 	/// <param name="source">The source from which the element is removed.</param>
 	/// <param name="trimElements">The set of elements to remove.</param>
 	/// <returns>The trimmed source.</returns>
-	public static ReadOnlySpan<T> Trim<T>(this ReadOnlySpan<T> source, params T[] trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
+	public static ReadOnlySpan<T> Trim<T>(this ReadOnlySpan<T> source, params T[]? trimElements) where T : IEquatable<T> => source.TrimStart(trimElements).TrimEnd(trimElements);
 
 	/// <summary>
 	/// Removes all leading and trailing occurrences of the set of <paramref name="trimElements"/> from the <paramref name="source"/>.
